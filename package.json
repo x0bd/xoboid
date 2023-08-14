@@ -1,11 +1,11 @@
 {
-	"name": "xoboid",
+	"name": "xoboid-home",
 	"version": "1.0.0",
-	"description": "Tinodaishe Tembo Personal Portfolio Website",
+	"description": "Personal portfolio template built using Reactjs",
 	"author": {
-		"name": "Tinodaishe Tembo",
-		"email": "tinodatembo@gmail.com",
-		"url": "xoboid.vercel.app"
+		"name": "Tharindu N. Madhusanka",
+		"email": "mail@tharindu.dev",
+		"url": "https://tharindu.dev"
 	},
 	"license": "MIT",
 	"private": true,

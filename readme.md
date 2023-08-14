@@ -1,3 +1,1 @@
-# tino.void
-
-## My personal website
+# xoboid home page
