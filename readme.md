@@ -1,1 +1,0 @@
-# xoboid home page
