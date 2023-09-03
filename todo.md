@@ -1,0 +1,1 @@
+こんにちは, I am a Full Stack Developer with 2 years of experience in web development. I am currently utilizing React, Node.js, and JavaScript in my projects. Outside of work, I delve into computer graphics, experimenting with Three.js and Blender.

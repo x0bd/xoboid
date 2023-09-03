@@ -17,11 +17,18 @@ const projects: Project[] = [
     link: "https://www.linablidi.fr/",
   },
   {
-    title: "Portfolio / Template",
-    techs: ["Astro"],
+    title: "doodle.sh",
+    techs: ["React", "TailwindCSS", "react-router", "supabase"],
     link: "/",
     isComingSoon: true,
   },
 ];
+
+// {
+//   title: "Portfolio / Template",
+//   techs: ["Astro"],
+//   link: "/",
+//   isComingSoon: true,
+// },
 
 export default projects;
