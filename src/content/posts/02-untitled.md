@@ -7,3 +7,11 @@ isPublish: true
 ---
 
 ## Hello World
+
+## Code Example
+
+```javascript
+const read = () => {
+    console.log('read')
+}
+```
