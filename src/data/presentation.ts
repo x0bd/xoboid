@@ -13,17 +13,17 @@ type Presentation = {
 
 const presentation: Presentation = {
   mail: "tinodatembo@gmail.com",
-  title: "Kon'nichiwa, I’m Tinodaishe 👋",
+  title: "こんにちわ, I’m Tinodaishe 👋",
   // profile: "/profile.webp",
   description:
-    "I'm a *fullstack developer* with over *2 years* of experience in web development. I am currently utilizing *React, Node.js and JavaScript*. Outside of work, I delve into *ai*, experimenting with LLMs and stuff.",
+    "I'm a *fullstack developer* with over *2 years* of experience in web development. I am currently utilizing *React, Node.js and Golang*. Outside of work, I delve into *ai*, experimenting with LLMs and stuff.",
   socials: [
     {
       label: "X",
       link: "https://twitter.com/xoboid",
     },
     {
-      label: "Bento",
+      label: "LinkedIn",
       link: "https://bento.me/m-wolff",
     },
     {
