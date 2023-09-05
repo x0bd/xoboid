@@ -8,12 +8,12 @@ export type Project = {
 const projects: Project[] = [
   {
     title: "Shower Thoughts app",
-    techs: ["ReactJS", "Supabase"],
+    techs: ["ReactJs", "Supabase"],
     link: "https://github.com/MaeWolff/dictionary-app",
   },
   {
     title: "xoboid home",
-    techs: ["Astro", "TailewindCSS", "TypeScript"],
+    techs: ["Astro", "TailwindCSS", "TypeScript"],
     link: "https://www.linablidi.fr/",
   },
   {

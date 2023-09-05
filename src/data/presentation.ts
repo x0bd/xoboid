@@ -24,7 +24,7 @@ const presentation: Presentation = {
     },
     {
       label: "LinkedIn",
-      link: "https://bento.me/m-wolff",
+      link: "",
     },
     {
       label: "Github",
