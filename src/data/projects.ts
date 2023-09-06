@@ -9,12 +9,12 @@ const projects: Project[] = [
   {
     title: "Shower Thoughts app",
     techs: ["ReactJs", "Supabase"],
-    link: "https://github.com/MaeWolff/dictionary-app",
+    link: "https://github.com/x0bd/shower-thoughts-app",
   },
   {
     title: "xoboid home",
     techs: ["Astro", "TailwindCSS", "TypeScript"],
-    link: "https://www.linablidi.fr/",
+    link: "https://github.com/x0bd/xoboid",
   },
   {
     title: "doodle.sh",
