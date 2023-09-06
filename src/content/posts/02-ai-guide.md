@@ -18,7 +18,7 @@ isPublish: true
 
 - Repeat Step 2
 
-## Step 4
+### Step 4
 
 - Repeat Step 3
 - Build.

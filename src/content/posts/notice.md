@@ -1,7 +1,7 @@
 ---
 title: "Everything On This Site is a WIP"
 publishedAt: 2023-09-06
-description: "🛑 WIP"
+description: "Still a WIP"
 slug: "notice"
 isPublish: true
 ---

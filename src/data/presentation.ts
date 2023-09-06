@@ -16,7 +16,7 @@ const presentation: Presentation = {
   title: "こんにちわ, I’m Tinodaishe 👋",
   // profile: "/profile.webp",
   description:
-    "I'm a *fullstack developer* with over *2 years* of experience in web development. I am currently utilizing *React, Node.js and Golang*. Outside of work, I delve into *ai*, experimenting with LLMs and stuff.",
+    "I'm a *fullstack developer* with over *2 years* of experience in web development. I am currently using *React, Node.js and Golang*. Outside of work, I delve into *ai*, experimenting with LLMs and stuff.",
   socials: [
     {
       label: "X",
@@ -24,7 +24,7 @@ const presentation: Presentation = {
     },
     {
       label: "LinkedIn",
-      link: "",
+      link: "https://www.linkedin.com/in/tinodaishe-tembo-70aa3a266/",
     },
     {
       label: "Github",

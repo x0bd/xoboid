@@ -7,12 +7,12 @@ export type Project = {
 
 const projects: Project[] = [
   {
-    title: "Shower Thoughts app",
+    title: "shower thoughts app",
     techs: ["ReactJs", "Supabase"],
     link: "https://github.com/x0bd/shower-thoughts-app",
   },
   {
-    title: "xoboid home",
+    title: "xoboid",
     techs: ["Astro", "TailwindCSS", "TypeScript"],
     link: "https://github.com/x0bd/xoboid",
   },
