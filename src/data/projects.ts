@@ -18,7 +18,7 @@ const projects: Project[] = [
   },
   {
     title: "doodle.sh",
-    techs: ["React", "TailwindCSS", "React-Router", "Supabase"],
+    techs: ["React", "Shadcn-UI", "React-Router", "Firebase"],
     link: "/",
     isComingSoon: true,
   },
