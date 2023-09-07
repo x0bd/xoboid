@@ -1,10 +1,9 @@
 ---
-title: "Immersive 3D Websites"
+title: "An opinionated ai learning guide"
 publishedAt: 2023-09-07
-description: "The next big thing in web design"
-slug: "3d-graphics"
+description: "How to catch up with current state of ai"
+slug: "ai"
 isPublish: true
 ---
 
-
-
+# Code!
