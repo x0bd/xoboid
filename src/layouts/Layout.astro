@@ -5,8 +5,9 @@ import theme from "@/data/theme";
 import SEOTags from "@/components/seo/SEOTags.astro";
 import type { HeadTags } from "@/utils/types/HeadTags";
 
-import "@fontsource/open-sans";
-import '@fontsource/m-plus-rounded-1c'
+// import "@fontsource/open-sans";
+// import '@fontsource/m-plus-rounded-1c'
+import '@fontsource-variable/inter'
 import "@/styles/tailwind.css";
 import "@/styles/post.css";
 
@@ -29,7 +30,7 @@ const headTags = Astro.props;
     <slot />
     <style is:global>
       html {
-        font-family: "M PLUS Rounded 1c";
+        font-family: "Inter Variable";
       }
     </style>
   </body>
