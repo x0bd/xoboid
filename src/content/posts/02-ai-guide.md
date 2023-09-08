@@ -1,8 +1,8 @@
 ---
-title: "An opinionated ai learning guide"
+title: "Immersive 3D is The Future of Web Design"
 publishedAt: 2023-09-07
-description: "How to catch up with current state of ai"
-slug: "ai"
+description: "Have you seen these landing sites!"
+slug: "CG"
 isPublish: true
 ---
 
