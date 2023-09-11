@@ -1,9 +1,9 @@
 ---
-title: "Immersive 3D is The Future of Web Design"
+title: "I built a game with NPCs that are alive"
 publishedAt: 2023-09-07
-description: "Have you seen these landing sites!"
-slug: "CG"
+description: "Boy how much i've dreamed of this!"
+slug: "generative-agents-part-2"
 isPublish: true
 ---
 
-# Code!
+# Still A WIP
