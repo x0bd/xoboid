@@ -1,7 +1,7 @@
 ---
-title: "Generative Agents In Video Games"
+title: "Let's Talk About Generative Agents!"
 publishedAt: 2023-09-01
-description: "But Mom! the NPC was kind to us, why kill it"
+description: "This is my favorite application of LLMs so far"
 slug: "generative-agents"
 isPublish: true
 ---
