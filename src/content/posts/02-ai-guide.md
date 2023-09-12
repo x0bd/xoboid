@@ -1,8 +1,8 @@
 ---
-title: "I built a game with NPCs that are alive"
+title: "3D experiences will redefine how we interact on the web"
 publishedAt: 2023-09-07
 description: "Boy how much i've dreamed of this!"
-slug: "generative-agents-part-2"
+slug: "3d"
 isPublish: true
 ---
 
