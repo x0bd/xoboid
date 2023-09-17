@@ -17,11 +17,17 @@ const projects: Project[] = [
     link: "https://github.com/x0bd/xoboid",
   },
   {
-    title: "doodle.sh",
-    techs: ["React", "Shadcn-UI", "React-Router", "Firebase"],
-    link: "/",
+    title: "otanoid",
+    techs: ["ReactJs", "Chakra-ui", "TypeScript"],
+    link: "",
     isComingSoon: true,
   },
+  // {
+  //   title: "doodle.sh",
+  //   techs: ["React", "Shadcn-UI", "React-Router", "Firebase"],
+  //   link: "/",
+  //   isComingSoon: true,
+  // },
 ];
 
 // {
