@@ -1,13 +1,13 @@
 ---
-title: "Let's Talk About Generative Agents!"
+title: "Exploring the niches within frontend development"
 publishedAt: 2023-09-01
-description: "This is my favorite application of LLMs so far"
-slug: "generative-agents"
+description: "niche"
+slug: "frontend development"
 isPublish: true
 ---
 
-## Games with intelligent NPCs and waifus are coming sooner than expected because of this paper:
-
-> Generative Agents A Simulacra of Human Behavior
-
-### And it has recently been open-sourced
+## Design Engineer
+## Full Stack Designer
+## Creative Developer
+## Frontend Developer
+## 
