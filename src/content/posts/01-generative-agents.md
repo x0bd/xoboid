@@ -1,8 +1,8 @@
 ---
-title: "Exploring the niches within frontend development"
+title: "What's a Design Engineer?"
 publishedAt: 2023-09-01
-description: "niche"
-slug: "frontend development"
+description: "This profession seems to be getting popular in the web development world, but what is it really?"
+slug: "design-engine"
 isPublish: true
 ---
 

@@ -1,8 +1,8 @@
 ---
-title: "3D experiences will redefine how we interact on the web"
+title: "Abstract Music Visualizer with Shaders In Three.js"
 publishedAt: 2023-09-07
-description: "Boy how much i've dreamed of this!"
-slug: "3d"
+description: "Colorful and Abstract"
+slug: "abstract-stuff"
 isPublish: true
 ---
 
