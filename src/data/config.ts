@@ -1,1 +1,1 @@
-export const SITE_URL = "https://xoboid.vercel.app";
+export const SITE_URL = "https://tino-sh.vercel.app";

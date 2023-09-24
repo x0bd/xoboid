@@ -12,7 +12,7 @@ const projects: Project[] = [
     link: "https://github.com/x0bd/shower-thoughts-app",
   },
   {
-    title: "xoboid",
+    title: "tino-sh",
     techs: ["Astro", "TailwindCSS", "TypeScript"],
     link: "https://github.com/x0bd/xoboid",
   },

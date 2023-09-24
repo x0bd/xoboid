@@ -7,9 +7,9 @@ type Props = HeadTags;
 
 const { title, description, noindex, og } = Astro.props;
 
-const DEFAULT_TITLE_PAGE = "xoboid";
+const DEFAULT_TITLE_PAGE = "Tino Tembo";
 const DEFAULT_DESCRIPTION_PAGE =
-  "programmer | dreamer | decoding signals from the void";
+  "design engineer";
 const DEFAULT_URL_SITE = SITE_URL;
 
 const openGraph = {
@@ -39,7 +39,7 @@ const openGraph = {
       },
     }}
     twitter={{
-      creator: "@xoboid",
+      creator: "@tinodsh",
     }}
     extend={{
       link: [
@@ -56,7 +56,7 @@ const openGraph = {
         { name: "twitter:card", content: "summary_large_image" },
         { name: "twitter:title", content: openGraph.title },
         { name: "twitter:description", content: openGraph.description },
-        { name: "twitter:site", content: "@xoboid" },
+        { name: "twitter:site", content: "@tinodsh" },
       ],
     }}
   />
