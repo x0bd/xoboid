@@ -1,13 +1,9 @@
 ---
-title: "What's a Design Engineer?"
-publishedAt: 2023-09-01
-description: "This profession seems to be getting popular in the web development world, but what is it really?"
-slug: "design-engine"
+title: "Lets Talk about generative agents"
+publishedAt: 2023-09-07
+description: "❤️☠️🤖"
+slug: "generative-ai"
 isPublish: true
 ---
 
-## Design Engineer
-## Full Stack Designer
-## Creative Developer
-## Frontend Developer
-## 
+# Generative Agents - A Simulacra of Human Behavior
