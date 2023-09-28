@@ -16,7 +16,7 @@ const presentation: Presentation = {
   title: "こんにちわ👋, I’m Tinodaishe",
   // profile: "/profile.webp",
   description:
-    "I'm a *Design Engineer* with over *2 years* of experience in web development. I am currently using *React, Three.js and TypeScript*. When I am not at my computer, I like to play my synthesizer and learn Japanese.",
+    "I'm a *Software Engineer* with over *2 years* of experience in web development. I am currently using *React, TypeScript and Golang*. When I am not at my computer, I like to play my synthesizer and learn Japanese.",
   socials: [
     {
       label: "X",
