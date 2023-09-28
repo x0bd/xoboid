@@ -1,8 +1,8 @@
 ---
-title: "Leaving the video games industry"
+title: "Elevating Web Experiences With Three.js"
 publishedAt: 2023-09-07
-description: ""
-slug: "game-null"
+description: "A Must-Learn Tool For Frontend Developers?"
+slug: "web-graphics"
 isPublish: true
 ---
 

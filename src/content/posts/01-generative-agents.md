@@ -1,7 +1,7 @@
 ---
-title: "Lets Talk about generative agents"
+title: "Generative Agents Are The Beginning of the Future"
 publishedAt: 2023-09-07
-description: "❤️☠️🤖"
+description: "This is might be the most important application of LLMs"
 slug: "generative-ai"
 isPublish: true
 ---
