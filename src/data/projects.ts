@@ -18,7 +18,7 @@ const projects: Project[] = [
   },
   {
     title: "otanoid",
-    techs: ["ReactJs", "Zod", "TypeScript"],
+    techs: ["ReactJs", "Chakra-UI", "Zod", "TypeScript"],
     link: "",
     isComingSoon: true,
   },
