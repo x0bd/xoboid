@@ -1,5 +1,5 @@
 ---
-title: "Generative Agents Are The Beginning of the Future"
+title: "Generative Agents."
 publishedAt: 2023-09-07
 description: "This is might be the most important application of LLMs"
 slug: "generative-ai"
