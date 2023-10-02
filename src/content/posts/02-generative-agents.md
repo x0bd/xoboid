@@ -1,9 +1,9 @@
 ---
-title: "Generative Agents."
+title: "How to build an AI Color Palette generator"
 publishedAt: 2023-09-07
-description: "This is might be the most important application of LLMs"
+description: "Color plus ai yay"
 slug: "generative-ai"
 isPublish: true
 ---
 
-# Generative Agents - A Simulacra of Human Behavior
+# Will use NextJS, Tailwind, OpenAI
