@@ -16,7 +16,7 @@ const presentation: Presentation = {
 	title: "こんにちわ👋, I’m Tinodaishe",
 	// profile: "/profile.webp",
 	description:
-		"I enjoy to craft stuff for the *web* as well as tinker with *neural networks*. Currently my favorite tools include *NextJS, TypeScript and Golang*. When I am not at my computer, I like to experiment with my synthesizer and learn Japanese.",
+		"I enjoy designing and bringing ideas to *life* with *code*. Currently my favorite tools include *NextJS, TypeScript and Golang*. When I am not at my computer, I like to experiment with my synthesizer and learn Japanese.",
 	socials: [
 		{
 			label: "X",

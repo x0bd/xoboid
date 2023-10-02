@@ -7,9 +7,9 @@ export type Project = {
 
 const projects: Project[] = [
 	{
-		title: "palegen",
-		techs: ["ReactJs", "Tailwind"],
-		link: "https://github.com/x0bd/tiny-palette-generator",
+		title: "chop.sh",
+		techs: ["ReactJs", "Tailwind", "Golang"],
+		link: "https://github.com/x0bd/",
 	},
 	{
 		title: "xoboid",

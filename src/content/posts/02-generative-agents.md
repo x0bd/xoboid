@@ -1,7 +1,7 @@
 ---
-title: "How to build an AI Color Palette generator"
+title: "How to build a link shortener app with React and Golang"
 publishedAt: 2023-09-07
-description: "Color plus ai yay"
+description: "chop.sh"
 slug: "generative-ai"
 isPublish: true
 ---
