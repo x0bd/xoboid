@@ -1,9 +1,9 @@
 ---
-title: "How to build a link shortener app with React and Golang"
-publishedAt: 2023-09-07
-description: "chop.sh"
-slug: "generative-ai"
+title: "How to build an ai assisted color palette generator"
+publishedAt: 2023-08-08
+description: "palegen"
+slug: "palette-gen"
 isPublish: true
 ---
 
-# Will use NextJS, Tailwind, OpenAI
+# Will use React, Tailwind and OpenAI GPT-3.5 turbo
