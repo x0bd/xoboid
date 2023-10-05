@@ -1,8 +1,8 @@
 ---
 title: "Building Games with Generative Agents."
 publishedAt: 2023-05-15
-description: "An Example Of How Generative Agents will enhance storytelling"
-slug: "cassandra"
+description: "An Example Of How Generative Agents will enhance video game storytelling."
+slug: "ai-game"
 isPublish: true
 ---
 
