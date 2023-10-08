@@ -19,15 +19,14 @@ const projects: Project[] = [
 	{
 		title: "otanoid",
 		techs: ["ReactJs", "Chakra-UI", "Zod", "TypeScript"],
-		link: "",
+		link: "https://github.com/x0bd/otanoid",
+	},
+	{
+		title: "doodle.sh",
+		techs: ["NextJs", "Shadcn-UI", "Prisma", "TypeScript"],
+		link: "/",
 		isComingSoon: true,
 	},
-	// {
-	//   title: "doodle.sh",
-	//   techs: ["React", "Shadcn-UI", "React-Router", "Firebase"],
-	//   link: "/",
-	//   isComingSoon: true,
-	// },
 ];
 
 // {
