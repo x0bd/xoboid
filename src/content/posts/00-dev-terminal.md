@@ -15,14 +15,16 @@ First things first, let's give your terminal a makeover. We'll start by installi
 - Download Hack Nerd Font from the [Nerd Fonts Github page](https://github.com/ryanoasis/nerd-fonts/releases)
 - Extract the zip file and install the font by right-clicking on the `.ttf` file and selecting "Install"
 
-![Alt text](../../../public/blog-images/1.png)
+<!-- New Image -->
+
+![Alt text](https://i.ibb.co/X4PMgBV/1.png)
 
 Now, let's configure the Windows Terminal to use this font.
 
 - Open Windows Terminal and go to Settings (the gear icon).
 - Under "Profile" -> "Defaults", find the "Font Face" setting and replace it "Hack Nerd Font":
 
-![Alt text](../../../public/blog-images/22.png)
+![Alt text](https://i.ibb.co/sF8b2Mm/22.png)
 
 ### Install PowerShell v7+ and Configure Terminal Appearance
 
@@ -30,13 +32,13 @@ In order for our terminal to support modern tools we need to upgrade to a Powers
 
 - Open Microsoft Store and Search for Powershell and install it
 
-![Alt text](../../../public/blog-images/2.png)
+![Alt text](https://i.ibb.co/8033ZVV/2.png)
 
 Now if you successfully installed Powershell Go back to the Terminal App and close it.
 
 Now open the terminal app and type `pwsh`, if powershell is correctly you should the following:
 
-![Alt text](../../../public/blog-images/3.png)
+![Alt text](https://i.ibb.co/d5QXZH8/3.png)
 
 If the above shows, we are doing good so far.
 
@@ -48,7 +50,7 @@ Now Lets Configure the looks of our terminal, firstly we are going to give it tr
 - You can also experiment with other options like "Color scheme", "Font size" etc.
 - Now save and go back to the PowerShell tab and it should like something like this:
 
-![Alt text](../../../public/blog-images/4.png)
+![Alt text](https://i.ibb.co/LtV7xHK/4.png)
 
 ### Install Scoop
 
@@ -74,7 +76,7 @@ Invoke-Expression (&starship init powershell)
 
 - Save The file and restart the terminal. Now to to any project folder and you should see something like this:
 
-![Alt text](../../../public/blog-images/5.png)
+![Fuck](https://i.ibb.co/tzHcGwd/5.png)
 
 ### Install and Configure Addons
 
@@ -85,7 +87,7 @@ Let's add some bling to your terminal with Terminal icons. This addon will add i
 - Install Terminal Icons via PowerShell by running `Install -Module -Name Terminal-Icons -Repository PSGallery`.
 - Refresh the terminal and type `Get-ChildItem`, you should a nice folder structure like this:
 
-![Alt text](../../../public/blog-images/6.png)
+![Alt text](https://i.ibb.co/3mPHYGV/6.png)
 
 #### **Set Aliases**
 
@@ -106,4 +108,4 @@ Set-Alias -Name g -Value git
 
 So here is the final result:
 
-![Alt text](../../../public/blog-images/7.png)
+![Alt text](https://i.ibb.co/Y8pQ9DQ/7.png)
