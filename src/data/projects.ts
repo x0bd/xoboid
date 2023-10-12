@@ -8,7 +8,7 @@ export type Project = {
 const projects: Project[] = [
 	{
 		title: "hypertasks",
-		techs: ["NextJs", "Prisma", "Shadcn-UI", "TypeScript"],
+		techs: ["NextJs", "Shadcn-UI", "Zod", "TypeScript"],
 		link: "https://github.com/x0bd/tiny-palette-generator",
 	},
 	{
