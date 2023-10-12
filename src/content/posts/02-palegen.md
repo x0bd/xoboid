@@ -1,9 +1,9 @@
 ---
-title: "How to build an ai assisted color palette generator"
+title: "JavaScript and React: Decoding How Much is Enough"
 publishedAt: 2023-08-08
-description: "palegen."
-slug: "palette-gen"
+description: "Seems a lot of folks get stuck learning javascript."
+slug: "little-js"
 isPublish: true
 ---
 
-# Will use React, Tailwind and OpenAI GPT-3.5 turbo
+# Do not waste your time learning a lot about javaScript
