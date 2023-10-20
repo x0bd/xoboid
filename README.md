@@ -1,1 +1,1 @@
-# [xo.bd](https://xo.bd)
+# [tino.sh](https://tino.sh)
