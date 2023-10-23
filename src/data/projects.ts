@@ -17,7 +17,7 @@ const projects: Project[] = [
 		link: "https://github.com/x0bd/xoboid",
 	},
 	{
-		title: "doodle.sh",
+		title: "shwr.sh",
 		techs: ["Next.js", "Shadcn-UI", "Prisma", "TypeScript"],
 		link: "/",
 		isComingSoon: true,

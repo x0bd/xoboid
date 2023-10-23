@@ -10,29 +10,29 @@ isPublish: true
 
 The advent of Large Language Models (LLMs) has opened up fascinating possibilities in the realm of video games, particularly in the area of storytelling. Back in 2019, during the era of GPT-2, numerous YouTube videos surfaced showcasing the potential of integrating conversational AI into video games. However, the technology was still in its infancy and had limitations.
 
-With the release of GPT-3, the potential of these models was further realized and a wide variety of projects were developed using this technology. The real game-changer arrived in March 2023, with the publication of an innovative research paper titled ["Generative Agents: A Simulacra Of Human Behaviour"](). This paper detailed the creation of a game world populated by generative agents, providing a leap forward in making digital interactions feel more human-like.
+With the release of GPT-3, the potential of these models was further realized and a wide variety of projects were developed using this technology. The real game-changer arrived in March 2023, with the publication of an innovative research paper titled ["Generative Agents: A Simulacra Of Human Behaviour"](https://arxiv.org/pdf/2304.03442#:~:text=Generative%20agents%2C%20believable%20simulacra%20of,changing%20expe%2D%20riences%20and%20environment.&text=A%20novel%20architecture%20that%20makes,plan%20through%20dynamically%20evolving%20circumstances.). This paper detailed the creation of a game world populated by generative agents, providing a leap forward in making digital interactions feel more human-like.
 
 ## A Brief Summary Of the Paper
 
 The study outlined in the paper blurs the boundaries between human and machine behaviours. It introduces the concept of "generative agents", digital entities that mimic human behaviour within a virtual world. Instead of following pre-set scripts, these agents make decisions based on past experiences, maintain a digital "diary" of these experiences, and even form 'relationships' with other digital entities.
 
-In a test environment similar to the game ["The Sims"](), a chain of spontaneous events unfolds from a single agent's desire to host a Valentine's Day party. The study successfully combines advanced LLMs, specifically GPT-4, with interactive characters, pushing the envelope in terms of human-like digital interactions.
+In a test environment similar to the game ["The Sims"](https://www.ea.com/games/the-sims/the-sims-4), a chain of spontaneous events unfolds from a single agent's desire to host a Valentine's Day party. The study successfully combines advanced LLMs, specifically GPT-4, with interactive characters, pushing the envelope in terms of human-like digital interactions.
 
 ## Game Summary
 
 During my time in the video game industry, I envisaged a game with an advanced narrative design. The idea was to explore what would happen if we cloned a person and placed them in an environment with their clone, without letting them know they are technically the same person.
 
-Inspired by games like Hades and Hyper Light Drifter, I designed a narrative [roguelike]() set in the 25th century against the backdrop of a massive war between Earth and Mars in the metaverse. The game explores the journey of two consciousness fragments of a victim of an attack by Mars' superintelligent agent, Redian. These fragments, Cassandra and Dot, must work together to survive in the war-torn metaverse, unaware that they were once a single entity. The game uses a unique narrative structure to create an emotionally charged story.
+Inspired by games like Hades and Hyper Light Drifter, I designed a narrative [roguelike](<https://en.wiktionary.org/wiki/roguelike#:~:text=roguelike%20(plural%20roguelikes),hack%2Dand%2Dslash%20gameplay.>) set in the 25th century against the backdrop of a massive war between Earth and Mars in the metaverse. The game explores the journey of two consciousness fragments of a victim of an attack by Mars' superintelligent agent, Redian. These fragments, Cassandra and Dot, must work together to survive in the war-torn metaverse, unaware that they were once a single entity. The game uses a unique narrative structure to create an emotionally charged story.
 
 ## Generative Agents To The Rescue
 
-The game draws heavy inspiration from [Hades](), particularly in terms of gameplay and narrative design. However, Hades does have limitations, such as the occasional repetition of dialogue. To overcome this, I propose using generative agents for Cassandra and Dot. This would involve creating personas for each character, including basic characteristics and objectives.
+The game draws heavy inspiration from [Hades](https://www.supergiantgames.com/games/hades/), particularly in terms of gameplay and narrative design. However, Hades does have limitations, such as the occasional repetition of dialogue. To overcome this, I propose using generative agents for Cassandra and Dot. This would involve creating personas for each character, including basic characteristics and objectives.
 
 To generate unique dialogue for each run, I would devise a mechanism that feeds the LLM with the characters' personas and their experiences during the run. This would ensure that the dialogue is unique and relevant to each run, enhancing the narrative progression and the overall gaming experience.
 
 ## Implementation
 
-The Implementation of generative agents into the narrative roguelike game can be achieved using [LLaMa](), a specific Large Language Model developed by Meta AI. The process involves creating unique personas for characters, Cassandra and Dot, and utilizing these personas in the dialogue generation process. This would help to keep the dialogue fresh and unique for each game run, enhancing the narrative progression and player's gaming progression.
+The Implementation of generative agents into the narrative roguelike game can be achieved using [LLaMa 2](https://ai.meta.com/llama/), a specific Large Language Model developed by Meta AI. The process involves creating unique personas for characters, Cassandra and Dot, and utilizing these personas in the dialogue generation process. This would help to keep the dialogue fresh and unique for each game run, enhancing the narrative progression and player's gaming progression.
 
 > Here's how you could approach this
 

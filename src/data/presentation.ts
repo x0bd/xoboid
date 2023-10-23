@@ -16,7 +16,7 @@ const presentation: Presentation = {
 	title: "Hi 👋, I’m Tinodaishe",
 
 	description:
-		"I am a *Software Engineer* with over *3 years* of experience in web development. I am currently working with *Next.js, TypeScript and Rust*. During my free time, I enjoy playing my synthesizer, experimenting with *AI* and *Three.js*.",
+		"I am a *Software Engineer* with over *3 years* of experience in web development. I am currently working with *Next.js, TypeScript and Rust*. During my free time, I enjoy playing my synthesizer and experimenting with *Three.js*.",
 	socials: [
 		{
 			label: "X",
