@@ -7,9 +7,9 @@ export type Project = {
 
 const projects: Project[] = [
 	{
-		title: "hypertasks",
-		techs: ["Next.js", "Shadcn-UI", "Zod", "TypeScript"],
-		link: "https://github.com/x0bd/tiny-palette-generator",
+		title: "poex.ai",
+		techs: ["Next.js", "Tailwind", "MongoDB", "JavaScript"],
+		link: "https://github.com/x0bd/",
 	},
 	{
 		title: "xoboid",
@@ -17,7 +17,7 @@ const projects: Project[] = [
 		link: "https://github.com/x0bd/xoboid",
 	},
 	{
-		title: "shwr.sh",
+		title: "hypertasks",
 		techs: ["Next.js", "Shadcn-UI", "Prisma", "TypeScript"],
 		link: "/",
 		isComingSoon: true,
