@@ -7,20 +7,14 @@ export type Project = {
 
 const projects: Project[] = [
 	{
-		title: "poex.ai",
-		techs: ["Next.js", "Tailwind", "MongoDB", "JavaScript"],
-		link: "https://github.com/x0bd/",
+		title: "hypertasks",
+		techs: ["Next.js", "shadcn/ui", "Prisma", "TypeScript"],
+		link: "https://github.com/x0bd/hypertasks",
 	},
 	{
 		title: "xoboid",
 		techs: ["Astro", "Tailwind", "TypeScript"],
 		link: "https://github.com/x0bd/xoboid",
-	},
-	{
-		title: "hypertasks",
-		techs: ["Next.js", "Shadcn-UI", "Prisma", "TypeScript"],
-		link: "/",
-		isComingSoon: true,
 	},
 ];
 
