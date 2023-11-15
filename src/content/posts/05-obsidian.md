@@ -1,7 +1,7 @@
 ---
-title: "Why I switched to Obsidian"
+title: "Why I switched back to Notion"
 publishedAt: 2023-10-12
-description: "Its like Vim"
+description: "It's like vscode"
 slug: "obsidian"
 isPublish: true
 ---
