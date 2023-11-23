@@ -16,6 +16,12 @@ const projects: Project[] = [
 		techs: ["Astro", "Tailwind", "TypeScript"],
 		link: "https://github.com/x0bd/xoboid",
 	},
+	{
+		title: "2048",
+		techs: ["React", "Vite", "SCSS"],
+		link: "/",
+		isComingSoon: true,
+	},
 ];
 
 // {
