@@ -17,8 +17,8 @@ const projects: Project[] = [
 		link: "https://github.com/x0bd/xoboid",
 	},
 	{
-		title: "2048",
-		techs: ["React", "Vite", "SCSS"],
+		title: "Tetris",
+		techs: ["React", "Vite", "JavaScript"],
 		link: "/",
 		isComingSoon: true,
 	},
