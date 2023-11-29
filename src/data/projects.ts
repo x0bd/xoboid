@@ -1,27 +1,27 @@
 export type Project = {
-	title: string;
-	techs: string[];
-	link: string;
-	isComingSoon?: boolean;
+  title: string;
+  techs: string[];
+  link: string;
+  isComingSoon?: boolean;
 };
 
 const projects: Project[] = [
-	{
-		title: "hypertasks",
-		techs: ["Next.js", "shadcn/ui", "Prisma", "TypeScript"],
-		link: "https://github.com/x0bd/hypertasks",
-	},
-	{
-		title: "xoboid",
-		techs: ["Astro", "Tailwind", "TypeScript"],
-		link: "https://github.com/x0bd/xoboid",
-	},
-	{
-		title: "Tetris",
-		techs: ["React", "Vite", "JavaScript"],
-		link: "/",
-		isComingSoon: true,
-	},
+  {
+    title: "hypertasks",
+    techs: ["Next.js", "shadcn/ui", "Prisma", "TypeScript"],
+    link: "https://github.com/x0bd/hypertasks",
+  },
+  {
+    title: "xoboid",
+    techs: ["Astro", "Tailwind", "TypeScript"],
+    link: "https://github.com/x0bd/xoboid",
+  },
+  {
+    title: "Tetrix",
+    techs: ["React", "Vite", "JavaScript"],
+    link: "/",
+    isComingSoon: true,
+  },
 ];
 
 // {
