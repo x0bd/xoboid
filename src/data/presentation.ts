@@ -16,7 +16,7 @@ const presentation: Presentation = {
   title: "こんにちは 👋, I’m Tinodaishe",
 
   description:
-    "I am a *software engineer* who enjoys designing and building *unforgettable* experiences for the *web*. Currently, I am working with *Next.js* and *TypeScript*. In my free time, I experiment with *Three.js*, crafting playful computer stuff, and learning *Japanese*.",
+    "I am a *software engineer* who enjoys designing and building *unforgettable* experiences for the *web*. Currently, I am working with *Next.js*, *TypeScript* and *Rust*. In my free time, I experiment with *Three.js*, crafting playful computer stuff, and learning *Japanese*.",
   socials: [
     {
       label: "X",
