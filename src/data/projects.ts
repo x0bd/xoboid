@@ -7,7 +7,7 @@ export type Project = {
 
 const projects: Project[] = [
   {
-    title: "hypertasks",
+    title: "task.sh",
     techs: ["Next.js", "shadcn/ui", "Prisma", "TypeScript"],
     link: "https://github.com/x0bd/hypertasks",
   },
@@ -17,7 +17,7 @@ const projects: Project[] = [
     link: "https://github.com/x0bd/xoboid",
   },
   {
-    title: "Tetrix",
+    title: "tetrix",
     techs: ["React", "Vite", "JavaScript"],
     link: "/",
     isComingSoon: true,
