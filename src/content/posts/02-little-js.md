@@ -1,6 +1,6 @@
 ---
 title: "JavaScript: Decoding How Much is Enough To Learn React"
-publishedAt: 2023-08-08
+publishedAt: 2023-11-15
 description: "Seems a lot of folks get stuck learning javascript."
 slug: "minimum-js"
 isPublish: true
