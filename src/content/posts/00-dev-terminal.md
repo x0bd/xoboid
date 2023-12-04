@@ -17,14 +17,14 @@ First things first, let's give your terminal a makeover. We'll start by installi
 
 <!-- New Image -->
 
-![Alt text](https://i.ibb.co/X4PMgBV/1.png)
+![terminal](https://i.ibb.co/X4PMgBV/1.png)
 
 Now, let's configure the Windows Terminal to use this font.
 
 - Open Windows Terminal and go to Settings (the gear icon).
 - Under "Profile" -> "Defaults", find the "Font Face" setting and replace it "Hack Nerd Font":
 
-![Alt text](https://i.ibb.co/sF8b2Mm/22.png)
+![terminal](https://i.ibb.co/sF8b2Mm/22.png)
 
 ### Install PowerShell v7+ and Configure Terminal Appearance
 
@@ -32,13 +32,13 @@ In order for our terminal to support modern tools we need to upgrade to a Powers
 
 - Open Microsoft Store and Search for Powershell and install it
 
-![Alt text](https://i.ibb.co/8033ZVV/2.png)
+![terminal](https://i.ibb.co/8033ZVV/2.png)
 
 Now if you successfully installed Powershell Go back to the Terminal App and close it.
 
 Now open the terminal app and type `pwsh`, if powershell is correctly you should the following:
 
-![Alt text](https://i.ibb.co/d5QXZH8/3.png)
+![terminal](https://i.ibb.co/d5QXZH8/3.png)
 
 If the above shows, we are doing good so far.
 
@@ -50,7 +50,7 @@ Now Lets Configure the looks of our terminal, firstly we are going to give it tr
 - You can also experiment with other options like "Color scheme", "Font size" etc.
 - Now save and go back to the PowerShell tab and it should like something like this:
 
-![Alt text](https://i.ibb.co/LtV7xHK/4.png)
+![terminal](https://i.ibb.co/LtV7xHK/4.png)
 
 ### Install Scoop
 
@@ -76,7 +76,7 @@ Invoke-Expression (&starship init powershell)
 
 - Save The file and restart the terminal. Now to to any project folder and you should see something like this:
 
-![Fuck](https://i.ibb.co/tzHcGwd/5.png)
+![terminal](https://i.ibb.co/tzHcGwd/5.png)
 
 ### Install and Configure Addons
 
@@ -87,7 +87,7 @@ Let's add some bling to your terminal with Terminal icons. This addon will add i
 - Install Terminal Icons via PowerShell by running `Install -Module -Name Terminal-Icons -Repository PSGallery`.
 - Refresh the terminal and type `Get-ChildItem`, you should a nice folder structure like this:
 
-![Alt text](https://i.ibb.co/3mPHYGV/6.png)
+![terminal](https://i.ibb.co/3mPHYGV/6.png)
 
 #### **Set Aliases**
 

@@ -1,5 +1,5 @@
 .post p {
-  @apply leading-7;
+  @apply text-base leading-7;
 }
 
 .post code {
@@ -31,13 +31,13 @@
 }
 
 .post pre {
-  @apply p-4 rounded-md;
+  @apply rounded-md p-4;
 }
 
-.post pre>code {
+.post pre > code {
   @apply bg-transparent;
 }
 
 .post img {
-  @apply rounded-md
+  @apply rounded-md;
 }
