@@ -13,10 +13,10 @@ type Presentation = {
 
 const presentation: Presentation = {
   mail: "tinodatembo@gmail.com",
-  title: "こんにちは 👋, I’m Tinodaishe",
+  title: "Hi 👋, I’m Tinodaishe",
 
   description:
-    "I am a *software engineer* who enjoys designing and building *unforgettable* experiences for the *web*. Currently, I am working with *Next.js*, *TypeScript* and *Rust*. In my free time, I *write* about things you can do on a computer and learn *Japanese*.",
+    "I am a *software engineer* who enjoys designing and building *unforgettable* experiences for the *web*. Currently, I am working with *Next.js* and *TypeScript*. In my free time, I *write* about things you can do on a computer and slowly learn *Rust*.",
   socials: [
     {
       label: "X",
