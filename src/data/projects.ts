@@ -7,18 +7,23 @@ export type Project = {
 
 const projects: Project[] = [
   {
-    title: "task.sh",
-    techs: ["Next.js", "shadcn/ui", "Prisma", "TypeScript"],
-    link: "https://github.com/x0bd/hypertasks",
+    title: "2048",
+    techs: ["React", "Vite", "JavaScript"],
+    link: "https://github.com/x0bd/2048",
   },
   {
     title: "xoboid",
-    techs: ["Astro", "Tailwind", "TypeScript"],
+    techs: ["Astro", "Tailwind", "zod", "TypeScript"],
     link: "https://github.com/x0bd/xoboid",
   },
   {
-    title: "2048",
-    techs: ["React", "Vite", "JavaScript"],
+    title: "void.fm",
+    techs: ["Next.js", "Daisy/UI", "Express", "JavaScript"],
+    link: "/https://github.com/x0bd",
+  },
+  {
+    title: "palegen",
+    techs: ["Next.js", "radix/ui", "zod", "Prisma", "TypeScript"],
     link: "/",
     isComingSoon: true,
   },
