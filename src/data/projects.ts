@@ -20,13 +20,14 @@ const projects: Project[] = [
     title: "void.fm",
     techs: ["Next.js", "Daisy/UI", "Express", "JavaScript"],
     link: "/https://github.com/x0bd",
-  },
-  {
-    title: "palegen",
-    techs: ["Next.js", "radix/ui", "zod", "Prisma", "TypeScript"],
-    link: "/",
     isComingSoon: true,
   },
+  // {
+  //   title: "palegen",
+  //   techs: ["Next.js", "radix/ui", "zod", "Prisma", "TypeScript"],
+  //   link: "/",
+  //   isComingSoon: true,
+  // },
 ];
 
 // {
