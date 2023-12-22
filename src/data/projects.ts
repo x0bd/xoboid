@@ -13,12 +13,12 @@ const projects: Project[] = [
 	},
 	{
 		title: "task.sh",
-		techs: ["Next.js", "shadcn/ui", "TypeScript", "Prisma", "Clerk", "zod"],
+		techs: ["Next.js", "Shadcn/ui", "TypeScript", "Prisma", "Clerk", "Zod"],
 		link: "https://github.com/x0bd/hyper-tasks",
 	},
 	{
 		title: "xoboid",
-		techs: ["Astro", "TailwindCSS", "TypeScript"],
+		techs: ["Astro", "TailwindCSS", "Zod", "TypeScript"],
 		link: "https://github.com/x0bd/xoboid",
 	},
 	{
