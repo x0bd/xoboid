@@ -8,22 +8,22 @@ export type Project = {
 const projects: Project[] = [
 	{
 		title: "tetrix",
-		techs: ["Next.js", "TailwindCSS", "TypeScript"],
+		techs: ["Next.js", "Daisy-ui", "TypeScript"],
 		link: "https://github.com/x0bd/2048",
 	},
 	{
-		title: "task.sh",
-		techs: ["Next.js", "Shadcn/ui", "TypeScript", "Prisma", "Clerk", "Zod"],
-		link: "https://github.com/x0bd/hyper-tasks",
+		title: "lembe.sh",
+		techs: ["Next.js", "Shadcn/ui", "TypeScript", "Prisma", "Zod"],
+		link: "https://github.com/x0bd/lembe",
 	},
 	{
 		title: "xoboid",
-		techs: ["Astro", "TailwindCSS", "Zod", "TypeScript"],
+		techs: ["Astro", "TailwindCSS", "TypeScript"],
 		link: "https://github.com/x0bd/xoboid",
 	},
 	{
-		title: "void.stats",
-		techs: ["Next.js", "Daisy/UI", "Express", "JavaScript"],
+		title: "palegen",
+		techs: ["Next.js", "Daisy-ui", "TypeScript"],
 		link: "/https://github.com/x0bd",
 		isComingSoon: true,
 	},
