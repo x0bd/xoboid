@@ -13,17 +13,17 @@ const projects: Project[] = [
 	},
 	{
 		title: "tetrix",
-		techs: ["Next.js", "Daisy-ui", "TypeScript", "Vitest"],
-		link: "https://github.com/x0bd/2048",
+		techs: ["React", "Styled-Components", "TypeScript", "Vitest"],
+		link: "https://github.com/x0bd/tetrix",
 	},
 	{
 		title: "palegen",
-		techs: ["Next.js", "Daisy-ui", "TypeScript"],
+		techs: ["Next.js", "Daisy-ui", "JavaScript"],
 		link: "/https://github.com/x0bd",
 	},
 	{
 		title: "lembe.sh",
-		techs: ["Next.js", "Shadcn/ui", "TypeScript", "Prisma", "Zod"],
+		techs: ["Next.js", "Shadcn/ui", "TypeScript", "Prisma", "Zod", "MySQL"],
 		link: "https://github.com/x0bd/lembe",
 		isComingSoon: true,
 	},
