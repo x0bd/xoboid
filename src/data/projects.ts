@@ -12,7 +12,7 @@ const projects: Project[] = [
 		link: "https://github.com/x0bd/xoboid",
 	},
 	{
-		title: "bomb.js",
+		title: "bombsweeper",
 		techs: ["React", "Vite", "JavaScript", "SCSS"],
 		link: "https://github.com/x0bd/bomb.js",
 	},
