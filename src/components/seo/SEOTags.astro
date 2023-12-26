@@ -8,7 +8,7 @@ type Props = HeadTags;
 const { title, description, noindex, og } = Astro.props;
 
 const DEFAULT_TITLE_PAGE = "xoboid";
-const DEFAULT_DESCRIPTION_PAGE = "programmer | dreamer";
+const DEFAULT_DESCRIPTION_PAGE = "programmer | designer | dreamer";
 const DEFAULT_URL_SITE = SITE_URL;
 
 const openGraph = {
@@ -46,7 +46,10 @@ const openGraph = {
 				{ rel: "sitemap", href: "/sitemap-index.xml" },
 			],
 			meta: [
-				{ name: "viewport", content: "width=device-width, initial-scale=1" },
+				{
+					name: "viewport",
+					content: "width=device-width, initial-scale=1",
+				},
 				{ name: "generator", content: Astro.generator },
 				{
 					name: "twitter:image",
