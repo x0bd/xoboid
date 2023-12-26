@@ -7,12 +7,6 @@ export type Project = {
 
 const projects: Project[] = [
 	{
-		title: "xoboid",
-		techs: ["Astro", "TailwindCSS", "TypeScript"],
-		link: "https://github.com/x0bd/xoboid",
-	},
-
-	{
 		title: "tetrix",
 		techs: ["React", "Styled-Components", "TypeScript", "Vitest"],
 		link: "https://github.com/x0bd/tetrix",
@@ -29,18 +23,11 @@ const projects: Project[] = [
 		isComingSoon: true,
 	},
 	// {
-	//   title: "palegen",
-	//   techs: ["Next.js", "radix/ui", "zod", "Prisma", "TypeScript"],
-	//   link: "/",
-	//   isComingSoon: true,
+	// 	title: "void.fm",
+	// 	techs: ["Next.js", "Radix UI", "Supabase", "Stripe", "TypeScript"],
+	// 	link: "/",
+	// 	isComingSoon: true,
 	// },
 ];
-
-// {
-//   title: "Portfolio / Template",
-//   techs: ["Astro"],
-//   link: "/",
-//   isComingSoon: true,
-// },
 
 export default projects;
