@@ -11,11 +11,7 @@ const projects: Project[] = [
 		techs: ["Astro", "TailwindCSS", "TypeScript"],
 		link: "https://github.com/x0bd/xoboid",
 	},
-	{
-		title: "bombsweeper",
-		techs: ["React", "Vite", "JavaScript", "SCSS"],
-		link: "https://github.com/x0bd/bomb.js",
-	},
+
 	{
 		title: "tetrix",
 		techs: ["React", "Styled-Components", "TypeScript", "Vitest"],
