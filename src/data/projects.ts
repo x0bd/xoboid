@@ -13,11 +13,11 @@ const projects: Project[] = [
 	},
 	{
 		title: "palegen",
-		techs: ["Next.js", "Daisy-ui", "JavaScript"],
-		link: "/https://github.com/x0bd",
+		techs: ["Next.js", "Daisy-ui", "TypeScript"],
+		link: "/https://github.com/palegen",
 	},
 	{
-		title: "lembe.sh",
+		title: "lembe",
 		techs: ["Next.js", "Shadcn/ui", "TypeScript", "Prisma", "Zod", "MySQL"],
 		link: "https://github.com/x0bd/lembe",
 		isComingSoon: true,
