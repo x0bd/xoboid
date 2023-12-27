@@ -8,12 +8,12 @@ export type Project = {
 const projects: Project[] = [
 	{
 		title: "tetrix",
-		techs: ["React", "Styled-Components", "TypeScript", "Vitest"],
+		techs: ["React", "Daisy UI", "TypeScript", "Vitest"],
 		link: "https://github.com/x0bd/tetrix",
 	},
 	{
 		title: "palegen",
-		techs: ["Next.js", "Daisy-ui", "TypeScript"],
+		techs: ["Next.js", "Shadcn/ui", "TypeScript"],
 		link: "/https://github.com/palegen",
 	},
 	{
