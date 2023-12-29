@@ -31,7 +31,7 @@ const posts = (await getCollection("posts")).sort(function (first, second) {
 			}
 
 			<div class="flex flex-col gap-8">
-				<h1 class="text-3xl text-neutral-100">
+				<h1 class="text-3xl text-white">
 					{presentation.title}
 				</h1>
 
@@ -48,7 +48,7 @@ const posts = (await getCollection("posts")).sort(function (first, second) {
 
 		<article class="flex flex-col gap-8">
 			<header class="flex w-full flex-row justify-between gap-2">
-				<h3 class="text-lg text-neutral-100">Latest posts</h3>
+				<h3 class="text-lg text-white">Latest posts</h3>
 				<Link
 					href="/posts"
 					label="See all posts"
@@ -75,7 +75,7 @@ const posts = (await getCollection("posts")).sort(function (first, second) {
 
 		<article class="flex flex-col gap-8">
 			<header class="flex w-full flex-row justify-between gap-2">
-				<h3 class="text-lg text-neutral-100">
+				<h3 class="text-lg text-white">
 					Selected projects ({projects.length})
 				</h3>
 			</header>
@@ -91,7 +91,7 @@ const posts = (await getCollection("posts")).sort(function (first, second) {
 
 		<article class="flex flex-col gap-8">
 			<header class="flex w-full flex-row justify-between gap-2">
-				<h3 class="text-lg text-neutral-100">Get in touch</h3>
+				<h3 class="text-lg text-white">Get in touch</h3>
 			</header>
 			<p>
 				Email me at <Link
