@@ -3,7 +3,7 @@
 }
 
 .post code {
-	@apply rounded-lg bg-gray px-1 py-[2px] text-cyan;
+	@apply rounded-lg bg-gray px-1 py-[2px] text-green;
 }
 
 .post h2 {
@@ -15,11 +15,11 @@
 }
 
 .post code {
-	@apply rounded-lg bg-gray px-1 py-[2px] text-cyan;
+	@apply rounded-lg bg-gray px-1 py-[2px] text-green;
 }
 
 .post a {
-	@apply text-neutral-100 underline;
+	@apply text-cyan underline;
 }
 
 .post ul {
