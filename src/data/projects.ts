@@ -15,7 +15,7 @@ const projects: Project[] = [
 	},
 	{
 		title: "tetrix",
-		techs: ["React", "Daisy UI", "TypeScript", "Vitest"],
+		techs: ["React", "Tailwind CSS", "TypeScript", "Vitest"],
 		description: "a rose-pine themed Tetris clone",
 		link: "https://github.com/x0bd/tetrix",
 	},
