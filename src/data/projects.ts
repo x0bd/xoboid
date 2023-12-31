@@ -8,12 +8,6 @@ export type Project = {
 
 const projects: Project[] = [
 	{
-		title: "xoboid",
-		techs: ["Astro", "Tailwind CSS", "TypeScript"],
-		description: "my personal website + blog",
-		link: "https://github.com/x0bd/xoboid",
-	},
-	{
 		title: "palegen",
 		techs: ["Next.js", "Shadcn/ui", "TypeScript"],
 		description: "generate color palettes from images",
@@ -21,11 +15,10 @@ const projects: Project[] = [
 	},
 	{
 		title: "tetrix",
-		techs: ["React", "Tailwind CSS", "TypeScript", "Vitest"],
+		techs: ["React", "Daisy UI", "TypeScript", "Vitest"],
 		description: "a rose-pine themed Tetris clone",
 		link: "https://github.com/x0bd/tetrix",
 	},
-
 	{
 		title: "lembe",
 		techs: ["Next.js", "Shadcn/ui", "TypeScript", "Prisma", "Zod", "MySQL"],
