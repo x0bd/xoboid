@@ -1,7 +1,7 @@
 {
 	"name": "xoboid",
 	"type": "module",
-	"version": "1.5.5",
+	"version": "1.6.0",
 	"scripts": {
 		"dev": "astro dev",
 		"start": "astro dev",

@@ -1,6 +1,7 @@
 export type Project = {
 	title: string;
 	techs: string[];
+	description?: string;
 	link: string;
 	isComingSoon?: boolean;
 };
@@ -9,22 +10,26 @@ const projects: Project[] = [
 	{
 		title: "xoboid",
 		techs: ["Astro", "Tailwind CSS", "TypeScript"],
+		description: "my personal website + blog",
 		link: "https://github.com/x0bd/xoboid",
 	},
 	{
 		title: "palegen",
 		techs: ["Next.js", "Shadcn/ui", "TypeScript"],
+		description: "generate color palettes from images",
 		link: "/https://github.com/palegen",
 	},
 	{
 		title: "tetrix",
 		techs: ["React", "Tailwind CSS", "TypeScript", "Vitest"],
+		description: "a rose-pine themed Tetris clone",
 		link: "https://github.com/x0bd/tetrix",
 	},
 
 	{
 		title: "lembe",
 		techs: ["Next.js", "Shadcn/ui", "TypeScript", "Prisma", "Zod", "MySQL"],
+		description: "a tiny e-hobby management app",
 		link: "https://github.com/x0bd/lembe",
 		isComingSoon: true,
 	},
