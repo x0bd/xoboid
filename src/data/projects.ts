@@ -9,14 +9,6 @@ export type Project = {
 
 const projects: Project[] = [
 	{
-		title: "void.fm",
-		techs: ["Next.js", "Radix UI", "Supabase", "Stripe", "TypeScript"],
-		description: "a lightweight music streaming app",
-		link: "https://github.com/x0bd/void-fm",
-		promoted: true,
-		isComingSoon: true,
-	},
-	{
 		title: "rose.js",
 		techs: ["Rose.js", "Vite", "TypeScript"],
 		description: "a minimal frontend web framework",
@@ -43,6 +35,21 @@ const projects: Project[] = [
 		description: "a tiny pixel art editor",
 		link: "/",
 		promoted: false,
+	},
+	{
+		title: "xoboid",
+		techs: ["Astro", "TailwindCSS", "Zod", "TypeScript"],
+		description: "my portfolio + blog site",
+		link: "https://github.com/x0bd/xoboid",
+		promoted: false,
+	},
+	{
+		title: "void.fm",
+		techs: ["Next.js", "Radix UI", "Supabase", "Stripe", "TypeScript"],
+		description: "a lightweight music streaming app",
+		link: "https://github.com/x0bd/void-fm",
+		promoted: true,
+		isComingSoon: true,
 	},
 ];
 
