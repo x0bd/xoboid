@@ -4,9 +4,10 @@ import type { HTMLAttributes } from "astro/types";
 type Props = HTMLAttributes<"a"> & {
 	label: string;
 	isUnderline?: boolean;
+	isSpecial?: boolean;
 };
 
-const { label, isUnderline, ...props } = Astro.props;
+const { label, isUnderline, isSpecial, ...props } = Astro.props;
 ---
 
 <a
@@ -14,6 +15,7 @@ const { label, isUnderline, ...props } = Astro.props;
 	class:list={{
 		["hover:text-yellow cursor-pointer"]: true,
 		["underline decoration-dashed underline-offset-8"]: isUnderline,
+		["text-red"]: isSpecial
 	}}
 	{...props}
 	rel="noreferrer"

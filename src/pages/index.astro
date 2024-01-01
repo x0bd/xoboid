@@ -51,7 +51,7 @@ const posts = (await getCollection("posts")).sort(function (first, second) {
 				<h3 class="text-lg text-white">Latest posts</h3>
 				<Link
 					href="/posts"
-					label="See all posts"
+					label="More Posts"
 					isUnderline
 					target="_self"
 				/>
@@ -78,7 +78,7 @@ const posts = (await getCollection("posts")).sort(function (first, second) {
 				<h3 class="text-lg text-white">Featured projects</h3>
 				<Link
 					href="/projects"
-					label="See all projects"
+					label="All projects"
 					isUnderline
 					target="_self"
 				/>
@@ -104,6 +104,7 @@ const posts = (await getCollection("posts")).sort(function (first, second) {
 				Email me at <Link
 					href={`mailto:${presentation.mail}`}
 					label={presentation.mail}
+					isSpecial
 				/> or follow me via my social links.
 			</p>
 
