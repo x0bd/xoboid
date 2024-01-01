@@ -7,9 +7,11 @@ import PostCard from "@/components/PostCard.astro";
 import ProjectCard from "@/components/ProjectCard.astro";
 import Link from "@/components/shared/Link.astro";
 import convertAsteriskToStrongTag from "@/utils/convertAsteriskToStrongTag";
+import ExperimentCard from "@/components/ExperimentCard.astro";
 
 import presentation from "@/data/presentation";
 import projects from "@/data/projects";
+import experiments from "@/data/experiments";
 
 const posts = (await getCollection("posts")).sort(function (first, second) {
 	return second.data.publishedAt.getTime() - first.data.publishedAt.getTime();
@@ -85,6 +87,21 @@ const posts = (await getCollection("posts")).sort(function (first, second) {
 				{
 					projects.length !== 0 &&
 						projects.map((project) => <ProjectCard {...project} />)
+				}
+			</section>
+		</article>
+
+		<article class="flex flex-col gap-8">
+			<header class="flex w-full flex-row justify-between gap-2">
+				<h3 class="text-lg text-white">
+					Experiments ({experiments.length})
+				</h3>
+			</header>
+			{experiments.length === 0 && <p>Cooking Something |>**<| </p>}
+
+			<section class="flex flex-col gap-4">
+				{
+					experiments.length !== 0 && experiments.map((experiment) => <ExperimentCard {...experiment} />)
 				}
 			</section>
 		</article>
