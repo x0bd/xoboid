@@ -9,32 +9,26 @@ export type Project = {
 
 const projects: Project[] = [
 	{
-		title: "rose.js",
-		techs: ["Rose.js", "Vite", "TypeScript"],
+		title: "ambient",
+		techs: ["Ambient", "Vite", "TypeScript"],
 		description: "a minimal frontend web framework",
-		link: "https://github.com/x0bd/rose",
+		link: "https://github.com/x0bd/redium",
 		promoted: true,
 	},
-	{
-		title: "palegen",
-		techs: ["Next.js", "Shadcn/ui", "TypeScript"],
-		description: "generate color palettes from images",
-		link: "https://github.com/palegen",
-		promoted: true,
-	},
+
 	{
 		title: "lembe",
 		techs: ["Next.js", "Shadcn/ui", "TypeScript", "Prisma", "Zod", "MySQL"],
-		description: "a tiny hobby management app",
+		description: "entertainment ecosystem manager",
 		link: "https://github.com/x0bd/lembe",
 		promoted: true,
 	},
 	{
-		title: "doodles",
-		techs: ["Next.js", "Daisy Ui", "TypeScript"],
+		title: "doodle.px",
+		techs: ["Next.js", "Shadcn/ui", "TypeScript"],
 		description: "a tiny pixel art editor",
 		link: "/",
-		promoted: false,
+		promoted: true,
 	},
 	{
 		title: "xoboid",
