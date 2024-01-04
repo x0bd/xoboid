@@ -25,10 +25,17 @@ const projects: Project[] = [
 	},
 	{
 		title: "doodle.px",
-		techs: ["Next.js", "Shadcn/ui", "TypeScript"],
+		techs: ["Next.js", "Tailwind CSS", "TypeScript"],
 		description: "a tiny pixel art editor",
 		link: "/",
-		promoted: true,
+		promoted: false,
+	},
+	{
+		title: "palegen",
+		techs: ['Next.js', 'Shadcn/ui', 'TypeScript'],
+		description: 'generate color palettes from images',
+		link: '/',
+		promoted: true
 	},
 	{
 		title: "xoboid",
