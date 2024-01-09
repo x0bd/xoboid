@@ -16,7 +16,7 @@ const projects: Project[] = [
 			"an app to seemlessly manage and clear your entertainment backlog",
 		link: "lembe.sh",
 		promoted: true,
-		image: "void.png",
+		image: "lembe.png",
 	},
 	{
 		title: "palegen",
@@ -24,7 +24,7 @@ const projects: Project[] = [
 		description: "quickly generate color palettes from images",
 		link: "pale.gen",
 		promoted: true,
-		image: "palegen.jpeg",
+		image: "lembe.png",
 	},
 	{
 		title: "guestbook",
@@ -33,7 +33,7 @@ const projects: Project[] = [
 			"an open source guestbook that easily integrates with your personal site.",
 		link: "guestbook.vercel.app",
 		promoted: true,
-		image: "void.png",
+		image: "lembe.png",
 	},
 	{
 		title: "void.fm",
@@ -41,7 +41,7 @@ const projects: Project[] = [
 		description: "A shadcn/ui inspired music streaming app",
 		link: "void.fm",
 		promoted: true,
-		image: "void.png",
+		image: "lembe.png",
 	},
 	{
 		title: "celeste",
@@ -51,7 +51,7 @@ const projects: Project[] = [
 		link: "https://celeste-js.vercel.app",
 		promoted: true,
 		isComingSoon: true,
-		image: "poex.jpeg",
+		image: "lembe.png",
 	},
 ];
 
