@@ -1,25 +1,16 @@
 "use client";
 
-import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
-import {
-	Card,
-	CardContent,
-	CardDescription,
-	CardHeader,
-	CardTitle,
-} from "@/components/ui/card";
 import { Github, Linkedin, TwitterIcon } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
-import projects from "@/data/projects";
 
-import { Project } from "@/data/projects";
-import presentation, { Presentation } from "@/data/presentation";
+import projects from "@/data/projects";
+import presentation from "@/data/presentation";
 import ProjectCardSmall from "@/components/ProjectCardSmall";
 
 export default function Home() {
 	return (
-		<main className="flex flex-col px-6 gap-20">
+		<main className="flex flex-col gap-20">
 			<article className="flex flex-col gap-8 md:justify-end md:gap-12">
 				<div className="flex gap-6 items-center">
 					<Image
