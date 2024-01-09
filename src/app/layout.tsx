@@ -3,6 +3,7 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import { ThemeProvider } from "@/utils/theme-provider";
 import Header from "@/components/Header";
+import { Separator } from "@/components/ui/separator";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -18,12 +19,13 @@ export default function RootLayout({
 }) {
 	return (
 		<html lang="en">
-			<body className="mx-auto flex min-h-screen max-w-[872px] flex-col gap-9px-10 py-8 text-sm md:gap-20 md:py-16 ">
+			<body className="mx-auto flex min-h-screen max-w-[872px] flex-col gap-9 px-10 py-8 text-sm md:gap-20 md:py-16 ">
 				<ThemeProvider
 					attribute="class"
 					defaultTheme="system"
 				>
 					<Header />
+
 					<div className={inter.className}>{children}</div>
 				</ThemeProvider>
 			</body>
