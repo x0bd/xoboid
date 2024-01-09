@@ -11,6 +11,11 @@ import {
 import { Github, Linkedin, TwitterIcon } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
+import projects from "@/data/projects";
+
+import { Project } from "@/data/projects";
+import presentation, { Presentation } from "@/data/presentation";
+import ProjectCardSmall from "@/components/ProjectCardSmall";
 
 export default function Home() {
 	return (
@@ -25,7 +30,9 @@ export default function Home() {
 						height="180"
 					/>
 					<div className="flex flex-col gap-3">
-						<h1 className="text-3xl font-bold">Tinodaishe Tembo</h1>
+						<h1 className="text-3xl font-bold">
+							{presentation.name}
+						</h1>
 						<div className="flex gap-2">
 							<Link href="/">
 								<TwitterIcon />
@@ -40,20 +47,9 @@ export default function Home() {
 					</div>
 				</div>
 				<div className="flex flex-col gap-4">
-					<p className="font-bold">👋, こんにちは</p>
-					<p>
-						I am a frontend engineer who enjoys crafting
-						unforgettable experiences for the web. Currently, I am
-						working with Next.js, Three.js and TypeScript. In my
-						free I use my computer to decode signals from the void
-						through code, pixel and sound experiments. Sometimes I
-						write notes on things you can do on your computer and
-						slowly learn Japanese.
-					</p>
-					<p>
-						Currently I am building <Link href="">Celeste</Link>, a
-						minimal frontend web framework, in public.
-					</p>
+					<p className="font-bold">{presentation.title}</p>
+					<p>{presentation.description}</p>
+					<p>{presentation.currentProject}</p>
 				</div>
 			</article>
 			<article className="flex flex-col gap-8">
@@ -66,6 +62,11 @@ export default function Home() {
 						All
 					</Link>
 				</header>
+				{projects.length === 0 && <p>I must work</p>}
+
+				<section className="flex flex-col gap-4">
+					<ProjectCardSmall />
+				</section>
 			</article>
 		</main>
 	);
