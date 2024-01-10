@@ -8,6 +8,8 @@ import projects from "@/data/projects";
 import presentation from "@/data/presentation";
 import ProjectCardSmall from "@/components/ProjectCardSmall";
 
+import strongTag from "@/utils/strongTag";
+
 export default function Home() {
 	return (
 		<main className="flex flex-col gap-20">
