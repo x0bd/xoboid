@@ -40,7 +40,7 @@ const projects: Project[] = [
 		techs: ["Next.js", "Shadcn/ui", "Supbase", "Stripe", "TypeScript"],
 		description: "A shadcn/ui inspired music streaming app",
 		link: "void.fm",
-		promoted: true,
+		promoted: false,
 		image: "lembe.png",
 	},
 	{
@@ -48,7 +48,7 @@ const projects: Project[] = [
 		techs: ["Celeste", "Vite", "TypeScript"],
 		description:
 			"a minimal frontend framework created to have a deeper understanding of browser concepts and TypeScript",
-		link: "https://celeste-js.vercel.app",
+		link: "celeste-js.vercel.app",
 		promoted: true,
 		isComingSoon: true,
 		image: "lembe.png",

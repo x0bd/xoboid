@@ -24,7 +24,6 @@ export default function RootLayout({
 					defaultTheme="system"
 				>
 					<Header />
-
 					<div className={inter.className}>{children}</div>
 				</ThemeProvider>
 			</body>

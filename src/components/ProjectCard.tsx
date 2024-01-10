@@ -11,12 +11,13 @@ import { Avatar, AvatarFallback, AvatarImage } from "./ui/avatar";
 import { Badge } from "./ui/badge";
 import Link from "next/link";
 
-const ProjectCardSmall = () => {
+const ProjectCard = () => {
 	return (
 		<div className="grid grid-cols-2 gap-8">
+			{projects.length === 0 && <p>Cooking Something 🧑‍🍳</p>}
 			{projects.map(
 				(project) =>
-					project.promoted && (
+					!project.isComingSoon && (
 						<Card
 							key={project.description}
 							className="flex flex-col justify-between"
@@ -77,4 +78,4 @@ const ProjectCardSmall = () => {
 	);
 };
 
-export default ProjectCardSmall;
+export default ProjectCard;

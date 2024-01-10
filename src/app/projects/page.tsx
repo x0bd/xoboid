@@ -1,8 +1,13 @@
+import ProjectCard from "@/components/ProjectCard";
+
 const Projects = () => {
 	return (
-		<h1 className="text-xl font-bold">
-			All of the things I created with my computer
-		</h1>
+		<main className="flex flex-col gap-20">
+			<h1 className="text-2xl">
+				All of the things I have built with my computer
+			</h1>
+			<ProjectCard />
+		</main>
 	);
 };
 
