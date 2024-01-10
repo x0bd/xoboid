@@ -6,14 +6,14 @@ import { ThemeSwitch } from "./Switch";
 const Header = () => {
 	return (
 		<nav className="flex w-full items-center justify-between ">
-			<div className="flex gap-12 items-center">
+			<div className="z-40 flex w-full flex-col xl:gap-8 md:gap-4 md:flex-row">
 				<Link
 					className="text-xl font-bold"
 					href="/"
 				>
 					xoboid
 				</Link>
-				<div className="flex gap-3 items-center text-lg">
+				<div className="flex gap-2 items-center text-lg">
 					<Link href="/projects">works</Link>
 					<Link href="/posts">blog</Link>
 					<Link href="/chat">guestbook</Link>

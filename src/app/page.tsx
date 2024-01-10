@@ -14,7 +14,7 @@ export default function Home() {
 	return (
 		<main className="flex flex-col gap-20">
 			<article className="flex flex-col gap-8 md:justify-end md:gap-12">
-				<div className="flex gap-6 items-center">
+				<div className="flex gap-6 items-center md:flex-row sm:flex-col">
 					<Image
 						src="/img/xoboid.jpg"
 						alt="void"
@@ -23,7 +23,7 @@ export default function Home() {
 						height="180"
 					/>
 					<div className="flex flex-col gap-3">
-						<h1 className="text-3xl font-bold">
+						<h1 className="text-3xl font-bold md:text-3xl">
 							{presentation.name}
 						</h1>
 						<div className="flex gap-2">
@@ -40,9 +40,11 @@ export default function Home() {
 					</div>
 				</div>
 				<div className="flex flex-col gap-4">
-					<p className="font-bold">{presentation.title}</p>
-					<p>{presentation.description}</p>
-					<p>{presentation.currentProject}</p>
+					<p className="font-bold text-xl">{presentation.title}</p>
+					<p className="text-justify">{presentation.description}</p>
+					<p className="text-justify">
+						{presentation.currentProject}
+					</p>
 				</div>
 			</article>
 			<article className="flex flex-col gap-8">

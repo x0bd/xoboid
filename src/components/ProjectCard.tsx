@@ -13,7 +13,7 @@ import Link from "next/link";
 
 const ProjectCard = () => {
 	return (
-		<div className="grid grid-cols-2 gap-8">
+		<div className="grid lg:md:grid-cols-2 gap-8 sm:grid-cols-1 md:gap-6">
 			{projects.length === 0 && <p>Cooking Something 🧑‍🍳</p>}
 			{projects.map(
 				(project) =>

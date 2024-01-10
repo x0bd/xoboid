@@ -13,7 +13,7 @@ import Link from "next/link";
 
 const ProjectCardSmall = () => {
 	return (
-		<div className="grid grid-cols-2 gap-8">
+		<div className="grid lg:md:grid-cols-2 gap-8 sm:grid-cols-1 md:gap-6">
 			{projects.map(
 				(project) =>
 					project.promoted && (
