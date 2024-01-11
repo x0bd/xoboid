@@ -1,0 +1,4 @@
+-   Refactor ProjectCard Code
+-   Add Blog
+-   Add Chat Functionality
+-   Add Responsiveness, Feedback, Hover Effects etc

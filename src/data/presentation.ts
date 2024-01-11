@@ -22,15 +22,15 @@ const presentation: Presentation = {
 	socials: [
 		{
 			icon: "twitter",
-			link: "https://twitter.com/xoboid",
+			link: "twitter.com/xoboid",
 		},
 		{
 			icon: "LinkedIn",
-			link: "https://www.linkedin.com/in/tinodaishe-tembo-70aa3a266/",
+			link: "www.linkedin.com/in/tinodaishe-tembo-70aa3a266/",
 		},
 		{
 			icon: "Github",
-			link: "https://github.com/x0bd",
+			link: "github.com/x0bd",
 		},
 	],
 	profile: "/img/xoboid.jpg",

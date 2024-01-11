@@ -9,7 +9,7 @@ import presentation from "@/data/presentation";
 import ProjectCardSmall from "@/components/ProjectCardSmall";
 
 import strongTag from "@/utils/strongTag";
-import Footer from "@/components/Footer";
+import SocialLinks from "@/components/SocialLinks";
 
 export default function Home() {
 	return (
@@ -27,17 +27,7 @@ export default function Home() {
 						<h1 className="text-3xl font-bold md:text-3xl">
 							{presentation.name}
 						</h1>
-						<div className="flex gap-2">
-							<Link href="/">
-								<TwitterIcon />
-							</Link>
-							<Link href="/">
-								<Github />
-							</Link>
-							<Link href="/">
-								<Linkedin />
-							</Link>
-						</div>
+						<SocialLinks />
 					</div>
 				</div>
 				<div className="flex flex-col gap-4">
@@ -68,7 +58,22 @@ export default function Home() {
 					<ProjectCardSmall />
 				</section>
 			</article>
-			<article></article>
+			<article className="flex flex-col gap-8">
+				<header className="flex w-full flex-row gap-2">
+					<h3 className="text-lg font-semibold">Get in touch</h3>
+				</header>
+				<p>
+					Email me at{" "}
+					<Link
+						className="text-ambient"
+						href={`mailto:${presentation.mail}`}
+					>
+						{presentation.mail}
+					</Link>{" "}
+					or message me via my social links
+				</p>
+				<SocialLinks />
+			</article>
 		</main>
 	);
 }

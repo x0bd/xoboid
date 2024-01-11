@@ -22,26 +22,18 @@ const ProjectCard = () => {
 							key={project.description}
 							className="flex flex-col justify-between"
 						>
-							<Link
-								href={`https://${project.link}`}
-								target="_blank"
-							>
-								<CardHeader className="flex-row gap-4 items-center p-2">
-									<Avatar>
-										<AvatarImage
-											src={`/img/projects/${project.image}`}
-											alt={project.title}
-										/>
-										<AvatarFallback>
-											{project.title.slice(0, 2)}
-										</AvatarFallback>
-									</Avatar>
-									<div className="flex flex-row w-full justify-between">
-										<div>
-											<CardTitle className="text-lg font-normal">
-												{project.title}
-											</CardTitle>
-										</div>
+							<Link href={`https://${project.link}`}>
+								<CardHeader className="flex-col gap-4 px-6 py-2">
+									<div className="flex flex-row w-full items-center justify-between">
+										<Avatar>
+											<AvatarImage
+												src={`/img/projects/${project.image}`}
+												alt={project.title}
+											/>
+											<AvatarFallback>
+												{project.title.slice(0, 2)}
+											</AvatarFallback>
+										</Avatar>
 										<div>
 											{project.isComingSoon && (
 												<Badge variant="default">
@@ -49,6 +41,11 @@ const ProjectCard = () => {
 												</Badge>
 											)}
 										</div>
+									</div>
+									<div>
+										<CardTitle className="text-lg font-medium">
+											{project.title}
+										</CardTitle>
 									</div>
 								</CardHeader>
 								<CardContent>
