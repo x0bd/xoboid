@@ -16,7 +16,7 @@ const Header = () => {
 				<div className="flex gap-2 items-center text-lg">
 					<Link href="/projects">works</Link>
 					<Link href="/posts">blog</Link>
-					<Link href="/chat">guestbook</Link>
+					<Link href="/chat">chat</Link>
 				</div>
 			</div>
 			<ThemeSwitch />
