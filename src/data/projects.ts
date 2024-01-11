@@ -10,7 +10,7 @@ export type Project = {
 
 const projects: Project[] = [
 	{
-		title: "lembe",
+		title: "lembe.sh",
 		techs: ["Next.js", "Shadcn/ui", "TypeScript", "Supabase", "Zustand"],
 		description:
 			"an app to seemlessly manage and clear your entertainment backlog",
@@ -21,17 +21,8 @@ const projects: Project[] = [
 	{
 		title: "palegen",
 		techs: ["Next.js", "Shadcn/ui", "TypeScript"],
-		description: "quickly generate color palettes from images",
+		description: "an app to quickly generate color palettes from images",
 		link: "pale.gen",
-		promoted: true,
-		image: "lembe.png",
-	},
-	{
-		title: "guestbook",
-		techs: ["Next.js", "Shadcn/ui", "TypeScript", "Supbase"],
-		description:
-			"an open source guestbook that easily integrates with your personal site.",
-		link: "guestbook.vercel.app",
 		promoted: true,
 		image: "lembe.png",
 	},

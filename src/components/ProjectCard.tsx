@@ -22,55 +22,49 @@ const ProjectCard = () => {
 							key={project.description}
 							className="flex flex-col justify-between"
 						>
-							<CardHeader className="flex-row gap-4 items-center p-2">
-								<Avatar>
-									<AvatarImage
-										src={`/img/projects/${project.image}`}
-										alt={project.title}
-									/>
-									<AvatarFallback>
-										{project.title.slice(0, 2)}
-									</AvatarFallback>
-								</Avatar>
-								<div className="flex flex-row w-full justify-between">
-									<div>
-										<CardTitle className="text-lg font-normal">
-											<Link
-												href={`https://${project.link}`}
-											>
+							<Link
+								href={`https://${project.link}`}
+								target="_blank"
+							>
+								<CardHeader className="flex-row gap-4 items-center p-2">
+									<Avatar>
+										<AvatarImage
+											src={`/img/projects/${project.image}`}
+											alt={project.title}
+										/>
+										<AvatarFallback>
+											{project.title.slice(0, 2)}
+										</AvatarFallback>
+									</Avatar>
+									<div className="flex flex-row w-full justify-between">
+										<div>
+											<CardTitle className="text-lg font-normal">
 												{project.title}
-											</Link>
-										</CardTitle>
-										<CardDescription>
-											<Link
-												href={`https://${project.link}`}
-											>
-												{project.link}
-											</Link>
-										</CardDescription>
+											</CardTitle>
+										</div>
+										<div>
+											{project.isComingSoon && (
+												<Badge variant="default">
+													Soon
+												</Badge>
+											)}
+										</div>
 									</div>
-									<div>
-										{project.isComingSoon && (
-											<Badge variant="default">
-												Soon
-											</Badge>
-										)}
-									</div>
-								</div>
-							</CardHeader>
-							<CardContent>
-								<p>{project.description}</p>
-							</CardContent>
-							<CardFooter className="flex flex-wrap gap-1">
-								{project.techs.map((tech) => (
-									<Badge
-										variant="outline"
-										key={project.title}
-									>
-										{tech}
-									</Badge>
-								))}
-							</CardFooter>
+								</CardHeader>
+								<CardContent>
+									<p>{project.description}</p>
+								</CardContent>
+								<CardFooter className="flex flex-wrap gap-1">
+									{project.techs.map((tech) => (
+										<Badge
+											variant="outline"
+											key={project.title}
+										>
+											{tech}
+										</Badge>
+									))}
+								</CardFooter>
+							</Link>
 						</Card>
 					)
 			)}

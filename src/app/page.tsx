@@ -1,6 +1,6 @@
 "use client";
 
-import { Github, Linkedin, TwitterIcon } from "lucide-react";
+import { ArrowRight, Github, Linkedin, TwitterIcon } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -9,6 +9,7 @@ import presentation from "@/data/presentation";
 import ProjectCardSmall from "@/components/ProjectCardSmall";
 
 import strongTag from "@/utils/strongTag";
+import Footer from "@/components/Footer";
 
 export default function Home() {
 	return (
@@ -49,12 +50,16 @@ export default function Home() {
 			</article>
 			<article className="flex flex-col gap-8">
 				<header className="flex w-full flex-row justify-between gap-2">
-					<h3 className="text-lg">Featured Projects</h3>
+					<h3 className="text-lg font-semibold">Featured Projects</h3>
 					<Link
 						href="/projects"
 						target="_self"
+						className="flex flex-row text-sm text-ambient font-medium items-center gap-1"
 					>
-						All
+						<div>All</div>
+						<span>
+							<ArrowRight className="w-4 h-4" />
+						</span>
 					</Link>
 				</header>
 				{projects.length === 0 && <p>I must work</p>}
@@ -63,6 +68,7 @@ export default function Home() {
 					<ProjectCardSmall />
 				</section>
 			</article>
+			<article></article>
 		</main>
 	);
 }
