@@ -1,6 +1,6 @@
 "use client";
 
-import { ArrowRight, Github, Linkedin, TwitterIcon } from "lucide-react";
+import { ArrowRight } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -10,6 +10,7 @@ import ProjectCardSmall from "@/components/ProjectCardSmall";
 
 import strongTag from "@/utils/strongTag";
 import SocialLinks from "@/components/SocialLinks";
+import PostCard from "@/components/PostCard";
 
 export default function Home() {
 	return (
@@ -31,7 +32,9 @@ export default function Home() {
 					</div>
 				</div>
 				<div className="flex flex-col gap-4">
-					<p className="font-bold text-xl">{presentation.title}</p>
+					<p className="font-semibold text-xl">
+						{presentation.title}
+					</p>
 					<p className="text-justify">{presentation.description}</p>
 					<p className="text-justify">
 						{presentation.currentProject}
@@ -40,7 +43,7 @@ export default function Home() {
 			</article>
 			<article className="flex flex-col gap-8">
 				<header className="flex w-full flex-row justify-between gap-2">
-					<h3 className="text-lg font-semibold">Featured Projects</h3>
+					<h3 className="text-xl font-medium">Featured Projects</h3>
 					<Link
 						href="/projects"
 						target="_self"
@@ -58,9 +61,14 @@ export default function Home() {
 					<ProjectCardSmall />
 				</section>
 			</article>
+
 			<article className="flex flex-col gap-8">
-				<header className="flex w-full flex-row gap-2">
-					<h3 className="text-lg font-semibold">Get in touch</h3>
+				<PostCard />
+			</article>
+
+			<article className="flex flex-col gap-8">
+				<header>
+					<h3 className="text-xl font-medium">Get in touch</h3>
 				</header>
 				<p>
 					Email me at{" "}
@@ -69,8 +77,15 @@ export default function Home() {
 						href={`mailto:${presentation.mail}`}
 					>
 						{presentation.mail}
-					</Link>{" "}
-					or message me via my social links
+					</Link>
+					, message me via my social links or take a look at my{" "}
+					<Link
+						className="text-ambient"
+						href={"/resume.pdf"}
+					>
+						resume
+					</Link>
+					.
 				</p>
 				<SocialLinks />
 			</article>

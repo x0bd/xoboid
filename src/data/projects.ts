@@ -11,7 +11,15 @@ export type Project = {
 const projects: Project[] = [
 	{
 		title: "lembe.sh",
-		techs: ["Next.js", "Shadcn/ui", "TypeScript", "Supabase", "Zustand"],
+		techs: [
+			"Next.js",
+			"Shadcn/ui",
+			"TypeScript",
+			"Supabase",
+			"Zustand",
+			"Prisma",
+			"Clerk",
+		],
 		description:
 			"an app to seemlessly manage and clear your entertainment backlog",
 		link: "lembe.sh",

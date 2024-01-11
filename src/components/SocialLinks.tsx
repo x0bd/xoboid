@@ -1,4 +1,4 @@
-import { Github, Linkedin, TwitterIcon } from "lucide-react";
+import { FileTextIcon, Github, Linkedin, TwitterIcon } from "lucide-react";
 import Link from "next/link";
 import presentation from "@/data/presentation";
 

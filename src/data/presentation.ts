@@ -18,7 +18,7 @@ const presentation: Presentation = {
 	title: "👋, こんにちは",
 	mail: "tinodatembo@gmail.com",
 	description:
-		"I am a frontend engineer who enjoys crafting unforgettable experiences for the web. Right now, I am working with Next.js, Three.js and TypeScript. In my free I use my computer to decode signals from the void through code, pixel and sound experiments. Sometimes I write notes on things you can do on your computer and slowly learn Japanese.",
+		"I am a frontend engineer who enjoys crafting unforgettable experiences for the web. In my free I use my computer to decode signals from the void through code, pixel and sound experiments. Sometimes I write notes on things you can do on your computer and slowly learn Japanese.",
 	socials: [
 		{
 			icon: "twitter",

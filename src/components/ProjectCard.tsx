@@ -20,9 +20,12 @@ const ProjectCard = () => {
 					!project.isComingSoon && (
 						<Card
 							key={project.description}
-							className="flex flex-col justify-between"
+							className="flex flex-col transition-all duration-300 hover:-translate-y-1 hover:border-ambient justify-between"
 						>
-							<Link href={`https://${project.link}`}>
+							<Link
+								href={`https://${project.link}`}
+								target="_blank"
+							>
 								<CardHeader className="flex-col gap-4 px-6 py-2">
 									<div className="flex flex-row w-full items-center justify-between">
 										<Avatar>
@@ -49,7 +52,9 @@ const ProjectCard = () => {
 									</div>
 								</CardHeader>
 								<CardContent>
-									<p>{project.description}</p>
+									<CardDescription>
+										{project.description}
+									</CardDescription>
 								</CardContent>
 								<CardFooter className="flex flex-wrap gap-1">
 									{project.techs.map((tech) => (

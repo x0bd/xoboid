@@ -16,6 +16,7 @@ const Header = () => {
 				<div className="flex gap-2 items-center text-lg">
 					<Link href="/projects">works</Link>
 					<Link href="/posts">blog</Link>
+					<Link href="/stack">stack</Link>
 					<Link href="/chat">chat</Link>
 				</div>
 			</div>
@@ -23,5 +24,5 @@ const Header = () => {
 		</nav>
 	);
 };
-
+("");
 export default Header;
