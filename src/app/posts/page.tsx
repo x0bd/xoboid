@@ -6,4 +6,9 @@ const Posts = () => {
 	);
 };
 
+export const metadata = {
+	title: "Posts",
+	description: "Notes, Ideas, Dumps at any random time.",
+};
+
 export default Posts;
