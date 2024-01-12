@@ -11,12 +11,13 @@ import ProjectCardSmall from "@/components/ProjectCardSmall";
 import strongTag from "@/utils/strongTag";
 import SocialLinks from "@/components/SocialLinks";
 import PostCard from "@/components/PostCard";
+import posts from "@/data/posts";
 
 export default function Home() {
 	return (
 		<main className="flex flex-col gap-20">
 			<article className="flex flex-col gap-8 md:justify-end md:gap-12">
-				<div className="flex gap-6 items-center md:flex-row sm:flex-col">
+				<div className="flex gap-6 items-center md:flex-row">
 					<Image
 						src="/img/xoboid.jpg"
 						alt="void"
@@ -49,7 +50,7 @@ export default function Home() {
 						target="_self"
 						className="flex flex-row text-sm text-ambient font-medium items-center gap-1"
 					>
-						<div>All</div>
+						<div>All projects</div>
 						<span>
 							<ArrowRight className="w-4 h-4" />
 						</span>
@@ -63,6 +64,21 @@ export default function Home() {
 			</article>
 
 			<article className="flex flex-col gap-8">
+				<header className="flex w-full flex-row justify-between gap-1">
+					<h3 className="text-xl font-medium">Latest Posts</h3>
+					<Link
+						href="/posts"
+						target="_self"
+						className="flex flex-row text-sm text-ambient font-medium items-center gap-1"
+					>
+						<div>All posts</div>
+						<span>
+							<ArrowRight className="w-4 h-4" />
+						</span>
+					</Link>
+				</header>
+				{posts.length === 0 && <p>Doodling Something...</p>}
+
 				<PostCard />
 			</article>
 

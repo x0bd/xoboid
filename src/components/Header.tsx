@@ -8,7 +8,7 @@ const Header = () => {
 		<nav className="flex w-full items-center justify-between ">
 			<div className="z-40 flex w-full flex-col xl:gap-8 md:gap-4 md:flex-row">
 				<Link
-					className="text-xl font-bold"
+					className="text-2xl font-semibold md:txt-lg"
 					href="/"
 				>
 					xoboid
@@ -17,12 +17,11 @@ const Header = () => {
 					<Link href="/projects">works</Link>
 					<Link href="/posts">blog</Link>
 					<Link href="/chat">chat</Link>
-					<Link href="/stuff">stuff</Link>
 				</div>
 			</div>
 			<ThemeSwitch />
 		</nav>
 	);
 };
-("");
+
 export default Header;

@@ -11,7 +11,7 @@ export function ThemeSwitch() {
 
 	return (
 		<Button
-			variant="outline"
+			variant="link"
 			size="icon"
 			onClick={() => setTheme(otherTheme)}
 		>
