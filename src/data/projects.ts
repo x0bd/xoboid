@@ -10,6 +10,15 @@ export type Project = {
 
 const projects: Project[] = [
 	{
+		title: "celeste",
+		techs: ["Celeste", "Vite", "TypeScript"],
+		description:
+			"a minimal frontend framework created to have a deeper understanding of browser concepts and TypeScript",
+		link: "celeste-js.vercel.app",
+		promoted: true,
+		image: "lembe.png",
+	},
+	{
 		title: "lembe.sh",
 		techs: [
 			"Next.js",
@@ -36,21 +45,20 @@ const projects: Project[] = [
 	},
 	{
 		title: "void.fm",
-		techs: ["Next.js", "Shadcn/ui", "Supbase", "Stripe", "TypeScript"],
+		techs: ["Next.js", "Shadcn/ui", "Supabase", "Stripe", "TypeScript"],
 		description: "A shadcn/ui inspired music streaming app",
 		link: "void.fm",
-		promoted: false,
-		image: "lembe.png",
-	},
-	{
-		title: "celeste",
-		techs: ["Celeste", "Vite", "TypeScript"],
-		description:
-			"a minimal frontend framework created to have a deeper understanding of browser concepts and TypeScript",
-		link: "celeste-js.vercel.app",
 		promoted: true,
 		isComingSoon: true,
 		image: "lembe.png",
+	},
+	{
+		title: "xoboid",
+		techs: ["Next.js", "Shadcn/ui", "TypeScript"],
+		description: "My personal site + blog",
+		link: "xoboid.vercel.app",
+		promoted: false,
+		image: "xoboid.jpg",
 	},
 ];
 

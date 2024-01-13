@@ -9,7 +9,6 @@ import {
 	CardTitle,
 } from "./ui/card";
 import Link from "next/link";
-import { ArrowUpRight } from "lucide-react";
 import { Badge } from "./ui/badge";
 
 const PostCard = () => {
@@ -27,14 +26,10 @@ const PostCard = () => {
 									<CardTitle className="font-medium text-xl">
 										{post.title}
 									</CardTitle>
-									<div className="flex flex-row gap-3 justify-center">
-										<Badge variant="outline">
-											{formatDate(
-												new Date(post.publishDate)
-											)}
-										</Badge>
-										<ArrowUpRight />
-									</div>
+
+									<Badge variant="outline">
+										{formatDate(new Date(post.publishDate))}
+									</Badge>
 								</CardHeader>
 								<CardContent>
 									<CardDescription>
