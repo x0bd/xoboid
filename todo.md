@@ -1,7 +1,4 @@
 -   Refactor ProjectCard Code
 -   Add Blog
 -   Add Chat Functionality
--   Add Responsiveness, Feedback, Hover Effects etc
--   Adjust Colors
--   Add Dummy Blog
--   Start Working On The tech Stack part of your website
+-   Add Blog + sorting

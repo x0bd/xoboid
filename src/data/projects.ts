@@ -27,7 +27,7 @@ const projects: Project[] = [
 			"Supabase",
 			"Zustand",
 			"Prisma",
-			"Clerk",
+			"ClerkAuth",
 		],
 		description:
 			"an app to seemlessly manage and clear your entertainment backlog",

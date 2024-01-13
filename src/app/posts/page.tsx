@@ -19,7 +19,7 @@ const Posts = () => {
 				Notes, Ideas, Dumps at any random time.
 			</h1>
 			<div className="grid lg:md:grid-cols-1 gap-8 sm:grid-cols-1 md:gap-6 text-xl font-medium">
-				{posts.map(
+				{posts.sort().map(
 					(post) =>
 						post.isPublished && (
 							<Card

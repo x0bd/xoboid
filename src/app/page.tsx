@@ -98,6 +98,7 @@ export default function Home() {
 					<Link
 						className="text-ambient"
 						href={"/resume.pdf"}
+						target="_blank"
 					>
 						resume
 					</Link>
