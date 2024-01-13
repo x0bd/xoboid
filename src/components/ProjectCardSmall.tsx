@@ -42,6 +42,14 @@ const ProjectCardSmall = () => {
 													Soon
 												</Badge>
 											)}
+											{project.wip && (
+												<Badge
+													variant="secondary"
+													className="bg-ambient font-light text-white"
+												>
+													wip
+												</Badge>
+											)}
 										</div>
 									</div>
 									<div>
@@ -59,7 +67,7 @@ const ProjectCardSmall = () => {
 									{project.techs.map((tech) => (
 										<Badge
 											variant="outline"
-											key={project.title}
+											key={tech}
 										>
 											{tech}
 										</Badge>

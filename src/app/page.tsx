@@ -33,13 +33,8 @@ export default function Home() {
 					</div>
 				</div>
 				<div className="flex flex-col gap-4">
-					<p className="font-semibold text-xl">
-						{presentation.title}
-					</p>
-					<p className="text-justify">{presentation.description}</p>
-					<p className="text-justify">
-						{presentation.currentProject}
-					</p>
+					<p>{presentation.description}</p>
+					<p>{presentation.currentProject}</p>
 				</div>
 			</article>
 			<article className="flex flex-col gap-8">

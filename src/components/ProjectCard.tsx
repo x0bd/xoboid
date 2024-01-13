@@ -20,7 +20,7 @@ const ProjectCard = () => {
 					!project.isComingSoon && (
 						<Card
 							key={project.description}
-							className="flex flex-col transition-all duration-300 hover:-translate-y-1 hover:border-ambient justify-between"
+							className="flex flex-col transition-transform duration-300 hover:-translate-y-1 hover:border-ambient justify-between"
 						>
 							<Link
 								href={`https://${project.link}`}
@@ -38,9 +38,12 @@ const ProjectCard = () => {
 											</AvatarFallback>
 										</Avatar>
 										<div>
-											{project.isComingSoon && (
-												<Badge variant="default">
-													Soon
+											{project.wip && (
+												<Badge
+													className="bg-ambient font-light text-white"
+													variant="default"
+												>
+													wip
 												</Badge>
 											)}
 										</div>

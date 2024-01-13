@@ -6,6 +6,7 @@ export type Project = {
 	link: string;
 	isComingSoon?: boolean;
 	image: string;
+	wip?: boolean;
 };
 
 const projects: Project[] = [
@@ -17,24 +18,9 @@ const projects: Project[] = [
 		link: "celeste-js.vercel.app",
 		promoted: true,
 		image: "lembe.png",
+		wip: true,
 	},
-	{
-		title: "lembe.sh",
-		techs: [
-			"Next.js",
-			"Shadcn/ui",
-			"TypeScript",
-			"Supabase",
-			"Zustand",
-			"Prisma",
-			"ClerkAuth",
-		],
-		description:
-			"an app to seemlessly manage and clear your entertainment backlog",
-		link: "lembe.sh",
-		promoted: true,
-		image: "lembe.png",
-	},
+
 	{
 		title: "palegen",
 		techs: ["Next.js", "Shadcn/ui", "TypeScript"],
@@ -45,12 +31,28 @@ const projects: Project[] = [
 	},
 	{
 		title: "void.fm",
-		techs: ["Next.js", "Shadcn/ui", "Supabase", "Stripe", "TypeScript"],
-		description: "A shadcn/ui inspired music streaming app",
+		techs: ["Next.js", "Shadcn/ui", "Spotify", "TypeScript"],
+		description: "A spotify stats app",
 		link: "void.fm",
 		promoted: true,
-		isComingSoon: true,
 		image: "lembe.png",
+	},
+	{
+		title: "otanoid",
+		techs: [
+			"Next.js",
+			"Shadcn/ui",
+			"TypeScript",
+			"Supabase",
+			"Zustand",
+			"DrizzleORM",
+		],
+		description:
+			"an app to help you efficiently manage your manga and anime backlog",
+		link: "ota.sh",
+		promoted: true,
+		image: "lembe.png",
+		wip: true,
 	},
 	{
 		title: "xoboid",
@@ -59,6 +61,15 @@ const projects: Project[] = [
 		link: "xoboid.vercel.app",
 		promoted: false,
 		image: "xoboid.jpg",
+	},
+	{
+		title: "doodle.rs",
+		techs: ["Next.js", "Shadcn/ui", "TypeScript", "Tauri", "Rust"],
+		description: "a lightweight and blazingly fast pixel editor",
+		link: "doodle.rs",
+		promoted: true,
+		image: "lembe.png",
+		isComingSoon: true,
 	},
 ];
 
