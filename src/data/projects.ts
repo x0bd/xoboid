@@ -31,7 +31,7 @@ const projects: Project[] = [
 	},
 	{
 		title: "void.fm",
-		techs: ["Next.js", "Shadcn/ui", "Spotify", "TypeScript"],
+		techs: ["Next.js", "Shadcn/ui", "Spotify", "NextAuth", "TypeScript"],
 		description: "A spotify stats app",
 		link: "void.fm",
 		promoted: true,
