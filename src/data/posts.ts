@@ -8,20 +8,6 @@ type Post = {
 
 const posts: Post[] = [
 	{
-		title: "The Three Body Problem",
-		publishDate: "2024-03-21",
-		description: "An Experience",
-		isPublished: true,
-		slug: "trisolar",
-	},
-	{
-		title: "How I Customized my Windows Terminal",
-		publishDate: "2023-10-10",
-		description: "really love rose-pine ✨",
-		isPublished: true,
-		slug: "soho",
-	},
-	{
 		title: "I built a frontend web framework.",
 		publishDate: "2024-02-14",
 		description: "Is it going to be the next React?",
@@ -34,6 +20,13 @@ const posts: Post[] = [
 		description: "Its Like switching from vscode to vim.",
 		isPublished: true,
 		slug: "obsidian",
+	},
+	{
+		title: "How I Customized my Windows Terminal",
+		publishDate: "2023-10-10",
+		description: "really love rose-pine ✨",
+		isPublished: true,
+		slug: "soho",
 	},
 	{
 		title: "Building xhow",
