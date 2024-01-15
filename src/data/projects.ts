@@ -18,7 +18,6 @@ const projects: Project[] = [
 		link: "celeste-js.vercel.app",
 		promoted: true,
 		image: "lembe.png",
-		wip: true,
 	},
 
 	{
@@ -36,6 +35,7 @@ const projects: Project[] = [
 		link: "void.fm",
 		promoted: true,
 		image: "lembe.png",
+		wip: true,
 	},
 	{
 		title: "otanoid",
@@ -52,7 +52,7 @@ const projects: Project[] = [
 		link: "ota.sh",
 		promoted: true,
 		image: "lembe.png",
-		wip: true,
+		isComingSoon: true,
 	},
 	{
 		title: "xoboid",
@@ -61,15 +61,6 @@ const projects: Project[] = [
 		link: "xoboid.vercel.app",
 		promoted: false,
 		image: "xoboid.jpg",
-	},
-	{
-		title: "doodle.rs",
-		techs: ["Next.js", "Shadcn/ui", "TypeScript", "Tauri", "Rust"],
-		description: "a lightweight and blazingly fast pixel editor",
-		link: "doodle.rs",
-		promoted: true,
-		image: "lembe.png",
-		isComingSoon: true,
 	},
 ];
 

@@ -33,7 +33,7 @@ const presentation: Presentation = {
 	],
 	profile: "/img/xoboid.jpg",
 	currentProject:
-		"Currently I am building Celeste, a frontend web framework, in public.",
+		"Currently I am building Celeste, a minimal client-side web framework",
 };
 
 export default presentation;
