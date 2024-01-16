@@ -62,6 +62,15 @@ const projects: Project[] = [
 		promoted: false,
 		image: "xoboid.jpg",
 	},
+	{
+		title: "dumpin",
+		techs: ["Next.js", "TailwindCSS", "TypeScript", "Tauri", "Rust"],
+		description: "your personal and local pinterest alternative",
+		link: "pin.rs",
+		promoted: true,
+		image: "lembe.png",
+		isComingSoon: true,
+	},
 ];
 
 export default projects;
