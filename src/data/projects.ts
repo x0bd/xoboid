@@ -63,13 +63,13 @@ const projects: Project[] = [
 		image: "xoboid.jpg",
 	},
 	{
-		title: "dumpin",
-		techs: ["Next.js", "TailwindCSS", "TypeScript", "Tauri", "Rust"],
-		description: "your personal and local pinterest alternative",
-		link: "pin.rs",
-		promoted: true,
+		title: "orb",
+		techs: ["WebGL", "TypeScript"],
+		description: "a web based graphics engine",
+		link: "orb.3d",
+		promoted: false,
 		image: "lembe.png",
-		isComingSoon: true,
+		wip: true,
 	},
 ];
 
