@@ -5,6 +5,7 @@ type Social = {
 
 export type Presentation = {
 	name: string;
+	greet: string;
 	mail: string;
 	description: string;
 	socials: Social[];
@@ -14,9 +15,10 @@ export type Presentation = {
 
 const presentation: Presentation = {
 	name: "Tinodaishe Tembo",
+	greet: "👋 こんにちは,",
 	mail: "tinodatembo@gmail.com",
 	description:
-		"I am a frontend engineer who enjoys crafting unforgettable experiences for the web through code and pixel experiments. In my free time, I use my computer to decode signals from the void, and infrequently write notes on the stuff I find interesting.",
+		"I am a frontend engineer who enjoys crafting unforgettable experiences for the web through code and pixel experiments. In my free time, I use my computer to decode signals from the void, slowly learn Japanese, and infrequently write notes on the stuff I find interesting.",
 	socials: [
 		{
 			icon: "twitter",

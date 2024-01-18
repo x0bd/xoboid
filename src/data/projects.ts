@@ -30,7 +30,7 @@ const projects: Project[] = [
 	},
 	{
 		title: "void.fm",
-		techs: ["Next.js", "Shadcn/ui", "Spotify", "NextAuth", "TypeScript"],
+		techs: ["Next.js", "Shadcn/ui", "NextAuth", "TypeScript", "Spotify"],
 		description: "A spotify stats app",
 		link: "void.fm",
 		promoted: true,
@@ -65,7 +65,7 @@ const projects: Project[] = [
 	{
 		title: "orb",
 		techs: ["WebGL", "TypeScript"],
-		description: "a web based graphics engine",
+		description: "a web based graphics library",
 		link: "orb.3d",
 		promoted: false,
 		image: "lembe.png",
