@@ -1,5 +1,2 @@
--   Refactor ProjectCard Code
--   Add Blog
 -   Add Chat Functionality
 -   Add Blog + sorting
--   Change Shadcn colors
