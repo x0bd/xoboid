@@ -4,6 +4,7 @@ type Social = {
 };
 
 export type Presentation = {
+	intro: string;
 	name: string;
 	mail: string;
 	description: string;
@@ -13,10 +14,11 @@ export type Presentation = {
 };
 
 const presentation: Presentation = {
+	intro: "👋 こんにちは,",
 	name: "Tinodaishe Tembo",
 	mail: "tinodatembo@gmail.com",
 	description:
-		"I am a creative frontend engineer who enjoys crafting unforgettable experiences for the web through code and pixel experiments. In my free time, I use my computer to decode signals from the void, and infrequently write notes on the stuff I find interesting.",
+		"I am a creative frontend engineer who enjoys crafting unforgettable experiences for the web through code and pixel experiments. In my free time, I use my computer to decode signals from the void, learn Japanese, and infrequently write notes on the stuff I find interesting.",
 	socials: [
 		{
 			icon: "twitter",

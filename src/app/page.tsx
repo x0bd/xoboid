@@ -33,6 +33,7 @@ export default function Home() {
 					</div>
 				</div>
 				<div className="flex flex-col gap-4">
+					<p className="text-2xl font-medium">{presentation.intro}</p>
 					<p>{presentation.description}</p>
 					<p>{presentation.currentProject}</p>
 				</div>
