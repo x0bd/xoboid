@@ -4,7 +4,6 @@ type Social = {
 };
 
 export type Presentation = {
-	intro: string;
 	name: string;
 	mail: string;
 	description: string;
@@ -14,7 +13,6 @@ export type Presentation = {
 };
 
 const presentation: Presentation = {
-	intro: "👋 こんにちは,",
 	name: "Tinodaishe Tembo",
 	mail: "tinodatembo@gmail.com",
 	description:
