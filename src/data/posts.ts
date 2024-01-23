@@ -8,11 +8,11 @@ type Post = {
 
 const posts: Post[] = [
 	{
-		title: "I built a frontend web framework.",
+		title: "Migrating Blog from raw markdown to mdx.",
 		publishDate: "2024-02-14",
-		description: "Is it going to be the next React?",
+		description: "Need to supercharge my blog.",
 		isPublished: true,
-		slug: "celeste",
+		slug: "mdx",
 	},
 	{
 		title: "Why I switched from Notion To Obsidian",

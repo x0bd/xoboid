@@ -16,7 +16,8 @@ const Posts = () => {
 	return (
 		<main className="flex flex-col gap-20">
 			<h1 className="text-3xl font-medium">
-				Notes, Ideas, Dumps at any random time.
+				Notes, Ideas, Dumps at any random time. Stuff might be broken,
+				migrating to mdx.
 			</h1>
 			<div className="grid lg:md:grid-cols-1 gap-8 sm:grid-cols-1 md:gap-6 text-xl font-medium">
 				{posts.sort().map(

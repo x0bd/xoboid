@@ -21,7 +21,7 @@ export default function RootLayout({
 			<body className="mx-auto flex min-h-screen max-w-[872px] flex-col gap-9 px-10 py-5 text-base md:gap-20 md:py-12 ">
 				<ThemeProvider
 					attribute="class"
-					defaultTheme="system"
+					defaultTheme="light"
 				>
 					<Header />
 					<div className={inter.className}>{children}</div>
