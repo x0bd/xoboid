@@ -57,7 +57,6 @@ export default function Home() {
 					<ProjectCardSmall />
 				</section>
 			</article>
-
 			<article className="flex flex-col gap-8">
 				<header className="flex w-full flex-row justify-between gap-1">
 					<h3 className="text-xl font-medium">Latest Posts</h3>
