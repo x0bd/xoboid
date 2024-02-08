@@ -1,6 +1,1 @@
--   Add Chat Functionality
--   Add Blog + sorting
--   Add Ability to Highlight Special words
--   Refactor ProjectCard Code
--   Change Twitter Icon to X
--
+-   Redo The Entire Site and start using TinaCMS

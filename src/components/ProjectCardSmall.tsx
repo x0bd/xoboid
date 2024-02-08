@@ -65,10 +65,7 @@ const ProjectCardSmall = () => {
 								</CardContent>
 								<CardFooter className="flex flex-wrap gap-1">
 									{project.techs.map((tech) => (
-										<Badge
-											variant="outline"
-											key={tech}
-										>
+										<Badge variant="outline" key={tech}>
 											{tech}
 										</Badge>
 									))}
