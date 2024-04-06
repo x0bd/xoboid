@@ -1,12 +1,14 @@
-"use client";
-
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
-import { motion } from "framer-motion";
 import Header from "@/components/Header";
 
 const inter = Inter({ subsets: ["latin"] });
+
+export const metadata = {
+	title: "xoboid",
+	description: "i own a computer",
+};
 
 export default function RootLayout({
 	children,
