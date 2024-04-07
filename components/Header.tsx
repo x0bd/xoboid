@@ -26,7 +26,7 @@ const Header = () => {
 
 	return (
 		<nav className="fixed w-full z-30 py-4 rounded-lg">
-			<div className="lg:max-w-xl md:max-w-[740px] mx-auto max-2xl px-4 lg:px-0">
+			<div className="lg:max-w-2xl md:max-w-[740px] mx-auto max-2xl px-4 lg:px-0">
 				<div className="flex items-center justify-between shadow-md bg-white dark:bg-[#212121] dark:border-neutral-700/30 border rounded-xl p-3 ">
 					<div className="flex space-x-3 items-center">
 						{links.map((item, index) => {
