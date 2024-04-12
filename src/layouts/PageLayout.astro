@@ -5,8 +5,8 @@ import Footer from "@components/Footer.astro";
 import { SITE } from "@consts";
 
 type Props = {
-  title: string;
-  description: string;
+	title: string;
+	description: string;
 };
 
 const { title, description } = Astro.props;
@@ -14,14 +14,14 @@ const { title, description } = Astro.props;
 
 <!doctype html>
 <html lang="en">
-  <head>
-    <Head title={`${title} | ${SITE.NAME}`} description={description} />
-  </head>
-  <body>
-    <Header />
-    <main>
-      <slot />
-    </main>
-    <Footer />
-  </body>
+	<head>
+		<Head title={`${SITE.NAME} • ${title}`} description={description} />
+	</head>
+	<body>
+		<Header />
+		<main>
+			<slot />
+		</main>
+		<Footer />
+	</body>
 </html>

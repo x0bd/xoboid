@@ -88,15 +88,15 @@ const work = await Promise.all(
 					class="flex flex-wrap gap-y-2 items-center justify-between"
 				>
 					<h5 class="font-semibold text-black dark:text-white">
-						Latest posts
+						Recent Projects
 					</h5>
-					<Link href="/blog"> See all posts </Link>
+					<Link href="/projects"> See all projects </Link>
 				</div>
 				<ul class="flex flex-col gap-4">
 					{
-						blog.map((post) => (
+						projects.map((project) => (
 							<li>
-								<ArrowCard entry={post} />
+								<ArrowCard entry={project} />
 							</li>
 						))
 					}
@@ -108,15 +108,15 @@ const work = await Promise.all(
 					class="flex flex-wrap gap-y-2 items-center justify-between"
 				>
 					<h5 class="font-semibold text-black dark:text-white">
-						Featured Projects
+						Latest posts
 					</h5>
-					<Link href="/projects"> See all projects </Link>
+					<Link href="/blog"> See all posts </Link>
 				</div>
 				<ul class="flex flex-col gap-4">
 					{
-						projects.map((project) => (
+						blog.map((post) => (
 							<li>
-								<ArrowCard entry={project} />
+								<ArrowCard entry={post} />
 							</li>
 						))
 					}

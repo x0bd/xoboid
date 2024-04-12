@@ -1,7 +1,7 @@
 ---
-title: "Celeste"
-description: "a lightweight mvc client-side web framework"
-date: "Mar 18 2024"
+title: "elan"
+description: "a bun powered lightweight backend framework"
+date: "Apr 19 2024"
 demoURL: "https://astro-sphere-demo.vercel.app"
 repoURL: "https://github.com/markhorn-dev/astro-sphere"
 ---
