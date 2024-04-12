@@ -1,40 +1,81 @@
 ---
-import { getCollection } from "astro:content";
+export const prerender = false;
+
 import PageLayout from "@layouts/PageLayout.astro";
 import Container from "@components/Container.astro";
-import { dateRange } from "@lib/utils";
+import { getTopArtists, getTopTracks } from "@lib/spotify";
 import { WORK } from "@consts";
 
-const collection = (await getCollection("work")).sort(
-	(a, b) =>
-		new Date(b.data.dateStart).valueOf() -
-		new Date(a.data.dateStart).valueOf()
-);
+const tracks = await getTopTracks();
+const artists = await getTopArtists();
 
-const work = await Promise.all(
-	collection.map(async (item) => {
-		const { Content } = await item.render();
-		return { ...item, Content };
-	})
-);
+console.log(tracks);
 ---
 
 <PageLayout title={WORK.TITLE} description={WORK.DESCRIPTION}>
 	<Container>
 		<div class="space-y-10">
+			<h1
+				class="animate font-semibold text-2xl text-black dark:text-white"
+			>
+				Top Tracks
+			</h1>
 			<div class="animate">
-				<ul class="flex flex-col space-y-4">
-					<li
-						class="animate font-semibold text-black dark:text-white"
-					>
-						Top Tracks
-					</li>
-				</ul>
+				<div class="flex flex-col space-y-4">
+					{
+						tracks.map(
+							({ artists, album, songUrl, title, image }) => (
+								<div class="flex flex-row items-center space-x-4">
+									<img
+										src={image}
+										alt={title}
+										class="w-16 h-16"
+									/>
+									<div class="flex flex-col">
+										<a href={songUrl}>
+											<h3 class="font-semibold text-black dark:text-neutral-100">
+												{title}
+											</h3>
+										</a>
+										<p>
+											{artists
+												.map(({ name }) => name)
+												.join(", ")}
+										</p>
+										<p>{album}</p>
+									</div>
+								</div>
+							)
+						)
+					}
+				</div>
 			</div>
-			<!-- 
-      <ul class="animate flex flex-col gap-4">
-
-      </ul> -->
+		</div>
+		<div class="space-y-10">
+			<h1
+				class="animate font-semibold text-2xl my-8 text-black dark:text-white"
+			>
+				Top Artists
+			</h1>
+			<div class="animate">
+				<div class="flex flex-col space-y-4">
+					{
+						artists.map(({ name, url, image, followers }) => (
+							<div class="flex flex-row items-center space-x-4">
+								<img src={image} alt={name} class="w-16 h-16" />
+								<div class="flex flex-col">
+									<a href={url}>
+										<h3 class="font-semibold text-black dark:text-neutral-100">
+											{name}
+										</h3>
+									</a>
+									<p>{followers} followers</p>
+								</div>
+							</div>
+						))
+					}
+				</div>
+			</div>
 		</div>
 	</Container>
 </PageLayout>
