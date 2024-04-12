@@ -29,7 +29,7 @@ console.log(tracks);
 									<img
 										src={image}
 										alt={title}
-										class="w-16 h-16"
+										class="w-20 h-20 rounded-md"
 									/>
 									<div class="flex flex-col">
 										<a href={songUrl}>
@@ -62,7 +62,11 @@ console.log(tracks);
 					{
 						artists.map(({ name, url, image, followers }) => (
 							<div class="flex flex-row items-center space-x-4">
-								<img src={image} alt={name} class="w-16 h-16" />
+								<img
+									src={image}
+									alt={name}
+									class="w-20 h-20 rounded-md"
+								/>
 								<div class="flex flex-col">
 									<a href={url}>
 										<h3 class="font-semibold text-black dark:text-neutral-100">
