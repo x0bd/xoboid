@@ -4,6 +4,11 @@ import sitemap from "@astrojs/sitemap";
 import tailwind from "@astrojs/tailwind";
 
 export default defineConfig({
-  site: "https://astro-nano-demo.vercel.app",
-  integrations: [mdx(), sitemap(), tailwind()],
+	markdown: {
+		shikiConfig: {
+			theme: "vesper",
+		},
+	},
+	site: "https://astro-nano-demo.vercel.app",
+	integrations: [mdx(), sitemap(), tailwind()],
 });

@@ -4,13 +4,13 @@ export const prerender = false;
 import PageLayout from "@layouts/PageLayout.astro";
 import Container from "@components/Container.astro";
 import { getTopArtists, getTopTracks } from "@lib/spotify";
-import { WORK } from "@consts";
+import { MUSIC } from "@consts";
 
 const tracks = await getTopTracks();
 const artists = await getTopArtists();
 ---
 
-<PageLayout title={WORK.TITLE} description={WORK.DESCRIPTION}>
+<PageLayout title={MUSIC.TITLE} description={MUSIC.DESCRIPTION}>
 	<Container>
 		<div class="space-y-10">
 			<h1
