@@ -19,9 +19,9 @@ export const BLOG: Metadata = {
 		"thoughts, notes and doodles on stuff you can do on a computer",
 };
 
-export const WORK: Metadata = {
-	TITLE: "Work",
-	DESCRIPTION: "Where I have worked and what I have done.",
+export const ABOUT: Metadata = {
+	TITLE: "about",
+	DESCRIPTION: "me, my favorite tools and tech satck",
 };
 
 export const PROJECTS: Metadata = {
