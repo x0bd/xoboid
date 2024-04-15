@@ -1,7 +1,7 @@
 ---
 import Container from "@components/Container.astro";
 import Link from "@components/Link.astro";
-import { SITE } from "@consts";
+import { SITE } from "@data/consts";
 ---
 
 <header>
@@ -14,10 +14,11 @@ import { SITE } from "@consts";
 			</Link>
 			<nav class="flex gap-2">
 				<Link href="/blog" underline={false}> notes </Link>
-				<Link href="/about" underline={false}> about </Link>
 				<Link href="/projects" underline={false}> crafts </Link>
+				<Link href="/about" underline={false}> about </Link>
 				<Link href="/music" underline={false}> music </Link>
 			</nav>
 		</div>
 	</Container>
 </header>
+@data/consts

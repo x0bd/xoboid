@@ -4,7 +4,7 @@ import Container from "@components/Container.astro";
 import PageLayout from "@layouts/PageLayout.astro";
 import ArrowCard from "@components/ArrowCard.astro";
 import Link from "@components/Link.astro";
-import { SITE, HOME, SOCIALS } from "@consts";
+import { SITE, HOME, SOCIALS } from "@data/consts";
 
 const blog = (await getCollection("blog"))
 	.filter((post) => !post.data.draft)
@@ -162,3 +162,4 @@ const work = await Promise.all(
 		</div>
 	</Container>
 </PageLayout>
+@data/consts

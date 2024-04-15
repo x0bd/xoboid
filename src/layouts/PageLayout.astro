@@ -2,7 +2,7 @@
 import Head from "@components/Head.astro";
 import Header from "@components/Header.astro";
 import Footer from "@components/Footer.astro";
-import { SITE } from "@consts";
+import { SITE } from "@data/consts";
 
 type Props = {
 	title: string;
@@ -25,3 +25,4 @@ const { title, description } = Astro.props;
 		<Footer />
 	</body>
 </html>
+@data/consts

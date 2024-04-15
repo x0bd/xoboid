@@ -4,7 +4,7 @@ export const prerender = false;
 import PageLayout from "@layouts/PageLayout.astro";
 import Container from "@components/Container.astro";
 import { getTopArtists, getTopTracks } from "@lib/spotify";
-import { MUSIC } from "@consts";
+import { MUSIC } from "@data/consts";
 
 const tracks = await getTopTracks();
 const artists = await getTopArtists();
@@ -81,3 +81,4 @@ const artists = await getTopArtists();
 		</div>
 	</Container>
 </PageLayout>
+@data/consts
