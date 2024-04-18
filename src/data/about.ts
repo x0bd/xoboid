@@ -8,17 +8,17 @@ export const tools: tool[] = [
 	{
 		name: "Obsidian",
 		description: "My Second brain",
-		link: "",
+		link: "https://obsidian.md/",
 	},
 	{
 		name: "VS Code",
 		description: "my primary code editor",
-		link: "",
+		link: "https://code.visualstudio.com/",
 	},
 	{
 		name: "Terminal",
 		description: "my favorite terminal on Windows",
-		link: "",
+		link: "https://github.com/microsoft/terminal",
 	},
 	{
 		name: "Eagle",
@@ -43,6 +43,11 @@ export const tools: tool[] = [
 	{
 		name: "TablePlus",
 		description: "database management tool",
+		link: "",
+	},
+	{
+		name: "Blnder",
+		description: "the best 3d design tool",
 		link: "",
 	},
 ];
