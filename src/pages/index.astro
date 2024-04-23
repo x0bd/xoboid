@@ -50,7 +50,7 @@ const work = await Promise.all(
 				<h2 class="animate font-semibold text-black dark:text-white">
 					Tinodaishe Tembo
 				</h2>
-				<h4 class="animate">digital craftsman</h4>
+				<h4 class="animate">design engineer</h4>
 			</div>
 		</div>
 
@@ -98,15 +98,6 @@ const work = await Promise.all(
 						))
 					}
 				</ul>
-				<ul class="flex flex-col gap-4">
-					{
-						experiments.map((experiment) => (
-							<li>
-								<ExperimentCard entry={experiment} />
-							</li>
-						))
-					}
-				</ul>
 			</section>
 
 			<section class="animate space-y-6">
@@ -123,6 +114,27 @@ const work = await Promise.all(
 						blog.map((post) => (
 							<li>
 								<ArrowCard entry={post} />
+							</li>
+						))
+					}
+				</ul>
+			</section>
+
+			<section class="animate space-y-6">
+				<div
+					class="flex flex-wrap gap-y-2 items-center justify-between"
+				>
+					<h5 class="font-semibold text-black dark:text-white">
+						Selected experiments
+					</h5>
+					<Link href="/projects"> All experiments </Link>
+				</div>
+
+				<ul class="grid md:grid-cols-2 sm:grid-cols-1 gap-5">
+					{
+						experiments.map((experiment) => (
+							<li class="">
+								<ExperimentCard entry={experiment} />
 							</li>
 						))
 					}

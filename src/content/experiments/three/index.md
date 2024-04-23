@@ -1,6 +1,6 @@
 ---
 title: "3 body simulator"
-link: "tino.jpg"
+link: "3body.gif"
 ---
 
 hello
