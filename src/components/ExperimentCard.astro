@@ -1,0 +1,11 @@
+---
+import type { CollectionEntry } from "astro:content";
+
+type Props = {
+	entry: CollectionEntry<"experiments">;
+};
+
+const { entry } = Astro.props;
+---
+
+<img src={`/src/content/${entry.collection}/${entry.slug}/art.jpg`} alt="" />

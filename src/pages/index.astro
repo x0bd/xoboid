@@ -5,11 +5,17 @@ import PageLayout from "@layouts/PageLayout.astro";
 import ArrowCard from "@components/ArrowCard.astro";
 import Link from "@components/Link.astro";
 import { SITE, HOME, SOCIALS } from "@data/consts";
+import ExperimentCard from "@components/ExperimentCard.astro";
 
 const blog = (await getCollection("blog"))
 	.filter((post) => !post.data.draft)
 	.sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf())
 	.slice(0, SITE.NUM_POSTS_ON_HOMEPAGE);
+
+const experiments = (await getCollection("experiments")).slice(
+	0,
+	SITE.NUM_EXPERIMENTS_ON_HOMEPAGE
+);
 
 const projects = (await getCollection("projects"))
 	.filter((project) => !project.data.draft)
@@ -88,6 +94,15 @@ const work = await Promise.all(
 						projects.map((project) => (
 							<li>
 								<ArrowCard entry={project} />
+							</li>
+						))
+					}
+				</ul>
+				<ul class="flex flex-col gap-4">
+					{
+						experiments.map((experiment) => (
+							<li>
+								<ExperimentCard entry={experiment} />
 							</li>
 						))
 					}
