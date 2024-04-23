@@ -1,0 +1,27 @@
+---
+import { type CollectionEntry, getCollection } from "astro:content";
+import PageLayout from "@layouts/PageLayout.astro";
+import BackToPrev from "@components/BackToPrev.astro";
+import Container from "@components/Container.astro";
+
+export async function getStaticPaths() {
+	const experiments = await getCollection("experiments");
+	return experiments.map((experiment) => ({
+		params: { slug: experiment.slug },
+		props: experiment,
+	}));
+}
+
+type Props = CollectionEntry<"experiments">;
+
+const project = Astro.props;
+const { Content } = await project.render();
+---
+
+<PageLayout title={project.data.title} description={project.data.title}>
+	<Container>
+		<div class="animate">
+			<BackToPrev href="/experiments"> Back to experiments</BackToPrev>
+		</div>
+	</Container>
+</PageLayout>
