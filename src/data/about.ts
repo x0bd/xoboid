@@ -6,48 +6,44 @@ type tool = {
 
 export const tools: tool[] = [
 	{
-		name: "Obsidian",
-		description: "My Second brain",
+		name: "obsidian",
+		description: "my second brain",
 		link: "https://obsidian.md/",
 	},
 	{
-		name: "VS Code",
-		description: "my primary code editor",
+		name: "vs code",
+		description: "favorite code editor",
 		link: "https://code.visualstudio.com/",
 	},
 	{
-		name: "Terminal",
+		name: "terminal",
 		description: "my favorite terminal on Windows",
 		link: "https://github.com/microsoft/terminal",
 	},
 	{
-		name: "Eagle",
-		description: "a tool i use to collect and manage visual inspiration",
+		name: "eagle",
+		description: "collect and manage visual inspiration",
+		link: "https://eagle.cool",
+	},
+	{
+		name: "starship",
+		description: "terminal Prompt Engine",
+		link: "https://starship.rs",
+	},
+	{
+		name: "numi",
+		description: "a beautiful swiss army calculator",
 		link: "",
 	},
 	{
-		name: "Starship.rs",
-		description: "Terminal Prompt Engine",
-		link: "",
+		name: "gemini",
+		description:
+			"my personal assistant + google replacement(same thing lol)",
+		link: "https://gemini.google.com",
 	},
 	{
-		name: "Numi",
-		description: "Swiss Army Knife Calculator",
-		link: "",
-	},
-	{
-		name: "Hoppscotch",
-		description: "API Testing tool",
-		link: "",
-	},
-	{
-		name: "TablePlus",
-		description: "database management tool",
-		link: "",
-	},
-	{
-		name: "Blnder",
-		description: "the best 3d design tool",
+		name: "todoist",
+		description: "task management",
 		link: "",
 	},
 ];
