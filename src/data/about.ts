@@ -17,7 +17,7 @@ export const tools: tool[] = [
 	},
 	{
 		name: "terminal",
-		description: "my favorite terminal on Windows",
+		description: "a modern terminal emulator for windows",
 		link: "https://github.com/microsoft/terminal",
 	},
 	{
@@ -44,6 +44,11 @@ export const tools: tool[] = [
 	{
 		name: "todoist",
 		description: "task management",
+		link: "",
+	},
+	{
+		name: "blender",
+		description: "3d art creation suite",
 		link: "",
 	},
 ];

@@ -68,7 +68,11 @@ import { tools } from "@data/about";
 							<div class="flex gap-2">
 								<span>•</span>
 								<li>
-									<Link external href={tool.link}>
+									<Link
+										underline={false}
+										external
+										href={tool.link}
+									>
 										{tool.name}
 									</Link>{" "}
 									- {tool.description}
