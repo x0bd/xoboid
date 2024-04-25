@@ -37,8 +37,7 @@ export const tools: tool[] = [
 	},
 	{
 		name: "gemini",
-		description:
-			"my personal assistant + google replacement(same thing lol)",
+		description: "my personal assistant",
 		link: "https://gemini.google.com",
 	},
 	{

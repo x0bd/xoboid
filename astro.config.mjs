@@ -9,6 +9,6 @@ export default defineConfig({
 			theme: "vesper",
 		},
 	},
-	site: "https://astro-nano-demo.vercel.app",
+	site: "https://xoboid.vercel.app",
 	integrations: [mdx(), sitemap(), tailwind()],
 });

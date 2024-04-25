@@ -11,7 +11,7 @@ const { entry } = Astro.props;
 <a href={`/${entry.collection}/${entry.slug}`}>
 	<img
 		src={`/src/content/${entry.collection}/${entry.slug}/${entry.data.link}`}
-		alt=""
-		class="rounded-xl object-cover md:w-[300px] hover:opacity-75 md:h-[300px] sm:w-full sm:h-full"
+		alt={entry.data.title}
+		class="rounded-xl object-cover hover:opacity-75"
 	/>
 </a>
