@@ -53,4 +53,8 @@ export const SOCIALS: Socials = [
 		NAME: "linkedin",
 		HREF: "https://www.linkedin.com/in/tinodaishe-tembo",
 	},
+	{
+		NAME: "codepen",
+		HREF: "https://www.codepen.com",
+	},
 ];
