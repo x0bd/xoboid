@@ -50,10 +50,6 @@ export const SOCIALS: Socials = [
 		HREF: "https://github.com/x0bd",
 	},
 	{
-		NAME: "linkedin",
-		HREF: "https://www.linkedin.com/in/tinodaishe-tembo",
-	},
-	{
 		NAME: "codepen",
 		HREF: "https://www.codepen.com",
 	},

@@ -8,8 +8,10 @@ type Props = {
 const { entry } = Astro.props;
 ---
 
-<img
-	src={`/src/content/${entry.collection}/${entry.slug}/${entry.data.link}`}
-	alt=""
-	class="rounded-xl object-cover md:w-[300px] md:h-[300px] sm:w-full sm:h-full"
-/>
+<a href={`/${entry.collection}/${entry.slug}`}>
+	<img
+		src={`/src/content/${entry.collection}/${entry.slug}/${entry.data.link}`}
+		alt=""
+		class="rounded-xl object-cover md:w-[300px] hover:opacity-75 md:h-[300px] sm:w-full sm:h-full"
+	/>
+</a>

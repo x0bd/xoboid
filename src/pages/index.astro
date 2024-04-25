@@ -6,6 +6,7 @@ import ArrowCard from "@components/ArrowCard.astro";
 import Link from "@components/Link.astro";
 import { SITE, HOME, SOCIALS } from "@data/consts";
 import ExperimentCard from "@components/ExperimentCard.astro";
+import { Icon } from "astro-icon/components";
 
 const blog = (await getCollection("blog"))
 	.filter((post) => !post.data.draft)
@@ -50,7 +51,7 @@ const work = await Promise.all(
 				<h2 class="animate font-semibold text-black dark:text-white">
 					Tinodaishe Tembo
 				</h2>
-				<h4 class="animate">design engineer</h4>
+				<h4 class="animate">design engineer at xhow.sh</h4>
 			</div>
 		</div>
 
@@ -65,12 +66,12 @@ const work = await Promise.all(
 					<p class="animate">
 						Hi! there, I'm Tino aka <strong>xoboid</strong>. I'm a
 						design engineer who enjoys experimenting with code and
-						pixels to <Link
+						pixels to decode <Link
 							href="https://twitter.com/BasedBeffJezos/status/1670640570388336640"
 							aria-label="the void"
 							external
 						>
-							decode signals from the void
+							signals from the void
 						</Link>. I enjoy <strong>web developement</strong>, <strong
 							>computer graphics</strong
 						> and write to <strong>shaders</strong> to unwind.
@@ -125,9 +126,9 @@ const work = await Promise.all(
 					class="flex flex-wrap gap-y-2 items-center justify-between"
 				>
 					<h5 class="font-semibold text-black dark:text-white">
-						Selected experiments
+						Fun experiements
 					</h5>
-					<Link href="/experiments"> All experiments </Link>
+					<Link href="/experiments"> See all experiments </Link>
 				</div>
 
 				<ul class="grid md:grid-cols-2 sm:grid-cols-1 gap-5">
@@ -162,8 +163,9 @@ const work = await Promise.all(
 									aria-label={`${SITE.NAME} on ${SOCIAL.NAME}`}
 								>
 									{SOCIAL.NAME}
+									{/* <Icon name="mdi:home" /> */}
 								</Link>
-								{"•"}
+								{"/"}
 							</li>
 						))
 					}

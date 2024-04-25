@@ -5,7 +5,8 @@ const experiments = defineCollection({
 	schema: z.object({
 		title: z.string(),
 		link: z.string(),
-		description: z.string()
+		description: z.string(),
+		date: z.coerce.date(),
 	}),
 });
 
