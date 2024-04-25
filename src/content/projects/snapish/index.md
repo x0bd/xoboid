@@ -1,7 +1,7 @@
 ---
 title: "snap.sh"
 description: "create and share beautiful code snippets"
-date: "May 16 2024"
+date: "Apr 30 2024"
 demoURL: "https://astro-sphere-demo.vercel.app"
 repoURL: "https://github.com/markhorn-dev/astro-sphere"
 ---

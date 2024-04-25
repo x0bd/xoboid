@@ -34,11 +34,6 @@ export const MUSIC: Metadata = {
 	DESCRIPTION: "A collection of my favorite tracks and artists from spotify",
 };
 
-export const EXPERIMENTS: Metadata = {
-	TITLE: "experiments",
-	DESCRIPTION: "art, doodles and generative stuff",
-};
-
 export const SOCIALS: Socials = [
 	{
 		NAME: "x",
@@ -47,9 +42,5 @@ export const SOCIALS: Socials = [
 	{
 		NAME: "github",
 		HREF: "https://github.com/x0bd",
-	},
-	{
-		NAME: "codepen",
-		HREF: "https://www.codepen.com",
 	},
 ];
