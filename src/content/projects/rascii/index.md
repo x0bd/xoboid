@@ -1,6 +1,6 @@
 ---
-title: "3 body simulator"
-description: "A simple n-th body simulator built with p5.js"
+title: "rascii"
+description: "a lightweight cli ascii art generator written in rust"
 date: "Mar 22 2024"
 demoURL: "https://astro-nano-demo.vercel.app"
 repoURL: "https://github.com/markhorn-dev/astro-nano"

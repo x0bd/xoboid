@@ -5,4 +5,4 @@ description: "a nth body simulator built with p5.js"
 date: "Mar 13 2024"
 ---
 
-hello
+![Anbu](./anbu-01.jpg)
