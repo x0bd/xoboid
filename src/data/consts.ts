@@ -43,4 +43,8 @@ export const SOCIALS: Socials = [
 		NAME: "github",
 		HREF: "https://github.com/x0bd",
 	},
+	{
+		NAME: "resume",
+		HREF: "/resume.pdf",
+	},
 ];
