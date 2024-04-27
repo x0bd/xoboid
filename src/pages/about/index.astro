@@ -1,9 +1,7 @@
 ---
 import PageLayout from "@layouts/PageLayout.astro";
 import Container from "@components/Container.astro";
-import Link from "@components/Link.astro";
 import { ABOUT } from "@data/consts";
-import { tools } from "@data/about";
 ---
 
 <PageLayout title={ABOUT.TITLE} description={ABOUT.DESCRIPTION}>
@@ -18,7 +16,7 @@ import { tools } from "@data/about";
 				<h2 class="animate font-semibold text-black dark:text-white">
 					Tinodaishe Tembo
 				</h2>
-				<h4 class="animate">design engineer</h4>
+				<h4 class="animate">digital craftsman</h4>
 			</div>
 		</div>
 
@@ -53,39 +51,6 @@ import { tools } from "@data/about";
 						trilogy and Dune.
 					</p>
 				</article>
-			</section>
-
-			<section class="animate space-y-6">
-				<h4 class="animate font-semibold text-black dark:text-white">
-					Stack
-				</h4>
-				<p class="animate">
-					My personal list of tools that i use (and a massive fan of):
-				</p>
-				<ul class="animate px-5">
-					{
-						tools.map((tool) => (
-							<div class="flex gap-2">
-								<span>•</span>
-								<li>
-									<Link
-										underline={false}
-										external
-										href={tool.link}
-									>
-										{tool.name}
-									</Link>{" "}
-									- {tool.description}
-								</li>
-							</div>
-						))
-					}
-				</ul>
-			</section>
-			<section class="animate space-y-6">
-				<h4 class="animate font-semibold text-black dark:text-white">
-					Signals From The Void.
-				</h4>
 			</section>
 		</div>
 	</Container>
