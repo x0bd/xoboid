@@ -1,6 +1,6 @@
 ---
 title: "Build a Terminal Ascii Art Generator with Rust"
-description: "I built a blazingly fast terminal ascii art generator with rust"
+description: "I built a blazingly fast terminal ascii art generator."
 date: "Mar 13 2024"
 ---
 
