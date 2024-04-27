@@ -11,8 +11,8 @@ export const tools: tool[] = [
 		link: "https://obsidian.md/",
 	},
 	{
-		name: "neovim",
-		description: "slowly turning into my favorite text editor",
+		name: "vs code",
+		description: "favorite code editor",
 		link: "https://code.visualstudio.com/",
 	},
 	{
@@ -27,7 +27,7 @@ export const tools: tool[] = [
 	},
 	{
 		name: "starship",
-		description: "terminal Prompt Engine",
+		description: "terminal prompt engine",
 		link: "https://starship.rs",
 	},
 	{
@@ -46,13 +46,8 @@ export const tools: tool[] = [
 		link: "",
 	},
 	{
-		name: "hoppscotch",
-		description: "api testing tool",
-		link: "",
-	},
-	{
-		name: "tableplus",
-		description: "multi platform database manager",
-		link: "",
+		name: "blender",
+		description: "3d creation suite",
+		link: "https://blender.org",
 	},
 ];

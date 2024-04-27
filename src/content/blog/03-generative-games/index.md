@@ -2,6 +2,7 @@
 title: "Building Games With Generative Agents."
 description: "I hope I will get the chance to build this"
 date: "jun 18 2023"
+draft: true
 ---
 
 Large Language Models (LLMs) have evolved beyond the limitations of basic conversational AI. Research like the April 2023 paper ["Generative agents: A Simulacra of Human Behaviour](https://dl.acm.org/doi/pdf/10.1145/3586183.3606763)" pushes boundaries, describing game worlds populated by AI entities that learn and interact like humans. Here, the story unfolds not through scripts, but through the characters' evolving personalities and experiences.

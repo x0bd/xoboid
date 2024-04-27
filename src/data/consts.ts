@@ -44,7 +44,7 @@ export const SOCIALS: Socials = [
 		HREF: "https://github.com/x0bd",
 	},
 	{
-		NAME: "resume",
-		HREF: "/resume.pdf",
+		NAME: "codepen",
+		HREF: "https://codepen.io",
 	},
 ];
