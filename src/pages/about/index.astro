@@ -2,6 +2,8 @@
 import PageLayout from "@layouts/PageLayout.astro";
 import Container from "@components/Container.astro";
 import { ABOUT } from "@data/consts";
+import { tools } from "@data/about";
+import Link from "@components/Link.astro";
 ---
 
 <PageLayout title={ABOUT.TITLE} description={ABOUT.DESCRIPTION}>
@@ -26,7 +28,7 @@ import { ABOUT } from "@data/consts";
 					<h4
 						class="animate font-semibold text-black dark:text-white"
 					>
-						crafting a delightful web.
+						More about me
 					</h4>
 					<p class="animate">
 						I'm a programmer and designer who enjoys decoding
@@ -50,6 +52,39 @@ import { ABOUT } from "@data/consts";
 						fiction, my favorites being the three body problem
 						trilogy and Dune.
 					</p>
+				</article>
+			</section>
+			<section>
+				<article class="animate space-y-4">
+					<h4
+						class="animate font-semibold text-black dark:text-white"
+					>
+						Stack
+					</h4>
+					<p>
+						My personal list of tools I use (and a massive fan of):
+					</p>
+					<ul>
+						{
+							tools.map((tool) => (
+								<li class="no-underline">
+									<Link href={tool.link} external underline>
+										{tool.name}
+									</Link>
+									- {tool.description}
+								</li>
+							))
+						}
+					</ul>
+				</article>
+			</section>
+			<section>
+				<article class="animate space-y-4">
+					<h4
+						class="animate font-semibold text-black dark:text-white"
+					>
+						Signals From The Void.
+					</h4>
 				</article>
 			</section>
 		</div>

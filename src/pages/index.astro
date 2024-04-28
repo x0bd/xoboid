@@ -16,21 +16,6 @@ const projects = (await getCollection("projects"))
 	.filter((project) => !project.data.draft)
 	.sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf())
 	.slice(0, SITE.NUM_PROJECTS_ON_HOMEPAGE);
-
-const allwork = (await getCollection("work"))
-	.sort(
-		(a, b) =>
-			new Date(b.data.dateStart).valueOf() -
-			new Date(a.data.dateStart).valueOf()
-	)
-	.slice(0, SITE.NUM_WORKS_ON_HOMEPAGE);
-
-const work = await Promise.all(
-	allwork.map(async (item) => {
-		const { Content } = await item.render();
-		return { ...item, Content };
-	})
-);
 ---
 
 <PageLayout title={HOME.TITLE} description={HOME.DESCRIPTION}>
@@ -59,15 +44,15 @@ const work = await Promise.all(
 					</h5>
 					<p class="animate">
 						Hi! there, I'm Tino aka <strong>xoboid</strong>. I'm a
-						digital craftsman who enjoys experimenting with code and
-						pixels to decode <Link
+						programmer and designer who enjoys experimenting with
+						code and pixels to decode <Link
 							href="https://twitter.com/BasedBeffJezos/status/1670640570388336640"
 							aria-label="bard on the thermodynamic god"
 							external
 						>
 							signals from the void
 						</Link>. I enjoy <strong>web development</strong>, <strong
-							>terminal tooling</strong
+							>computer graphics</strong
 						>
 						and tinkering with <strong>low level</strong> magic that
 						makes everything tick.
