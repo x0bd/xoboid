@@ -13,7 +13,7 @@ export const tools: tool[] = [
 	{
 		name: "neovim",
 		description: "quickly turning into my favorite text editor",
-		link: "https://code.visualstudio.com/",
+		link: "https://neovim.org/",
 	},
 	{
 		name: "terminal",
@@ -46,8 +46,8 @@ export const tools: tool[] = [
 		link: "https://todoist.com",
 	},
 	{
-		name: "tableplus",
-		description: "multi-database management tool",
+		name: "blender",
+		description: "3d creation suite",
 		link: "https://tableplus.org",
 	},
 	{
@@ -61,3 +61,14 @@ export const tools: tool[] = [
 		link: "https://hoppscotch.org",
 	},
 ];
+
+const signals = [
+	"Dreams are messages from the deep",
+	"Signals from the void",
+	"Stay hungry, Stay foolish",
+];
+
+export const randomSignal = () => {
+	const seed = Math.floor(Math.random() * signals.length);
+	return signals[seed];
+};

@@ -1,7 +1,7 @@
 ---
 title: "Build a Terminal Ascii Art Generator with Rust"
 description: "I built a blazingly fast terminal ascii art generator."
-date: "Mar 13 2024"
+date: "Feb 10 2024"
 ---
 
 I've been playing around with [p5.js](https://p5js.org/) for creating generative sketches, and the urge to experiment with ASCII art struck. I built a browser based ascii art generator with p5.js, but the performance was abysmal. This led me down the path of building one with Rust, and let me tell you, it was a revelation. The Rust version was **blazingly** fast, super lightweight, and surprisingly straightforward to create.

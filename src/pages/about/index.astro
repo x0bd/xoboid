@@ -2,7 +2,7 @@
 import PageLayout from "@layouts/PageLayout.astro";
 import Container from "@components/Container.astro";
 import { ABOUT } from "@data/consts";
-import { tools } from "@data/about";
+import { randomSignal, tools } from "@data/about";
 import Link from "@components/Link.astro";
 ---
 
@@ -83,7 +83,7 @@ import Link from "@components/Link.astro";
 					<h4
 						class="animate font-semibold text-black dark:text-white"
 					>
-						Signals From The Void.
+						{randomSignal}
 					</h4>
 				</article>
 			</section>
