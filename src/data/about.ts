@@ -22,7 +22,7 @@ export const tools: tool[] = [
 	},
 	{
 		name: "eagle",
-		description: "collect and manage visual inspiration",
+		description: "pinterest on localhost ;)",
 		link: "https://eagle.cool",
 	},
 	{
@@ -33,11 +33,11 @@ export const tools: tool[] = [
 	{
 		name: "numi",
 		description: "a beautiful swiss army calculator",
-		link: "numi.app",
+		link: "https://numi.app",
 	},
 	{
 		name: "gemini",
-		description: "my personal assistant",
+		description: "google replacement + personal assistant",
 		link: "https://gemini.google.com",
 	},
 	{
@@ -46,14 +46,14 @@ export const tools: tool[] = [
 		link: "https://todoist.com",
 	},
 	{
-		name: "blender",
-		description: "3d creation suite",
-		link: "https://blender.org",
+		name: "tableplus",
+		description: "multi-database management tool",
+		link: "https://tableplus.org",
 	},
 	{
 		name: "figma",
 		description: "design and prototyping tool",
-		link: "figma.com",
+		link: "https://figma.com",
 	},
 	{
 		name: "hoppscotch",
