@@ -11,8 +11,8 @@ export const tools: tool[] = [
 		link: "https://obsidian.md/",
 	},
 	{
-		name: "vs code",
-		description: "favorite text editor",
+		name: "neovim",
+		description: "quickly turning into my favorite text editor",
 		link: "https://neovim.org/",
 	},
 	{
@@ -67,21 +67,6 @@ const signals = [
 	"Signals from the void",
 	"Stay hungry, Stay foolish",
 ];
-
-const devTitle = [
-	"design engineer",
-	"typescript enjoyer",
-	"javascript enthusiast",
-	"frontend developer",
-	"web engineer",
-	"designer • developer",
-	"digital craftsman",
-];
-
-export const randomDevTitle = () => {
-	const seed = Math.floor(Math.random() * devTitle.length);
-	return devTitle[seed];
-};
 
 export const randomSignal = () => {
 	const seed = Math.floor(Math.random() * signals.length);
