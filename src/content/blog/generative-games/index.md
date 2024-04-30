@@ -1,7 +1,7 @@
 ---
-title: "Building Games With Generative Agents."
-description: "I hope I will get the chance to build this"
-date: "jun 18 2023"
+title: "A Unique Game Story."
+description: "Generative Agents in Narrative Design"
+date: "aug 18 2023"
 draft: true
 ---
 

@@ -2,7 +2,7 @@
 import PageLayout from "@layouts/PageLayout.astro";
 import Container from "@components/Container.astro";
 import { ABOUT } from "@data/consts";
-import { randomSignal, tools } from "@data/about";
+import { randomDevTitle, randomSignal, tools } from "@data/about";
 import Link from "@components/Link.astro";
 ---
 
@@ -18,7 +18,7 @@ import Link from "@components/Link.astro";
 				<h2 class="animate font-semibold text-black dark:text-white">
 					Tinodaishe Tembo
 				</h2>
-				<h4 class="animate">digital craftsman</h4>
+				<h4 class="animate">{randomDevTitle}</h4>
 			</div>
 		</div>
 
