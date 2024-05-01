@@ -25,6 +25,10 @@ export const languages: tech[] = [
 		link: "",
 	},
 	{
+		name: "Rust",
+		link: "",
+	},
+	{
 		name: "GLSL",
 		link: "",
 	},
@@ -46,6 +50,10 @@ export const frameworks: tech[] = [
 	},
 	{
 		name: "Expo",
+		link: "",
+	},
+	{
+		name: "Tauri",
 		link: "",
 	},
 	{
