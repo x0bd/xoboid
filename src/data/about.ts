@@ -13,11 +13,7 @@ type tech = {
 // Programming Languages
 export const languages: tech[] = [
 	{
-		name: "HTML",
-		link: "",
-	},
-	{
-		name: "CSS",
+		name: "HTML/CSS",
 		link: "",
 	},
 	{
@@ -30,6 +26,10 @@ export const languages: tech[] = [
 	},
 	{
 		name: "Rust",
+		link: "",
+	},
+	{
+		name: "GLSL",
 		link: "",
 	},
 ];
@@ -63,10 +63,6 @@ export const frameworks: tech[] = [
 	{
 		name: "Expo",
 		link: "",
-	},
-	{
-		name: "Electron",
-		link: "Astro",
 	},
 	{
 		name: "Three.js",
@@ -202,17 +198,14 @@ export const tools: tool[] = [
 		link: "https://figma.com",
 	},
 	{
-		name: "hoppscotch",
-		description: "api testing platform",
-		link: "https://hoppscotch.org",
-	},
-	{
 		name: "rosé pine",
 		description:
-			"favorite color palette: all natural pine, faux fur and a bit of soho vibes for the classy minimalist",
+			"gorgeous color palette with a bit of soho vibes for the classy minimalist",
 		link: "https://rose-pine.org",
 	},
 ];
+
+//
 
 const signals = [
 	"Dreams are messages from the deep",

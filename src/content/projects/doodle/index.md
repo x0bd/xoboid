@@ -1,7 +1,7 @@
 ---
-title: "signals from the void"
-description: "my creative works and generative design experiments"
-date: "Oct 31 2023"
+title: "ddle"
+description: "a cross platform markdown note taking app"
+date: "Jan 28 2024"
 demoURL: "https://astro-sphere-demo.vercel.app"
 repoURL: "https://github.com/markhorn-dev/astro-sphere"
 ---
