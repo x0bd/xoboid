@@ -6,6 +6,7 @@ import ArrowCard from "@components/ArrowCard.astro";
 import Link from "@components/Link.astro";
 import { SITE, HOME, SOCIALS } from "@data/consts";
 import { Icon } from "astro-icon/components";
+import { randomDevTitle } from "@data/about";
 
 const blog = (await getCollection("blog"))
 	.filter((post) => !post.data.draft)
@@ -30,7 +31,7 @@ const projects = (await getCollection("projects"))
 				<h2 class="animate font-semibold text-black dark:text-white">
 					Tinodaishe Tembo
 				</h2>
-				<h4 class="animate">digital craftsman</h4>
+				<h4 class="animate">{randomDevTitle}</h4>
 			</div>
 		</div>
 
@@ -47,8 +48,8 @@ const projects = (await getCollection("projects"))
 						programmer and designer who enjoys experimenting with
 						code and pixels to weave <strong>magic</strong>. I enjoy <strong
 							>web development</strong
-						>, <strong>terminal tooling</strong>
-						and tinkering with <strong>low level</strong> computer concepts.
+						>, <strong>computer graphics</strong>
+						and crafting <strong>generative doodles</strong>.
 					</p>
 				</article>
 			</section>
