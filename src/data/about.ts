@@ -25,10 +25,6 @@ export const languages: tech[] = [
 		link: "",
 	},
 	{
-		name: "Rust",
-		link: "",
-	},
-	{
 		name: "GLSL",
 		link: "",
 	},
@@ -49,18 +45,6 @@ export const frameworks: tech[] = [
 		link: "https://astro.dev",
 	},
 	{
-		name: "Electron",
-		link: "",
-	},
-	{
-		name: "Tauri",
-		link: "",
-	},
-	{
-		name: "React Native",
-		link: "",
-	},
-	{
 		name: "Expo",
 		link: "",
 	},
@@ -73,14 +57,6 @@ export const frameworks: tech[] = [
 		link: "",
 	},
 	{
-		name: "Drei",
-		link: "",
-	},
-	{
-		name: "Jotai",
-		link: "",
-	},
-	{
 		name: "Zustand",
 		link: "",
 	},
@@ -90,10 +66,6 @@ export const frameworks: tech[] = [
 	},
 	{
 		name: "Framer Motion",
-		link: "",
-	},
-	{
-		name: "Radix UI",
 		link: "",
 	},
 	{
@@ -130,10 +102,6 @@ export const platforms: tech[] = [
 	},
 	{
 		name: "Node.js",
-		link: "",
-	},
-	{
-		name: "Pnpm",
 		link: "",
 	},
 	{
