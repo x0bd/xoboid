@@ -4,6 +4,152 @@ type tool = {
 	link: string;
 };
 
+// Work on this to include icons
+type tech = {
+	name: string;
+	link: string;
+};
+
+// Programming Languages
+export const languages: tech[] = [
+	{
+		name: "HTML",
+		link: "",
+	},
+	{
+		name: "CSS",
+		link: "",
+	},
+	{
+		name: "JavaScript",
+		link: "",
+	},
+	{
+		name: "TypeScript",
+		link: "",
+	},
+	{
+		name: "Rust",
+		link: "",
+	},
+];
+
+// Libraries & Frameworks
+export const frameworks: tech[] = [
+	{
+		name: "React",
+		link: "",
+	},
+	{
+		name: "Next.js",
+		link: "",
+	},
+	{
+		name: "Astro",
+		link: "https://astro.dev",
+	},
+	{
+		name: "Electron",
+		link: "",
+	},
+	{
+		name: "Tauri",
+		link: "",
+	},
+	{
+		name: "React Native",
+		link: "",
+	},
+	{
+		name: "Expo",
+		link: "",
+	},
+	{
+		name: "Electron",
+		link: "Astro",
+	},
+	{
+		name: "Three.js",
+		link: "",
+	},
+	{
+		name: "React Three Fiber",
+		link: "",
+	},
+	{
+		name: "Drei",
+		link: "",
+	},
+	{
+		name: "Jotai",
+		link: "",
+	},
+	{
+		name: "Zustand",
+		link: "",
+	},
+	{
+		name: "TailwindCSS",
+		link: "",
+	},
+	{
+		name: "Framer Motion",
+		link: "",
+	},
+	{
+		name: "Radix UI",
+		link: "",
+	},
+	{
+		name: "GSAP",
+		link: "",
+	},
+	{
+		name: "P5.js",
+		link: "",
+	},
+];
+
+// Tools & Platforms
+export const platforms: tech[] = [
+	{
+		name: "Vercel",
+		link: "vercel.com",
+	},
+	{
+		name: "Git/Github",
+		link: "",
+	},
+	{
+		name: "Supabase",
+		link: "",
+	},
+	{
+		name: "Vite/Vitest",
+		link: "",
+	},
+	{
+		name: "Bun",
+		link: "",
+	},
+	{
+		name: "Node.js",
+		link: "",
+	},
+	{
+		name: "Pnpm",
+		link: "",
+	},
+	{
+		name: "Prisma",
+		link: "",
+	},
+	{
+		name: "Webpack",
+		link: "",
+	},
+];
+
 export const tools: tool[] = [
 	{
 		name: "obsidian",
@@ -11,8 +157,8 @@ export const tools: tool[] = [
 		link: "https://obsidian.md/",
 	},
 	{
-		name: "vs code",
-		description: "favorite text editor",
+		name: "neovim",
+		description: "quickly becoming my favorite text editor",
 		link: "https://neovim.org/",
 	},
 	{
@@ -60,6 +206,12 @@ export const tools: tool[] = [
 		description: "api testing platform",
 		link: "https://hoppscotch.org",
 	},
+	{
+		name: "rosé pine",
+		description:
+			"favorite color palette: all natural pine, faux fur and a bit of soho vibes for the classy minimalist",
+		link: "https://rose-pine.org",
+	},
 ];
 
 const signals = [
@@ -68,15 +220,7 @@ const signals = [
 	"Stay hungry, Stay foolish",
 ];
 
-const devTitle = [
-	"design engineer",
-	"typescript enjoyer",
-	"javascript enthusiast",
-	"frontend developer",
-	"web engineer",
-	"designer • developer",
-	"digital craftsman",
-];
+const devTitle = ["design engineer", "frontend developer", "digital craftsman"];
 
 export const randomDevTitle = () => {
 	const seed = Math.floor(Math.random() * devTitle.length);

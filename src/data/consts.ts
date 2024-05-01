@@ -29,6 +29,11 @@ export const PROJECTS: Metadata = {
 	DESCRIPTION: "A collection of stuff i have built with a computer",
 };
 
+export const FUN: Metadata = {
+	TITLE: "fun",
+	DESCRIPTION: "A collection of creative work, experiments and art projects",
+};
+
 export const MUSIC: Metadata = {
 	TITLE: "music",
 	DESCRIPTION: "A collection of my favorite tracks and artists from spotify",

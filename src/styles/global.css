@@ -29,6 +29,12 @@ header {
 	@apply backdrop-blur-sm saturate-200;
 }
 
+.llm {
+}
+
+.ddl {
+}
+
 main {
 	@apply flex-1 py-32;
 }

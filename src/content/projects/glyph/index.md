@@ -1,6 +1,6 @@
 ---
-title: "elan"
-description: "a minimal backend framework built on top of bun"
+title: "glyph ui"
+description: "a modern frontend framework with ssr support"
 date: "May 18 2024"
 demoURL: "https://astro-nano-demo.vercel.app"
 repoURL: "https://github.com/markhorn-dev/astro-nano"
