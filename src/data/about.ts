@@ -177,11 +177,16 @@ const signals = [
 	"Dreams are messages from the deep",
 	"Signals from the void",
 	"Stay hungry, Stay foolish",
-	"oss/acc",
+	"e/acc",
 	"The Thermodynamic God",
 ];
 
-const devTitle = ["design engineer", "frontend developer", "digital craftsman"];
+const devTitle = [
+	"design engineer",
+	"frontend developer",
+	"digital craftsman",
+	"javascript enjoyer",
+];
 
 export const randomDevTitle = () => {
 	const seed = Math.floor(Math.random() * devTitle.length);

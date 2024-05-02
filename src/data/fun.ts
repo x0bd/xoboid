@@ -4,8 +4,7 @@ export type experiment = {
 	sourceLink: string;
 	description: string;
 	date: string;
-	category: "render" | "generative" | "design" | "ai";
-	stack: string[];
+	stack: string;
 	fileType: "img" | "vid";
 };
 
@@ -16,8 +15,7 @@ export const experiments: experiment[] = [
 		previewFile: "/fun/pleasure.gif",
 		description: "A recreation of the iconic Joy Division Album Art Cover",
 		date: "Jan 10 2024",
-		category: "generative",
-		stack: ["p5"],
+		stack: "p5.js",
 		fileType: "img",
 	},
 	{
@@ -26,29 +24,16 @@ export const experiments: experiment[] = [
 		previewFile: "/fun/Neuromancer.jpeg",
 		description: "My favorite from the sprawl trilogy",
 		date: "31 Oct 2021",
-		category: "render",
-		stack: ["blender"],
+		stack: "blender",
 		fileType: "img",
 	},
-	// {
-	// 	title: "Three Body Simulator",
-	// 	sourceLink: "",
-	// 	previewFile: "/3body.gif",
-	// 	description:
-	// 		"Recently finished reading the books and watching the show and wanted to visualize this fascinating physics problem",
-	// 	date: "26 Mar 2024",
-	// 	category: "generative",
-	// 	stack: ["p5"],
-	// 	fileType: "img",
-	// },
 	{
 		title: "Psylock",
 		sourceLink: "",
 		previewFile: "fun/psylock.jpg",
 		description: "My Childhood MILF crush",
 		date: "31 Oct 2023",
-		category: "render",
-		stack: ["blender", "marmoset toolbag"],
+		stack: "blender",
 		fileType: "img",
 	},
 	{
@@ -57,8 +42,17 @@ export const experiments: experiment[] = [
 		previewFile: "fun/morty.png",
 		description: "A Terminal Ascii Art Generator Written In Rust",
 		date: "01 May 2024",
-		category: "generative",
-		stack: ["rust"],
+		stack: "rust",
+		fileType: "img",
+	},
+	{
+		title: "3 Body Problem Simulator",
+		sourceLink: "",
+		previewFile: "/fun/3body.gif",
+		description:
+			"Recently finished reading the books and watching the show and wanted to visualize this fascinating physics problem",
+		date: "26 Mar 2024",
+		stack: "p5.js",
 		fileType: "img",
 	},
 	{
@@ -67,8 +61,7 @@ export const experiments: experiment[] = [
 		previewFile: "fun/wick.jpg",
 		description: "my other badass crush",
 		date: "27 Sep 2023",
-		category: "render",
-		stack: ["imax"],
+		stack: "photograph",
 		fileType: "img",
 	},
 ];
