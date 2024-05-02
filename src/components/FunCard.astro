@@ -1,0 +1,30 @@
+---
+import type { experiment } from "@data/fun";
+import Link from "./Link.astro";
+
+type Props = {
+	experiment: experiment;
+};
+
+const { experiment } = Astro.props;
+---
+
+<div
+	class="flex group flex-nowrap py-3 px-4 rounded-lg border border-black/15 dark:border-white/20 hover:bg-black/5 dark:hover:bg-white/5 hover:text-black dark:hover:text-white transition-colors duration-300 ease-in-out"
+>
+	<div class="flex flex-col gap-3 flex-1">
+		<h4 class="font-mono text-xs uppercase">{experiment.category}</h4>
+		<img
+			class="rounded-lg"
+			src={experiment.previewFile}
+			alt={experiment.title}
+		/>
+		<div class="font-semibold">
+			{experiment.title}
+		</div>
+		<div class="text-sm">
+			{experiment.description}
+		</div>
+		<Link href={experiment.sourceLink}>Source</Link>
+	</div>
+</div>

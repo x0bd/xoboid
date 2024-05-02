@@ -2,8 +2,9 @@
 import { getCollection } from "astro:content";
 import PageLayout from "@layouts/PageLayout.astro";
 import Container from "@components/Container.astro";
-import ArrowCard from "@components/ArrowCard.astro";
-import { FUN, PROJECTS } from "@data/consts";
+import FunCard from "@components/FunCard.astro";
+import { experiments } from "@data/fun";
+import { FUN } from "@data/consts";
 
 const projects = (await getCollection("projects"))
 	.filter((project) => !project.data.draft)
@@ -16,7 +17,13 @@ const projects = (await getCollection("projects"))
 			<div class="animate font-semibold text-black dark:text-white">
 				Creative Work
 			</div>
-			<ul class="animate flex flex-col gap-4">WIP</ul>
+			<ul class="animate flex flex-col gap-4">
+				{
+					experiments.map((experiment) => (
+						<FunCard experiment={experiment} />
+					))
+				}
+			</ul>
 		</div>
 	</Container>
 </PageLayout>

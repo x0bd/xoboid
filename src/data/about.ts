@@ -25,10 +25,6 @@ export const languages: tech[] = [
 		link: "",
 	},
 	{
-		name: "Rust",
-		link: "",
-	},
-	{
 		name: "GLSL",
 		link: "",
 	},
@@ -50,10 +46,6 @@ export const frameworks: tech[] = [
 	},
 	{
 		name: "Expo",
-		link: "",
-	},
-	{
-		name: "Tauri",
 		link: "",
 	},
 	{
@@ -166,7 +158,7 @@ export const tools: tool[] = [
 	{
 		name: "blender",
 		description: "3d creation suite",
-		link: "https://tableplus.org",
+		link: "https://blender.org",
 	},
 	{
 		name: "figma",
@@ -181,12 +173,12 @@ export const tools: tool[] = [
 	},
 ];
 
-//
-
 const signals = [
 	"Dreams are messages from the deep",
 	"Signals from the void",
 	"Stay hungry, Stay foolish",
+	"oss/acc",
+	"The Thermodynamic God",
 ];
 
 const devTitle = ["design engineer", "frontend developer", "digital craftsman"];
