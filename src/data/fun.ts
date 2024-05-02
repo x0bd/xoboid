@@ -1,7 +1,6 @@
 export type experiment = {
 	title: string;
 	previewFile: string;
-	liveLink?: string;
 	sourceLink: string;
 	description: string;
 	date: string;
@@ -19,6 +18,16 @@ export const experiments: experiment[] = [
 		date: "Jan 10 2024",
 		category: "generative",
 		stack: ["p5"],
+		fileType: "img",
+	},
+	{
+		title: "Neuromancer",
+		sourceLink: "",
+		previewFile: "/fun/Neuromancer.jpeg",
+		description: "My favorite from the sprawl trilogy",
+		date: "31 Oct 2021",
+		category: "render",
+		stack: ["blender"],
 		fileType: "img",
 	},
 	// {
@@ -50,6 +59,16 @@ export const experiments: experiment[] = [
 		date: "01 May 2024",
 		category: "generative",
 		stack: ["rust"],
+		fileType: "img",
+	},
+	{
+		title: "The Adjudicator",
+		sourceLink: "",
+		previewFile: "fun/wick.jpg",
+		description: "my other badass crush",
+		date: "27 Sep 2023",
+		category: "render",
+		stack: ["imax"],
 		fileType: "img",
 	},
 ];
