@@ -1,0 +1,25 @@
+---
+import { Icon } from "astro-icon/components";
+import { technologies } from "@data/consts";
+
+type Props = {
+	icon: string;
+};
+
+const { icon } = Astro.props;
+---
+
+<!-- Should Take Props as input --><!-- Sample usage from React
+
+     {
+          projects.techs.map((tech) => (
+               <Icon
+                    key={project.title}
+                    icon={technlogies[tech]}
+                    className="text-2xl"
+          ))
+     }
+
+
+-->
+<Icon name={technologies[icon]} class="text-2xl" />
