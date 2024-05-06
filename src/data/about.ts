@@ -182,15 +182,15 @@ export const tools: tool[] = [
 ];
 
 const signals = [
-	"Dreams are messages from the deep",
-	"Signals from the void",
-	"Stay hungry, Stay foolish",
-	"e/acc",
-	"The Thermodynamic God",
+	"dreams are messages from the deep",
+	"signals from the void",
+	"stay hungry, stay foolish",
+	"oss/acc",
+	"the thermodynamic god",
 ];
 
 const devTitle = [
-	"design engineer",
+	"designer • developer",
 	"frontend developer",
 	"digital craftsman",
 	"javascript enjoyer",
