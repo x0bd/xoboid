@@ -189,18 +189,6 @@ const signals = [
 	"the thermodynamic god",
 ];
 
-const devTitle = [
-	"designer • developer",
-	"frontend developer",
-	"digital craftsman",
-	"javascript enjoyer",
-];
-
-export const randomDevTitle = () => {
-	const seed = Math.floor(Math.random() * devTitle.length);
-	return devTitle[seed];
-};
-
 export const randomSignal = () => {
 	const seed = Math.floor(Math.random() * signals.length);
 	return signals[seed];
