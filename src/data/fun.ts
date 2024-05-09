@@ -19,14 +19,6 @@ export const experiments: experiment[] = [
 		fileType: "img",
 	},
 	{
-		title: "Psylock",
-		sourceLink: "",
-		previewFile: "fun/psylock.jpg",
-		description: "My Childhood MILF crush",
-		stack: "blender",
-		fileType: "img",
-	},
-	{
 		title: "Rascii",
 		sourceLink: "",
 		previewFile: "fun/morty.png",

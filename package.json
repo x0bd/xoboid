@@ -35,6 +35,7 @@
 		"zod": "^3.22.4"
 	},
 	"devDependencies": {
+		"@iconify-json/mdi": "^1.1.66",
 		"astro-icon": "^1.1.0"
 	}
 }
