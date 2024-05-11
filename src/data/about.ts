@@ -46,9 +46,9 @@ export const tools: tool[] = [
 		link: "https://todoist.com",
 	},
 	{
-		name: "blender",
-		description: "3d creation suite",
-		link: "https://blender.org",
+		name: "hoppscotch",
+		description: "api development ecosystem",
+		link: "https://hoppscotch.io",
 	},
 	{
 		name: "figma",
