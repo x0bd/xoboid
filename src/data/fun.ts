@@ -5,8 +5,6 @@ export type experiment = {
 	description: string;
 	stack: string;
 	fileType: "img" | "vid";
-	// Implement Sorting based on date of generation
-	// date: date
 };
 
 export const experiments: experiment[] = [

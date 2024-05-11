@@ -13,7 +13,7 @@ export const tools: tool[] = [
 	{
 		name: "neovim",
 		description: "quickly becoming my favorite text editor",
-		link: "https://neovim.org/",
+		link: "https://neovim.io/",
 	},
 	{
 		name: "terminal",
@@ -58,6 +58,6 @@ export const tools: tool[] = [
 	{
 		name: "vitesse",
 		description: "a modern take on the gruvbox theme",
-		link: "https://rose-pine.org",
+		link: "https://github.com/antfu/vscode-theme-vitesse",
 	},
 ];
