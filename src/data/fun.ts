@@ -10,7 +10,8 @@ export type experiment = {
 export const experiments: experiment[] = [
 	{
 		title: "Unknown Pleasures",
-		sourceLink: "",
+		sourceLink:
+			"https://github.com/x0bd/gen-art/tree/master/src/unknown-pleasures",
 		previewFile: "/fun/pleasure.gif",
 		description: "A recreation of the iconic Joy Division Album Art Cover",
 		stack: "p5.js",
@@ -18,7 +19,7 @@ export const experiments: experiment[] = [
 	},
 	{
 		title: "Rascii",
-		sourceLink: "",
+		sourceLink: "https://github.com/x0bd/rascii",
 		previewFile: "fun/morty.png",
 		description: "A Terminal Ascii Art Generator Written In Rust",
 		stack: "rust",
@@ -26,7 +27,7 @@ export const experiments: experiment[] = [
 	},
 	{
 		title: "3 Body Problem Simulator",
-		sourceLink: "",
+		sourceLink: "https://github.com/x0bd/gen-art/tree/master/src/3body",
 		previewFile: "/fun/3body.gif",
 		description:
 			"Recently finished reading the books and watching the show and wanted to visualize this fascinating physics problem",
