@@ -11,9 +11,9 @@ export const tools: tool[] = [
 		link: "https://obsidian.md/",
 	},
 	{
-		name: "neovim",
-		description: "quickly becoming my favorite text editor",
-		link: "https://neovim.io/",
+		name: "vs code",
+		description: "the perfect text editor",
+		link: "https://code.visualstudio.com/",
 	},
 	{
 		name: "terminal",
@@ -49,6 +49,11 @@ export const tools: tool[] = [
 		name: "hoppscotch",
 		description: "api development ecosystem",
 		link: "https://hoppscotch.io",
+	},
+	{
+		name: "blender",
+		description: "3d creation suite",
+		link: "https://blender.org",
 	},
 	{
 		name: "figma",
