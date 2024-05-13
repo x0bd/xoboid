@@ -61,8 +61,8 @@ export const tools: tool[] = [
 		link: "https://figma.com",
 	},
 	{
-		name: "vitesse",
-		description: "a modern take on the gruvbox theme",
-		link: "https://github.com/antfu/vscode-theme-vitesse",
+		name: "rosé pine",
+		description: "color theme with a bit of soho vibes.",
+		link: "https://rosepinetheme.com/",
 	},
 ];
