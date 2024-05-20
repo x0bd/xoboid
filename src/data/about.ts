@@ -37,13 +37,8 @@ export const tools: tool[] = [
 	},
 	{
 		name: "gemini",
-		description: "google replacement + personal assistant",
+		description: "my personal assistant",
 		link: "https://gemini.google.com",
-	},
-	{
-		name: "todoist",
-		description: "task management",
-		link: "https://todoist.com",
 	},
 	{
 		name: "hoppscotch",
