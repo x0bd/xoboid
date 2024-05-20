@@ -41,6 +41,11 @@ export const tools: tool[] = [
 		link: "https://gemini.google.com",
 	},
 	{
+		name: "todoist",
+		description: "task management",
+		link: "https://todoist.com",
+	},
+	{
 		name: "hoppscotch",
 		description: "api development ecosystem",
 		link: "https://hoppscotch.io",
