@@ -50,6 +50,4 @@ This framework will explore various functionalities that make frontend framework
 -   Slots
 -   Browser extension for component inspection
 
-This project is heavily inspired by a fantastic [book](https://www.manning.com/books/build-a-frontend-web-framework-from-scratch). Feel free to check it out, if you're interested in following along!
-
-Happy coding!
+Thanks for reading and happy coding!
