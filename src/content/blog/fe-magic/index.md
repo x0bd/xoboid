@@ -1,7 +1,7 @@
 ---
 title: "Introducing Glyph"
 description: "Demystifying Frontend Frameworks by Building My Own"
-date: "May 26 2024"
+date: "May 27 2024"
 # draft: true
 ---
 
@@ -49,5 +49,13 @@ This framework will explore various functionalities that make frontend framework
 -   Server-Side Rendering
 -   Slots
 -   Browser extension for component inspection
+
+<!-- Implement Here -->
+
+Now that we have the virtual DOM, mounting, and state management working together, Glyph is a functional bare-bones framework! This allows us to build basic web applications. As a demonstration, check out the classic todo app built with Glyph in the video,
+
+![todo app](./todo.gif)
+
+Here's the [source code](https://github.com/x0bd/glyph-ui).
 
 Thanks for reading and happy coding!
