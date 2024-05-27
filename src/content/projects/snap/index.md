@@ -8,7 +8,7 @@ repoURL: "https://github.com/x0bd/snap.xo"
 
 ![snap.xo](./snap.jpeg)
 
-Snap.xo beautifully crafted app to create and share snaps of your code. It is inspired by [raycast's](https://raycast.com) ray.so app.
+Snap.xo is a beautifully crafted app to create and share snaps of your code. It is inspired by [raycast's](https://raycast.com) ray.so app.
 
 ##### Tech Stack
 
