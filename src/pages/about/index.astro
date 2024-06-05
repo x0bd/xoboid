@@ -1,0 +1,77 @@
+---
+import PageLayout from "@layouts/PageLayout.astro";
+import Container from "@components/Container.astro";
+import { ABOUT } from "@data/consts";
+import { tools } from "@data/about";
+import Link from "@components/Link.astro";
+---
+
+<PageLayout title={ABOUT.TITLE} description={ABOUT.DESCRIPTION}>
+	<Container>
+		<div class="space-y-16 mt-7">
+			<section>
+				<article class="space-y-4">
+					<h4
+						class="animate text-sm font-light dark:text-zinc-600 text-zinc-400"
+					>
+						IPA /zˈɑːbɔ͡ɪd/ - has to do with robots i think, i made
+						it up
+					</h4>
+					<p class="animate">
+						From the symphony of code to the artistry of pixels, I'm
+						a passionate programmer and designer who thrives on
+						translating the intangible into reality. Whether its
+						creating intricate applications or manipulating pixels
+						to create captivating visuals, I find joy in the process
+						of creation.
+					</p>
+					<p class="animate">
+						A dedicated TypeScript enthusiast, I wield its power to
+						build diverse projects ranging from user-friendly
+						websites and apps to immersive webgl experiences and
+						even on the server. My drive for excellence stems from a
+						deep appreciation for aesthetics, accessibility and
+						performance. This translates into meticulously crafted
+						experiences that users can not only enjoy but also
+						navigate with ease.
+					</p>
+					<p class="animate">
+						When I step away from my computer, I find solace in
+						studying Japanese and devouring science fiction classics
+						like Neuromancer, Three Body Problem, and Dune.
+					</p>
+				</article>
+			</section>
+			<section>
+				<article class="animate space-y-4">
+					<h4
+						class="animate font-semibold text-black dark:text-white"
+					>
+						Stack
+					</h4>
+					<p>
+						My personal list of tools I use (and a massive fan of):
+					</p>
+					<ul>
+						{
+							tools.map((tool) => (
+								<li class="no-underline">
+									<Link href={tool.link} external underline>
+										{tool.name}
+									</Link>
+									- {tool.description}
+								</li>
+							))
+						}
+					</ul>
+				</article>
+			</section>
+
+			<article class="animate space-y-4">
+				<h4 class="animate font-semibold text-black dark:text-white">
+					ありがとう
+				</h4>
+			</article>
+		</div>
+	</Container>
+</PageLayout>
