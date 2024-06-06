@@ -12,7 +12,7 @@ export const tools: tool[] = [
 	},
 	{
 		name: "vs code",
-		description: "the perfect text editor",
+		description: "the perfect text editor paired with vim motions",
 		link: "https://code.visualstudio.com/",
 	},
 	{
