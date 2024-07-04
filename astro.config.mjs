@@ -18,8 +18,4 @@ export default defineConfig({
 	server: {
 		port: 8600,
 	},
-	prefetch: {
-		prefetchAll: true,
-		defaultStrategy: "viewport",
-	},
 });
