@@ -13,7 +13,7 @@ export default defineConfig({
 	},
 	site: "https://xoboid.vercel.app",
 	integrations: [mdx(), sitemap(), tailwind(), icon()],
-	output: "hybrid",
+	output: "server",
 	adapter: vercel(),
 	server: {
 		port: 8600,
