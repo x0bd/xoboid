@@ -6,10 +6,6 @@ demoURL: "https://github.com/x0bd/glyph-ui"
 repoURL: "https://github.com/x0bd/glyph-ui"
 ---
 
-![a todo app built with glyph](./todo.gif)
-
-_A todo app built with glyph_
-
 Glyph is a modern JavaScript frontend framework that is heavily inspired by React, Svelte and Vue. I am building the framework to better understand how these engineering marvels work under the hood.
 
 ##### Tech Stack
@@ -19,4 +15,20 @@ Glyph is a modern JavaScript frontend framework that is heavily inspired by Reac
 -   NPM
 -   Vitest
 
-If you want to learn more about the project, please check this [blog post](/blog/fe-magic).
+## Example Apps built with framework
+
+### Todo App
+
+![a todo app built with glyph](./todo.gif)
+
+### Tic Tac Toe
+
+![a tic-tac-toe game built with glyph](./tic-tac-toe.gif)
+
+### Counter
+
+![a counter app built with glyph](./counter.gif)
+
+_counter app_
+
+If you want to learn more about the project, please check my [blog](/blog).

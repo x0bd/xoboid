@@ -39,7 +39,7 @@ export const SOCIALS: Socials = [
 		HREF: "https://github.com/x0bd",
 	},
 	{
-		NAME: "resume",
-		HREF: "/resume.pdf",
+		NAME: "linkedIn",
+		HREF: "https://www.linkedin.com/in/tinodaishe-tembo-70aa3a266",
 	},
 ];
