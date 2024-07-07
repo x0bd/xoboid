@@ -6,7 +6,7 @@ date: "jul 07 2024"
 
 Glyph, the new lightweight frontend framework I'm building to learn how UI frameworks work (and yes, it aims to be performant! better than React, btw), is built with simplicity and performance in mind. In this post, I will dive into the core concepts illustrated through a fun game of Tic-Tac-Toe built with Glyph and JavaScript
 
-It's still a bare bones framework, missing a lot of fundamental features, but turns out you only need virtual DOM manipulation and state management to build a _frontend framework_.
+It's still a bare bones framework, missing a lot of fundamental features, but turns out you only need a renderer and state management to build a _frontend framework_.
 
 Before we get into the technical bits here's the game:
 
