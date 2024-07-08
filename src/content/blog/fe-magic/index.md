@@ -56,6 +56,6 @@ Now that we have the virtual DOM, mounting, and state management working togethe
 
 ![todo app](./todo.gif)
 
-Here's the [source code](https://github.com/x0bd/glyph-ui).
+Here's the [source code](https://github.com/x0bd/glyph-ui) and the awesome [book](https://www.manning.com/books/build-a-frontend-web-framework-from-scratch) I'm reading.
 
 Thanks for reading and happy coding!
