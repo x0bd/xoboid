@@ -1,7 +1,7 @@
 ---
 title: "glyph"
 description: "a modern frontend framework"
-date: "May 26 2024"
+date: "Jul 07 2024"
 demoURL: "https://github.com/x0bd/glyph-ui"
 repoURL: "https://github.com/x0bd/glyph-ui"
 ---

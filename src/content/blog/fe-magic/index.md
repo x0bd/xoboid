@@ -5,7 +5,7 @@ date: "May 27 2024"
 # draft: true
 ---
 
-"Ever heard someone say 'Frontend Frameworks Are Magic!' hanging out on Discord or reading threads on X? Well, I used to think so too!"
+"Ever heard someone say 'Frontend Frameworks Are Magic!' hanging out on Discord or doom scrolling on tech Twitter/X? Well, I used to think so too!"
 
 When I first started building user interfaces (UIs), mostly in game engines like Unity and Godot, it was a fairly straightforward process. It involved dragging and dropping components within the engine and writing code specific to those elements.
 
@@ -56,6 +56,6 @@ Now that we have the virtual DOM, mounting, and state management working togethe
 
 ![todo app](./todo.gif)
 
-Here's the [source code](https://github.com/x0bd/glyph-ui) and the awesome [book](https://www.manning.com/books/build-a-frontend-web-framework-from-scratch) I'm reading.
+Here's the [source code](https://github.com/x0bd/glyph-ui).
 
 Thanks for reading and happy coding!

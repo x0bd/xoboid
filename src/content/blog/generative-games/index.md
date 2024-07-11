@@ -4,9 +4,11 @@ description: "Generative Agents in Narrative Design"
 date: "aug 18 2023"
 ---
 
+<!-- TODO: Add an image of Cassandra and Dot (Craft a prompt inspired by the conscious weapon of Transistor.) -->
+
 Large Language Models (LLMs) have evolved beyond the limitations of basic conversational AI. Research like the April 2023 paper ["Generative agents: A Simulacra of Human Behaviour](https://dl.acm.org/doi/pdf/10.1145/3586183.3606763)" pushes boundaries, describing game worlds populated by AI entities that learn and interact like humans. Here, the story unfolds not through scripts, but through the characters' evolving personalities and experiences.
 
-This paves the way for a game I dream of creating: a narrative roguelike set in a war-torn 25th-century metaverse. Inspired by Hades and Hyper Light Drifter, you play as Cassandra and Dot, unknowingly cloned fragments of the same person. Thrust into this conflict, they fight for survival, oblivious to their connection.
+This paves the way for a game I dream of creating: a narrative roguelike set in a war-torn 25th-century metaverse. Inspired by Hades, Transistor and Hyper Light Drifter, you play as Cassandra and Dot, unknowingly cloned fragments of the same person. Thrust into this conflict, they fight for survival, oblivious to their connection.
 
 The twist? Their journeys differ in a crucial way. Cassandra, fueled by a relentless drive, retains memories from each run. Each victory bolsters her confidence, her dialogue reflecting a seasoned warrior. Conversely, Dot, burdened by a strange amnesia, forgets the previous encounters. Each playthrough feels entirely new for her, leaving her confused and vulnerable. The LLM, trained on vast amounts of relevant text data, tailors their dialogue accordingly.
 
