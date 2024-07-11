@@ -1,12 +1,13 @@
 ---
 title: "coinNeko"
 description: "a personal finance tracker managed by cats"
-date: "Jan 28 2024"
-demoURL: "https://astro-sphere-demo.vercel.app"
-repoURL: "https://github.com/markhorn-dev/astro-sphere"
+date: "Jul 13 2024"
+demoURL: "https://github.com/x0bd/coinneko"
+repoURL: "https://github.com/x0bd/coinneko"
+draft: true
 ---
 
-## Cutting edge tech stack
+## Tech Stack
 
 -   Next.js 14
 -   Shadcn/UI
