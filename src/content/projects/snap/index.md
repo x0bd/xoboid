@@ -6,9 +6,15 @@ demoURL: "https://snap-xo.vercel.app/"
 repoURL: "https://github.com/x0bd/snap.xo"
 ---
 
+Snap.xo is a beautifully crafted app to create and share snaps of your code. It is inspired by [raycast's](https://raycast.com) ray.so app.
+
+#### Screenshots
+
 ![snap.xo](./snap.jpeg)
 
-Snap.xo is a beautifully crafted app to create and share snaps of your code. It is inspired by [raycast's](https://raycast.com) ray.so app.
+_\*you can specify your own color schemes and backgrounds_
+
+![snap.xo](./snap2.jpeg)
 
 ##### Tech Stack
 

@@ -1,15 +1,19 @@
 ---
 title: "yume(夢)"
 description: "a minimal oss focused job board"
-date: "Jan 28 2024"
+date: "Jun 28 2024"
 demoURL: "https://astro-sphere-demo.vercel.app"
 repoURL: "https://github.com/markhorn-dev/astro-sphere"
 draft: true
 ---
 
-## an oss focused job board
+A minimal OSS focused job board that is inpsired by the now defunct **fossfox** job board.
 
-### Tech Stack
+Still in a WIP state.
+
+#### Screenshots
+
+#### Tech Stack
 
 -   Next.js
 -   TailwindCSS
