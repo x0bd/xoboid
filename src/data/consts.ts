@@ -43,7 +43,7 @@ export const SOCIALS: Socials = [
 	// 	HREF: "https://www.linkedin.com/in/tinodaishe-tembo-70aa3a266",
 	// },
 	{
-		NAME: "codepen",
-		HREF: "https://codepen.io/xoboid",
+		NAME: "codesandbox",
+		HREF: "https://codesandbox.io/u/x0bd",
 	},
 ];
