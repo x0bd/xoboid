@@ -16,3 +16,5 @@ repoURL: "https://github.com/x0bd/xoboid"
 -   Geist Mono (typeface)
 -   Supabase
 -   Spotify API
+
+# Summary
