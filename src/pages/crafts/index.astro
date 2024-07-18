@@ -1,0 +1,98 @@
+---
+export const prerender = false;
+
+import PageLayout from "@layouts/PageLayout.astro";
+import Container from "@components/Container.astro";
+import { PROJECTS } from "@data/consts";
+import Link from "@components/Link.astro";
+---
+
+<PageLayout title={PROJECTS.TITLE} description={PROJECTS.DESCRIPTION}>
+	<Container>
+		<div class="space-y-10">
+			<h1
+				class="animate font-semibold text-2xl text-black dark:text-white"
+			>
+				*Everything I've ever built
+			</h1>
+			<section class="animate space-y-16 mt-10">
+				<article class="flex flex-col gap-4">
+					<h5
+						class="animate font-bold text-xs text-black dark:text-white"
+					>
+						18 Jun, 2024
+					</h5>
+					<img
+						src="/code.jpeg"
+						alt="code"
+						class="w-full h-full rounded object-cover"
+					/>
+					<h5
+						class="animate font-semibold text-2xl text-black dark:text-white"
+					>
+						snap.xo
+					</h5>
+					<span class="">
+						Snap.xo is a beautifully crafted app to create and share
+						snaps of your code. It is inspired by raycast’s ray.so
+						app.
+					</span>
+					<Link href="/blog"> Github </Link>
+				</article>
+				<hr class="h-0.5 border-t-0 bg-black/10 dark:bg-zinc-600" />
+				<article class="flex flex-col gap-4">
+					<h5
+						class="animate font-bold text-xs text-black dark:text-white"
+					>
+						7 May, 2024
+					</h5>
+
+					<img
+						src="/yas.jpeg"
+						alt="code"
+						class="w-full h-full rounded object-cover"
+					/>
+					<h5
+						class="animate font-semibold text-2xl text-black dark:text-white"
+					>
+						Glyph
+					</h5>
+					<span class="">
+						Glyph is a modern JavaScript frontend framework that is
+						heavily inspired by React, Svelte and Vue. I am building
+						the framework to better understand how these engineering
+						marvels work under the hood.
+					</span>
+					<Link href="/blog"> Github </Link>
+				</article>
+				<hr class="h-0.5 border-t-0 bg-black/10 dark:bg-zinc-600" />
+				<article class="flex flex-col gap-4">
+					<h5
+						class="animate font-bold text-xs text-black dark:text-white"
+					>
+						7 May, 2024
+					</h5>
+
+					<img
+						src="/cyber.jpeg"
+						alt="code"
+						class="w-full h-full rounded object-cover"
+					/>
+					<h5
+						class="animate font-semibold text-2xl text-black dark:text-white"
+					>
+						Glyph
+					</h5>
+					<span class="">
+						Glyph is a modern JavaScript frontend framework that is
+						heavily inspired by React, Svelte and Vue. I am building
+						the framework to better understand how these engineering
+						marvels work under the hood.
+					</span>
+					<Link href="/blog"> Github </Link>
+				</article>
+				<hr class="h-0.5 border-t-0 bg-black/10 dark:bg-zinc-600" />
+			</section>
+		</div>
+	</Container>
+</PageLayout>
