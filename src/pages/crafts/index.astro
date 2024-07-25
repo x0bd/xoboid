@@ -5,11 +5,13 @@ import PageLayout from "@layouts/PageLayout.astro";
 import Container from "@components/Container.astro";
 import { PROJECTS } from "@data/consts";
 import Link from "@components/Link.astro";
+import HomeButton from "@components/HomeButton.astro";
 ---
 
 <PageLayout title={PROJECTS.TITLE} description={PROJECTS.DESCRIPTION}>
 	<Container>
 		<div class="space-y-10">
+			<HomeButton />
 			<h1
 				class="animate font-semibold text-2xl text-black dark:text-white"
 			>

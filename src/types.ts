@@ -19,3 +19,5 @@ export type Socials = {
 export type techs = {
 	[key: string]: string;
 };
+
+export type Directory = { link: string; title: string; description: string };

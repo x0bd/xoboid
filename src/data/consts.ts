@@ -38,10 +38,6 @@ export const SOCIALS: Socials = [
 		NAME: "github",
 		HREF: "https://github.com/x0bd",
 	},
-	// {
-	// 	NAME: "linkedIn",
-	// 	HREF: "https://www.linkedin.com/in/tinodaishe-tembo-70aa3a266",
-	// },
 	{
 		NAME: "codesandbox",
 		HREF: "https://codesandbox.io/u/x0bd",

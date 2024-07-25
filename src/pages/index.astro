@@ -1,19 +1,17 @@
 ---
-import { getCollection } from "astro:content";
 import Container from "@components/Container.astro";
 import PageLayout from "@layouts/PageLayout.astro";
 import Link from "@components/Link.astro";
 import { SITE, HOME, SOCIALS } from "@data/consts";
 import DirectoryCard from "@components/DirectoryCard.astro";
-
-const projects = (await getCollection("projects"))
-	.filter((project) => !project.data.draft)
-	.sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf());
+import { HomeDirectories } from "@data/directories";
+import DefaultHome from "@components/DefaultHome.astro";
 ---
 
 <PageLayout title={HOME.TITLE} description={HOME.DESCRIPTION}>
 	<Container>
 		<div class="space-y-10">
+			<DefaultHome />
 			<section>
 				<article class="space-y-4 animate">
 					<h5
@@ -35,13 +33,6 @@ const projects = (await getCollection("projects"))
 							>generative design</strong
 						>.
 					</p>
-					<p class="animate">
-						When I step away from my <strong>computer</strong>, I
-						find solace in learning <strong>日本語</strong> and immersing
-						myself in science fiction, with <strong
-							>Neuromancer</strong
-						> and Dune holding a special place in my heart.
-					</p>
 				</article>
 			</section>
 
@@ -49,11 +40,16 @@ const projects = (await getCollection("projects"))
 				<h5 class="font-semibold animate text-black dark:text-white">
 					Directory
 				</h5>
+
 				<ul class="animate flex flex-col gap-4">
 					{
-						projects.map((project) => (
+						HomeDirectories.map((dir) => (
 							<li>
-								<DirectoryCard entry={project} />
+								<DirectoryCard
+									link={dir.link}
+									description={dir.description}
+									title={dir.title}
+								/>
 							</li>
 						))
 					}
@@ -65,7 +61,7 @@ const projects = (await getCollection("projects"))
 					Let's Connect
 				</h5>
 
-				<ul class="flex flex-col gap-2">
+				<ul class="flex flex-wrap gap-2">
 					{
 						SOCIALS.map((SOCIAL) => (
 							<li class="flex gap-x-2 text-nowrap">
@@ -76,6 +72,7 @@ const projects = (await getCollection("projects"))
 								>
 									{SOCIAL.NAME}
 								</Link>
+								{"•"}
 							</li>
 						))
 					}
