@@ -11,7 +11,7 @@ repoURL: "https://github.com/x0bd/xoboid"
 ### Tech Stack
 
 -   Astro
--   TypeScript
+-   TypeScript 
 -   TailwindCSS
 -   Geist Mono (typeface)
 -   Supabase

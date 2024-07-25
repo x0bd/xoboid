@@ -2,28 +2,22 @@
 import { getCollection } from "astro:content";
 import Container from "@components/Container.astro";
 import PageLayout from "@layouts/PageLayout.astro";
-import ArrowCard from "@components/ArrowCard.astro";
 import Link from "@components/Link.astro";
 import { SITE, HOME, SOCIALS } from "@data/consts";
-
-const blog = (await getCollection("blog"))
-	.filter((post) => !post.data.draft)
-	.sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf())
-	.slice(0, SITE.NUM_POSTS_ON_HOMEPAGE);
+import DirectoryCard from "@components/DirectoryCard.astro";
 
 const projects = (await getCollection("projects"))
 	.filter((project) => !project.data.draft)
-	.sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf())
-	.slice(0, SITE.NUM_PROJECTS_ON_HOMEPAGE);
+	.sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf());
 ---
 
 <PageLayout title={HOME.TITLE} description={HOME.DESCRIPTION}>
 	<Container>
-		<div class="flex justify-start items-center gap-5">
+		<a href="/" class="flex justify-start items-center gap-5">
 			<img
 				src="/xoboid.jpg"
 				alt="xoboid"
-				class="h-20 w-20 rounded-full animate"
+				class="h-14 w-14 rounded-full animate"
 			/>
 			<div class="flex flex-col">
 				<h2
@@ -33,41 +27,51 @@ const projects = (await getCollection("projects"))
 				</h2>
 				<h2 class="animate">design engineer</h2>
 			</div>
-		</div>
+		</a>
 
 		<div class="space-y-16 mt-10">
 			<section>
 				<article class="space-y-4 animate">
 					<h5
-						class="animate font-semibold text-black dark:text-white"
+						class="font-semibold animate text-black dark:text-white"
 					>
 						Profile
 					</h5>
 					<p class="animate">
-						Hello! there, I'm Tino. I'm a <strong>programmer</strong
-						> and <strong>designer</strong> who enjoys experimenting
-						with <strong>code</strong> and <strong>pixels</strong> to
-						weave <strong>magic</strong>. With a <strong
-							>pixel-perfect</strong
-						> obsession and deep love for <strong
-							>good design</strong
-						>, I utilize my proficiency in TypeScript and Rust to <strong
-							>craft</strong
-						> whatever I want: web, computer graphics and <strong
-							>misc</strong
-						>.
+						Intamately curious person. Passionate about the
+						entanglement between humans and technology, and the ways
+						we interact with the world.
 					</p>
-					<p class="animate">
+					<p>
+						Currently experimenting with code and pixels to weave
+						magic.
+					</p>
+					<!-- <p class="animate">
 						When I step away from my <strong>computer</strong>, I
 						find solace in learning <strong>日本語</strong> and immersing
 						myself in science fiction, with <strong
 							>Neuromancer</strong
 						> and Dune holding a special place in my heart.
-					</p>
+					</p> -->
 				</article>
 			</section>
 
-			<section class="animate space-y-6">
+			<section class="animate space-y-4">
+				<h5 class="font-semibold animate text-black dark:text-white">
+					Directory
+				</h5>
+				<ul class="animate flex flex-col gap-4">
+					{
+						projects.map((project) => (
+							<li>
+								<DirectoryCard entry={project} />
+							</li>
+						))
+					}
+				</ul>
+			</section>
+
+			<!-- <section class="animate space-y-6">
 				<div
 					class="flex flex-wrap gap-y-2 items-center justify-between"
 				>
@@ -104,19 +108,13 @@ const projects = (await getCollection("projects"))
 						))
 					}
 				</ul>
-			</section>
+			</section> -->
 			<section class="animate space-y-4">
 				<h5 class="font-semibold animate text-black dark:text-white">
 					Let's Connect
 				</h5>
-				<article>
-					<p>
-						If you want to get in touch with me about something or
-						just to say hi, reach out on social media or send me an
-						email.
-					</p>
-				</article>
-				<ul class="flex flex-wrap gap-2">
+
+				<ul class="flex flex-col gap-2">
 					{
 						SOCIALS.map((SOCIAL) => (
 							<li class="flex gap-x-2 text-nowrap">
@@ -127,7 +125,6 @@ const projects = (await getCollection("projects"))
 								>
 									{SOCIAL.NAME}
 								</Link>
-								{"/"}
 							</li>
 						))
 					}
