@@ -8,7 +8,7 @@ export const HomeDirectories: Directory[] = [
 	},
 	{
 		title: "Notes",
-		description: "Notes on stuff you can do on/with a computer",
+		description: "Notes on stuff you can do with a computer",
 		link: "/blog",
 	},
 	{
@@ -26,7 +26,7 @@ export const HomeDirectories: Directory[] = [
 export const StashDirectories: Directory[] = [
 	{
 		title: "BookShelf",
-		description: "Personal Collection of Literature",
+		description: "Personal collection of literature",
 		link: "/res/books",
 	},
 	{
@@ -36,7 +36,7 @@ export const StashDirectories: Directory[] = [
 	},
 	{
 		title: "Music",
-		description: "My Current Favorite Artists and Tracks",
+		description: "My current favorite artists and tracks",
 		link: "/res/music",
 	},
 	{

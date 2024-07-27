@@ -1,6 +1,6 @@
 ---
 title: "snap.xo"
-description: "create and share beautiful snaps of your code."
+description: "create and share beautiful code snippets"
 date: "Apr 30 2024"
 demoURL: "https://snap-xo.vercel.app/"
 repoURL: "https://github.com/x0bd/snap.xo"

@@ -6,15 +6,13 @@ demoURL: "/"
 repoURL: "https://github.com/x0bd/xoboid"
 ---
 
-## my personal site and blog you are on right now
+### This Site!
 
-### Tech Stack
+#### Tech Stack
 
 -   Astro
--   TypeScript 
+-   TypeScript
 -   TailwindCSS
 -   Geist Mono (typeface)
 -   Supabase
 -   Spotify API
-
-# Summary
