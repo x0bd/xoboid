@@ -27,7 +27,7 @@ export const experiments: Experiment[] = [
 	{
 		date: "19 Feb 2023",
 		title: "Kanagawa Rose-Pine",
-		tech: "Framer Motion",
+		tech: "Canvas",
 		type: "image",
 		banner: "./kanagawa-rose-pine.png",
 		link: "./",
