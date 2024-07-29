@@ -26,10 +26,10 @@ export const experiments: Experiment[] = [
 	},
 	{
 		date: "19 Feb 2023",
-		title: "Kanagawa Rose-Pine",
-		tech: "Canvas",
+		title: "Love Death + Robots",
+		tech: "Unreal Engine 5",
 		type: "image",
-		banner: "./kanagawa-rose-pine.png",
+		banner: "./pxfuel.jpg",
 		link: "./",
 	},
 ];

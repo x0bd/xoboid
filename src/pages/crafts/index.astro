@@ -23,23 +23,23 @@ import { experiments } from "@data/crafts";
 								href={experiment.link}
 								class="flex flex-col animate no-underline hover:brightness-90"
 							>
-								<div class="flex items-center justify-between">
-									<h5 class="font-semibold text-base text-black dark:text-white">
-										{experiment.title}
-									</h5>
-									<span class="border border-zinc-800 dark:border-white rounded-full uppercase text-xs px-2 py-1 font-bold">
-										{experiment.tech}
-									</span>
-								</div>
+								<h5 class="font-bold text-xs text-black dark:text-white">
+									{experiment.date}
+								</h5>
 								<img
 									src={experiment.banner}
 									class="w-full h-full mt-2 mb-4 rounded-lg object-cover"
 									alt={experiment.title}
 								/>
 
-								<h5 class="font-bold text-xs text-black dark:text-white">
-									{experiment.date}
-								</h5>
+								<div class="flex items-center justify-between">
+									<h5 class="font-semibold text-xl text-black dark:text-white">
+										{experiment.title}
+									</h5>
+									<span class="border border-zinc-800 dark:border-white rounded-full uppercase text-xs py-1 px-2 font-bold">
+										{experiment.tech}
+									</span>
+								</div>
 							</a>
 						</article>
 					))
