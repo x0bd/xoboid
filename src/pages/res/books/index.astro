@@ -1,0 +1,21 @@
+---
+import PageLayout from "@layouts/PageLayout.astro";
+import { StashDirectories } from "@data/directories";
+import Container from "@components/Container.astro";
+import HomeButton from "@components/HomeButton.astro";
+
+const bookshelfData = StashDirectories[0];
+---
+
+<PageLayout title={bookshelfData.title} description={bookshelfData.description}>
+	<Container>
+		<div class="space-y-10">
+			<HomeButton />
+			<h1
+				class="animate font-semibold text-xl text-black dark:text-white"
+			>
+				Bookshelf
+			</h1>
+		</div>
+	</Container>
+</PageLayout>

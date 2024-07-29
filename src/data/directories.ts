@@ -25,7 +25,7 @@ export const HomeDirectories: Directory[] = [
 
 export const StashDirectories: Directory[] = [
 	{
-		title: "BookShelf",
+		title: "Bookshelf",
 		description: "Personal collection of literature",
 		link: "/res/books",
 	},

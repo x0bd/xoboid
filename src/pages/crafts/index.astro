@@ -1,19 +1,22 @@
 ---
 import PageLayout from "@layouts/PageLayout.astro";
 import Container from "@components/Container.astro";
-import { PROJECTS } from "@data/consts";
 import HomeButton from "@components/HomeButton.astro";
 import { experiments } from "@data/crafts";
+
+import { HomeDirectories } from "@data/directories";
+
+const craftsData = HomeDirectories[2];
 ---
 
-<PageLayout title={PROJECTS.TITLE} description={PROJECTS.DESCRIPTION}>
+<PageLayout title={craftsData.title} description={craftsData.description}>
 	<Container>
 		<div class="space-y-10">
 			<HomeButton />
 			<h1
-				class="animate font-semibold text-2xl text-black dark:text-white"
+				class="animate font-semibold text-xl text-black dark:text-white"
 			>
-				Code + Pixel Experiments
+				Crafts
 			</h1>
 			<section class="animate space-y-20 mt-10 mb-20">
 				{
@@ -23,23 +26,24 @@ import { experiments } from "@data/crafts";
 								href={experiment.link}
 								class="flex flex-col animate no-underline hover:brightness-90"
 							>
-								<h5 class="font-bold text-xs text-black dark:text-white">
-									{experiment.date}
-								</h5>
-								<img
-									src={experiment.banner}
-									class="w-full h-full mt-2 mb-4 rounded-lg object-cover"
-									alt={experiment.title}
-								/>
-
 								<div class="flex items-center justify-between">
-									<h5 class="font-semibold text-xl text-black dark:text-white">
-										{experiment.title}
+									<h5 class="font-bold text-xs text-black dark:text-white">
+										{experiment.date}
 									</h5>
-									<span class="border border-zinc-800 dark:border-white rounded-full uppercase text-xs py-1 px-2 font-bold">
+									<span class="border border-zinc-800 dark:border-white rounded-xl uppercase text-xs px-2 py-1 font-bold">
 										{experiment.tech}
 									</span>
 								</div>
+
+								<img
+									src={experiment.banner}
+									class="w-full h-full mt-2 mb-3 rounded-lg object-cover"
+									alt={experiment.title}
+								/>
+
+								<h5 class="font-semibold text-xl text-black dark:text-white">
+									{experiment.title}
+								</h5>
 							</a>
 						</article>
 					))

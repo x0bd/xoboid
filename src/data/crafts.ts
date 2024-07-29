@@ -27,9 +27,17 @@ export const experiments: Experiment[] = [
 	{
 		date: "19 Feb 2023",
 		title: "Love Death + Robots",
-		tech: "Unreal Engine 5",
+		tech: "Blender",
 		type: "image",
 		banner: "./pxfuel.jpg",
+		link: "./",
+	},
+	{
+		date: "06 Jan 2023",
+		title: "Rascii",
+		tech: "rust",
+		type: "image",
+		banner: "./rick.png",
 		link: "./",
 	},
 ];
