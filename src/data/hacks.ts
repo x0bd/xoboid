@@ -66,7 +66,8 @@ export const Hacks: Hack[] = [
 	{
 		title: "Unknown Pleasures",
 		href: "/",
-		description: "P5.js Creation of the iconic Joy Division Album Cover",
+		description:
+			"A generative sketch of the iconic Joy Division album cover",
 		date: "21 Jan 2024",
 		stack: ["P5.js", "JavaScript"],
 		links: [
