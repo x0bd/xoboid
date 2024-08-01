@@ -1,0 +1,33 @@
+---
+import type { Hack } from "@data/hacks";
+import { Image } from "astro:assets";
+
+type Props = Hack;
+
+const { title, href, description, date, stack, links, image, video } =
+	Astro.props;
+---
+
+<li class="flex-col flex gap-2 pl-10 py-8">
+	<time class="text-xs text-muted-foregroud">
+		{date}
+	</time>
+	<h2 class="font-semibold leading-none">
+		{title}
+	</h2>
+	{
+		video && (
+			<video
+				src={video}
+				autoplay
+				loop
+				muted
+				class="pointer-events-none mx-auto w-full h-full object-cover object-top"
+			/>
+		)
+	}
+	{image && <img src={image} alt={title} class="w-full rounded-lg h-full" />}
+	<p>
+		{description}
+	</p>
+</li>
