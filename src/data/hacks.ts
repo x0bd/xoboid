@@ -11,28 +11,45 @@ export type Hack = {
 
 export const Hacks: Hack[] = [
 	{
-		title: "Unknown Pleasures",
-		href: "/",
-		description: "P5.js Creation of the iconic Joy Division Album Cover",
-		date: "27 Aug 2024",
-		stack: ["P5.js", "JavaScript"],
+		title: "Glyph",
+		href: "https://github.com/x0bd/glyph-ui",
+		description:
+			"Glyph is a modern JavaScript frontend framework that is heavily inspired by React, Svelte and Vue. I am building the framework to better understand how these engineering marvels work under the hood.",
+		date: "07 Jul 2024",
+		stack: ["JavaScript", "Rollup", "NPM Workspaces", "Vitest"],
+		image: "/projects/tic-tac-toe.gif",
 		links: [
 			{
-				name: "Github",
-				href: "/",
+				name: "Source",
+				href: "https://github.com/x0bd/glyph-ui",
 			},
 			{
-				name: "OpenProcessing",
-				href: "/",
+				name: "Devlog",
+				href: "/blog",
 			},
 		],
-		image: "./joy.png",
+	},
+	{
+		title: "Snap.xo",
+		href: "https://snap-xo.vercel.app/",
+		description:
+			"A simple web app to quickly create and share beautiful code snippets. It is a minimal version of the ray.so service.",
+		date: "30 Apr 2024",
+		stack: ["Next.js", "TailwindCSS", "TypeScript", "Vercel"],
+		image: "/projects/snap2.jpeg",
+		links: [
+			{
+				name: "Website",
+				href: "https://snap-xo.vercel.app",
+			},
+			{ name: "Source", href: "https://github.com/x0bd/snap.xo" },
+		],
 	},
 	{
 		title: "Rascii",
 		href: "/",
 		description: "A Resource Efficient Terminal Ascii Art Generator",
-		date: "11 June 2022",
+		date: "10 Feb 2024",
 		stack: ["Rust"],
 		image: "./projects/rascii.png",
 		links: [
@@ -45,5 +62,23 @@ export const Hacks: Hack[] = [
 				href: "/",
 			},
 		],
+	},
+	{
+		title: "Unknown Pleasures",
+		href: "/",
+		description: "P5.js Creation of the iconic Joy Division Album Cover",
+		date: "21 Jan 2024",
+		stack: ["P5.js", "JavaScript"],
+		links: [
+			{
+				name: "Github",
+				href: "/",
+			},
+			{
+				name: "OpenProcessing",
+				href: "/",
+			},
+		],
+		image: "./joy.png",
 	},
 ];
