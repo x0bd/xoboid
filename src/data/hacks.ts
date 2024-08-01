@@ -42,7 +42,7 @@ export const Hacks: Hack[] = [
 		href: "/",
 		description: "A Resource Efficient Terminal Ascii Art Generator",
 		date: "11 June 2022",
-		stack: ["Blender", "Marmoset"],
+		stack: ["Rust"],
 		image: "./rick.png",
 	},
 ];
