@@ -18,7 +18,7 @@ export const Hacks: Hack[] = [
 		stack: ["P5.js", "JavaScript"],
 		links: [
 			{
-				name: "Source",
+				name: "Github",
 				href: "/",
 			},
 			{
@@ -29,20 +29,21 @@ export const Hacks: Hack[] = [
 		image: "./joy.png",
 	},
 	{
-		title: "Love Death + Robots",
-		href: "/",
-		description:
-			"A Render of the Dominatrix/Slave? from my favorite Love Death + Robots Episode: The Witness",
-		date: "11 June 2022",
-		stack: ["Blender", "Marmoset"],
-		image: "./pxfuel.jpg",
-	},
-	{
 		title: "Rascii",
 		href: "/",
 		description: "A Resource Efficient Terminal Ascii Art Generator",
 		date: "11 June 2022",
 		stack: ["Rust"],
-		image: "./rick.png",
+		image: "./projects/rascii.png",
+		links: [
+			{
+				name: "Blog",
+				href: "/blog/terminal-art",
+			},
+			{
+				name: "Source",
+				href: "/",
+			},
+		],
 	},
 ];

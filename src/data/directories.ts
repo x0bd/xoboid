@@ -2,9 +2,9 @@ import type { Directory } from "@types";
 
 export const HomeDirectories: Directory[] = [
 	{
-		title: "Projects",
-		description: "Useful software I sometimes build",
-		link: "/projects",
+		title: "Crafts",
+		description: "Code + Pixel Experiments",
+		link: "/crafts",
 	},
 	{
 		title: "Notes",
@@ -12,14 +12,14 @@ export const HomeDirectories: Directory[] = [
 		link: "/blog",
 	},
 	{
-		title: "Crafts",
-		description: "Code + Pixel Experiments",
-		link: "/crafts",
-	},
-	{
 		title: "Resources",
 		description: "Lists of things I like, that you may find useful",
 		link: "/res",
+	},
+	{
+		title: "Music",
+		description: "My current favorite tracks and artists",
+		link: "/music",
 	},
 ];
 
@@ -33,11 +33,6 @@ export const StashDirectories: Directory[] = [
 		title: "Apps & Tools",
 		description: "Digital instruments for life and work",
 		link: "/res/tools",
-	},
-	{
-		title: "Music",
-		description: "My current favorite artists and tracks",
-		link: "/res/music",
 	},
 	{
 		title: "Websites",
