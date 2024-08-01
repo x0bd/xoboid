@@ -2,6 +2,7 @@
 import Container from "@components/Container.astro";
 import { SITE } from "@data/consts";
 import BackToTop from "@components/BackToTop.astro";
+import Link from "./Link.astro";
 ---
 
 <footer class="animate mt-10">
@@ -16,6 +17,8 @@ import BackToTop from "@components/BackToTop.astro";
 				<div>
 					&copy; 2024 {`|`}
 					{SITE.NAME}
+					{`|`}
+					<Link href="/colophon">colophon</Link>
 				</div>
 
 				<div class="flex flex-wrap items-center">

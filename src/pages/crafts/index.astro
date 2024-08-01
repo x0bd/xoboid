@@ -3,7 +3,7 @@ import PageLayout from "@layouts/PageLayout.astro";
 import Container from "@components/Container.astro";
 import HomeButton from "@components/HomeButton.astro";
 import CraftCard from "@components/CraftCard.astro";
-import { Hacks } from "@data/hacks";
+import { Crafts } from "@data/crafts";
 
 import { HomeDirectories } from "@data/directories";
 
@@ -23,16 +23,16 @@ const craftsData = HomeDirectories[2];
 				class="divide-y-2 animate divide-neutral-400 flex flex-col divide-dashed border-neutral-400 border-l"
 			>
 				{
-					Hacks.map((hack) => (
+					Crafts.map((craft) => (
 						<CraftCard
-							title={hack.title}
-							href={hack.href}
-							description={hack.description}
-							date={hack.date}
-							stack={hack.stack}
-							links={hack.links}
-							video={hack.video}
-							image={hack.image}
+							title={craft.title}
+							href={craft.href}
+							description={craft.description}
+							date={craft.date}
+							stack={craft.stack}
+							links={craft.links}
+							video={craft.video}
+							image={craft.image}
 						/>
 					))
 				}

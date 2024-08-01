@@ -35,8 +35,18 @@ export const StashDirectories: Directory[] = [
 		link: "/res/tools",
 	},
 	{
+		title: "Products",
+		description: "Interesting Physical Goods",
+		link: "/res/products",
+	},
+	{
 		title: "Websites",
 		description: "Places I enjoy hanging out on",
 		link: "/res/links",
+	},
+	{
+		title: "Wizards",
+		description: "My favorite Software & Design Wizards",
+		link: "/res/wizards",
 	},
 ];

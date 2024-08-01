@@ -1,4 +1,4 @@
-export type Hack = {
+export type Craft = {
 	title: string;
 	href: string;
 	description: string;
@@ -9,12 +9,12 @@ export type Hack = {
 	video?: string;
 };
 
-export const Hacks: Hack[] = [
+export const Crafts: Craft[] = [
 	{
 		title: "Glyph",
 		href: "https://github.com/x0bd/glyph-ui",
 		description:
-			"Glyph is a modern JavaScript frontend framework that is heavily inspired by React, Svelte and Vue. I am building the framework to better understand how these engineering marvels work under the hood.",
+			"A Tic-Tac-Toe game built with Glyph. Glyph is a modern JavaScript frontend framework that is heavily inspired by React, Svelte and Vue. I am building the framework to better understand how these engineering marvels work under the hood.",
 		date: "07 Jul 2024",
 		stack: ["JavaScript", "Rollup", "NPM Workspaces", "Vitest"],
 		image: "/projects/tic-tac-toe.gif",
@@ -73,10 +73,6 @@ export const Hacks: Hack[] = [
 		links: [
 			{
 				name: "Github",
-				href: "/",
-			},
-			{
-				name: "OpenProcessing",
 				href: "/",
 			},
 		],

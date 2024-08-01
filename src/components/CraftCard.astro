@@ -1,14 +1,14 @@
 ---
-import type { Hack } from "@data/hacks";
+import type { Craft } from "@data/crafts";
 import Link from "./Link.astro";
 
-type Props = Hack;
+type Props = Craft;
 
 const { title, href, description, date, stack, links, image, video } =
 	Astro.props;
 ---
 
-<div class="flex-col no-underline animate hover:brightness-75 flex pl-8 py-8">
+<div class="flex-col no-underline animate hover:brightness-90 flex pl-8 py-8">
 	<div class="flex items-center justify-between">
 		<h5 class="font-semibold text-base text-black dark:text-white">
 			{title}
