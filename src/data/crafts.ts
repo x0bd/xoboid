@@ -11,12 +11,12 @@ export type Craft = {
 
 export const Crafts: Craft[] = [
 	{
-		title: "Glyph",
+		title: "Glyph Tic-Tac-Toe",
 		href: "https://github.com/x0bd/glyph-ui",
 		description:
-			"A Tic-Tac-Toe game built with Glyph. Glyph is a modern JavaScript frontend framework that is heavily inspired by React, Svelte and Vue. I am building the framework to better understand how these engineering marvels work under the hood.",
+			"A Tic-Tac-Toe game built with Glyph. Glyph is a modern JavaScript frontend framework that I am building from scratch. The Tic-Tac-Toe game showcases the reconciliation algorithm I had implemented at the time of the post.",
 		date: "07 Jul 2024",
-		stack: ["JavaScript", "Rollup", "NPM Workspaces", "Vitest"],
+		stack: ["JavaScript", "Glyph"],
 		image: "/projects/tic-tac-toe.gif",
 		links: [
 			{
@@ -27,22 +27,6 @@ export const Crafts: Craft[] = [
 				name: "Devlog",
 				href: "/blog",
 			},
-		],
-	},
-	{
-		title: "Snap.xo",
-		href: "https://snap-xo.vercel.app/",
-		description:
-			"A simple web app to quickly create and share beautiful code snippets. It is a minimal version of the ray.so service.",
-		date: "30 Apr 2024",
-		stack: ["Next.js", "TailwindCSS", "TypeScript", "Vercel"],
-		image: "/projects/snap2.jpeg",
-		links: [
-			{
-				name: "Website",
-				href: "https://snap-xo.vercel.app",
-			},
-			{ name: "Source", href: "https://github.com/x0bd/snap.xo" },
 		],
 	},
 	{
