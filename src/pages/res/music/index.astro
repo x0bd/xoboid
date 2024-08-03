@@ -1,11 +1,11 @@
 ---
 export const prerender = false;
 
-import PageLayout from "../../layouts/PageLayout.astro";
-import Container from "../../components/Container.astro";
-import HomeButton from "../../components/HomeButton.astro";
-import { getTopArtists, getTopTracks } from "../../lib/spotify";
-import { MUSIC } from "../../data/consts";
+import PageLayout from "../../../layouts/PageLayout.astro";
+import Container from "../../../components/Container.astro";
+import HomeButton from "../../../components/HomeButton.astro";
+import { getTopArtists, getTopTracks } from "../../../lib/spotify";
+import { MUSIC } from "../../../data/consts";
 
 const tracks = await getTopTracks();
 const artists = await getTopArtists();

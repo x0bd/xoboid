@@ -21,11 +21,6 @@ export const HomeDirectories: Directory[] = [
 		description: "Lists of things I like, that you may find useful",
 		link: "/res",
 	},
-	{
-		title: "Music",
-		description: "My current favorite tracks and artists",
-		link: "/music",
-	},
 ];
 
 export const StashDirectories: Directory[] = [
@@ -40,8 +35,18 @@ export const StashDirectories: Directory[] = [
 		link: "/res/tools",
 	},
 	{
+		title: "Music",
+		description: "My current favorite tracks and artists",
+		link: "/res/music",
+	},
+	{
 		title: "Websites",
 		description: "Places I enjoy hanging out on",
 		link: "/res/links",
+	},
+	{
+		title: "Stuff",
+		description: "Visual archive of stuff",
+		link: "/res/stuff",
 	},
 ];
