@@ -32,4 +32,9 @@ export const books: Book[] = [
 		cover: "/books/12-rules.jpg",
 		reading: "currently reading",
 	},
+	{
+		title: "Chainsaw Man",
+		author: "Tatsuki Fujimoto",
+		cover: "/books/pochita.jpg",
+	},
 ];

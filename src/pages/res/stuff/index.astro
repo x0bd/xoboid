@@ -4,7 +4,8 @@ import { StashDirectories } from "@data/directories";
 import Container from "@components/Container.astro";
 import HomeButton from "@components/HomeButton.astro";
 
-const websitesData = StashDirectories[2];
+const websitesData = StashDirectories[3];
+import { oculars } from "@data/ocular";
 ---
 
 <PageLayout title={websitesData.title} description={websitesData.description}>
@@ -14,8 +15,18 @@ const websitesData = StashDirectories[2];
 			<h1
 				class="animate font-semibold text-lg text-black dark:text-white"
 			>
-				Favorite Websites
+				Stuff
 			</h1>
+			<h5 class="text-xs text-zinc-400 animate uppercase">
+				Do Not Own These btw; Copyrighted to their owners
+			</h5>
+			<div class="animate columns-1 sm:columns-2">
+				{
+					oculars.map((ocular) => (
+						<img class="rounded-md mb-4" src={ocular.url} alt="" />
+					))
+				}
+			</div>
 		</div>
 	</Container>
 </PageLayout>
