@@ -3,7 +3,7 @@ import type { Directory } from "@types";
 export const HomeDirectories: Directory[] = [
 	{
 		title: "Projects",
-		description: "Code + Pixel Experiments",
+		description: "impactful software I have built",
 		link: "/projects",
 	},
 	{
@@ -12,19 +12,14 @@ export const HomeDirectories: Directory[] = [
 		link: "/blog",
 	},
 	{
-		title: "Bookshelf",
-		description: "Personal collection of literature",
-		link: "/books",
+		title: "Crafts",
+		description: "Code + Pixel Experiments",
+		link: "/crafts",
 	},
 	{
-		title: "Music",
-		description: "My current favorite tracks and artists",
-		link: "/music",
-	},
-	{
-		title: "Stuff",
-		description: "My personal Ocular Engine",
-		link: "/stuff",
+		title: "Resources",
+		description: "Lists of things I like, that you may find useful",
+		link: "/res",
 	},
 ];
 
