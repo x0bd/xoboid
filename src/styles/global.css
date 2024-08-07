@@ -33,10 +33,6 @@ main {
 	@apply flex-1 py-10;
 }
 
-body {
-	font-family: "Geist Mono";
-}
-
 footer {
 	@apply py-5 text-sm;
 }
