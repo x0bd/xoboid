@@ -6,6 +6,7 @@ import Container from "../../../components/Container.astro";
 import HomeButton from "../../../components/HomeButton.astro";
 import { getTopArtists, getTopTracks } from "../../../lib/spotify";
 import { MUSIC } from "../../../data/consts";
+import Link from "@components/Link.astro";
 
 const tracks = await getTopTracks();
 const artists = await getTopArtists();
@@ -15,6 +16,7 @@ const artists = await getTopArtists();
 	<Container>
 		<div class="space-y-10">
 			<HomeButton />
+			<Link href="/res">Resources</Link>
 			<h1
 				class="animate font-semibold text-xl text-black dark:text-white"
 			>

@@ -3,6 +3,7 @@ import PageLayout from "@layouts/PageLayout.astro";
 import { StashDirectories } from "@data/directories";
 import Container from "@components/Container.astro";
 import HomeButton from "@components/HomeButton.astro";
+import Link from "@components/Link.astro";
 
 const websitesData = StashDirectories[3];
 import { oculars } from "@data/ocular";
@@ -10,16 +11,14 @@ import { oculars } from "@data/ocular";
 
 <PageLayout title={websitesData.title} description={websitesData.description}>
 	<Container>
-		<div class="space-y-10">
+		<div class="space-y-10 animate">
 			<HomeButton />
+			<Link href="/res">Resources</Link>
 			<h1
 				class="animate font-semibold text-lg text-black dark:text-white"
 			>
 				Stuff
 			</h1>
-			<h5 class="text-xs text-zinc-400 animate uppercase">
-				Do Not Own These btw; Copyrighted to their owners
-			</h5>
 			<div class="animate columns-1 sm:columns-2">
 				{
 					oculars.map((ocular) => (
@@ -27,6 +26,9 @@ import { oculars } from "@data/ocular";
 					))
 				}
 			</div>
+			<h5 class="text-xs text-zinc-400 animate uppercase">
+				Do Not Own These btw; Copyrighted to their owners
+			</h5>
 		</div>
 	</Container>
 </PageLayout>
