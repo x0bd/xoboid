@@ -18,7 +18,7 @@ export const HomeDirectories: Directory[] = [
 	},
 	{
 		title: "Resources",
-		description: "Useful Links and discoveries",
+		description: "Useful links and discoveries",
 		link: "/res",
 	},
 ];

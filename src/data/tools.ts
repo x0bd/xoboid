@@ -79,8 +79,9 @@ const tools: tool[] = [
 		category: "Fun",
 	},
 	{
-		name: "Rose-Pine",
-		description: "classy color palette with minimal soho vibes",
+		name: "Rosé Pine",
+		description:
+			"color palette with a bit of soho vibes for the classy minimalist",
 		link: "https://rosepine.org",
 		category: "Productivity",
 	},

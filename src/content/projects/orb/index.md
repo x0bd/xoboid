@@ -1,10 +1,10 @@
 ---
-title: "orb.js"
+title: "Orb.js"
 description: "a simple webgl library"
 date: "Aug 15 2024"
 demoURL: "https://github.com/x0bd/"
 repoURL: "https://github.com/x0bd/"
-draft: false
+draft: true
 ---
 
 # Orb.js

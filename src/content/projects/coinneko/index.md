@@ -1,5 +1,5 @@
 ---
-title: "coinneko"
+title: "Coinneko"
 description: "personal finance tracker"
 date: "Jul 12 2024"
 demoURL: "https://coinneko.vercel.app/"

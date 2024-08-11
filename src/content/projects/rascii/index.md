@@ -1,5 +1,5 @@
 ---
-title: "rascii"
+title: "Rascii"
 description: "a lightweight terminal ascii art generator"
 date: "Feb 10 2024"
 demoURL: "https://github.com/x0bd/rascii"

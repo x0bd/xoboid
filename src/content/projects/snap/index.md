@@ -1,5 +1,5 @@
 ---
-title: "snap.xo"
+title: "Snap.xo"
 description: "create and share beautiful code snippets"
 date: "Apr 30 2024"
 demoURL: "https://snap-xo.vercel.app/"
