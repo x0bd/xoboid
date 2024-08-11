@@ -2,7 +2,7 @@ import type { Directory } from "@types";
 
 export const HomeDirectories: Directory[] = [
 	{
-		title: "Work",
+		title: "Works",
 		description: "Where ideas become reality",
 		link: "/projects",
 	},
