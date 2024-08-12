@@ -21,10 +21,6 @@ Glyph is a modern JavaScript frontend framework that is heavily inspired by Reac
 
 ![a todo app built with glyph](./todo.gif)
 
-#### Tic Tac Toe
-
-![a tic-tac-toe game built with glyph](./tic-tac-toe.gif)
-
 #### Counter
 
 ![a counter app built with glyph](./counter.gif)
