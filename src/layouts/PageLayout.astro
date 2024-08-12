@@ -1,8 +1,9 @@
 ---
 import Head from "@components/Head.astro";
-import Header from "@components/Header.astro";
+// import Header from "@components/Header.astro";
 import Footer from "@components/Footer.astro";
 import { SITE } from "@data/consts";
+// import Home from "@components/DefaultHome.astro";
 
 type Props = {
 	title: string;
@@ -18,7 +19,8 @@ const { title, description } = Astro.props;
 		<Head title={`${SITE.NAME} • ${title}`} description={description} />
 	</head>
 	<body>
-		<Header />
+		<!-- <Header /> -->
+		<!-- <Home /> -->
 		<main>
 			<slot />
 		</main>

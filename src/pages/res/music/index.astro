@@ -1,10 +1,12 @@
 ---
 export const prerender = false;
 
-import PageLayout from "@layouts/PageLayout.astro";
-import Container from "@components/Container.astro";
-import { getTopArtists, getTopTracks } from "@lib/spotify";
-import { MUSIC } from "@data/consts";
+import PageLayout from "../../../layouts/PageLayout.astro";
+import Container from "../../../components/Container.astro";
+import HomeButton from "../../../components/HomeButton.astro";
+import { getTopArtists, getTopTracks } from "../../../lib/spotify";
+import { MUSIC } from "../../../data/consts";
+import Link from "@components/Link.astro";
 
 const tracks = await getTopTracks();
 const artists = await getTopArtists();
@@ -13,8 +15,15 @@ const artists = await getTopArtists();
 <PageLayout title={MUSIC.TITLE} description={MUSIC.DESCRIPTION}>
 	<Container>
 		<div class="space-y-10">
+			<HomeButton />
+			<Link href="/res">Resources</Link>
 			<h1
-				class="animate font-semibold text-2xl text-black dark:text-white"
+				class="animate font-semibold text-xl text-black dark:text-white"
+			>
+				Music
+			</h1>
+			<h1
+				class="animate font-semibold text-lg text-black dark:text-white"
 			>
 				Top Tracks
 			</h1>
@@ -51,7 +60,7 @@ const artists = await getTopArtists();
 		</div>
 		<div class="space-y-10">
 			<h1
-				class="animate font-semibold text-2xl my-8 text-black dark:text-white"
+				class="animate font-semibold text-lg my-8 text-black dark:text-white"
 			>
 				Top Artists
 			</h1>

@@ -1,94 +1,41 @@
 ---
-export const prerender = false;
-
 import PageLayout from "@layouts/PageLayout.astro";
 import Container from "@components/Container.astro";
-import { PROJECTS } from "@data/consts";
-import Link from "@components/Link.astro";
+import HomeButton from "@components/HomeButton.astro";
+import CraftCard from "@components/CraftCard.astro";
+import { Crafts } from "@data/crafts";
+
+import { HomeDirectories } from "@data/directories";
+
+const craftsData = HomeDirectories[2];
 ---
 
-<PageLayout title={PROJECTS.TITLE} description={PROJECTS.DESCRIPTION}>
+<PageLayout title={craftsData.title} description={craftsData.description}>
 	<Container>
 		<div class="space-y-10">
+			<HomeButton />
 			<h1
-				class="animate font-semibold text-2xl text-black dark:text-white"
+				class="animate font-semibold text-xl text-black dark:text-white"
 			>
-				*Everything I've ever built
+				Crafts
 			</h1>
-			<section class="animate space-y-16 mt-10">
-				<article class="flex flex-col gap-4">
-					<h5
-						class="animate font-bold text-xs text-black dark:text-white"
-					>
-						18 Jun, 2024
-					</h5>
-					<img
-						src="/code.jpeg"
-						alt="code"
-						class="w-full h-full rounded object-cover"
-					/>
-					<h5
-						class="animate font-semibold text-2xl text-black dark:text-white"
-					>
-						snap.xo
-					</h5>
-					<span class="">
-						Snap.xo is a beautifully crafted app to create and share
-						snaps of your code. It is inspired by raycast’s ray.so
-						app.
-					</span>
-					<Link href="/blog"> Github </Link>
-				</article>
-				<article class="flex flex-col gap-4">
-					<h5
-						class="animate font-bold text-xs text-black dark:text-white"
-					>
-						7 May, 2024
-					</h5>
-
-					<img
-						src="/yas.jpeg"
-						alt="code"
-						class="w-full h-full rounded object-cover"
-					/>
-					<h5
-						class="animate font-semibold text-2xl text-black dark:text-white"
-					>
-						Glyph
-					</h5>
-					<span class="">
-						Glyph is a modern JavaScript frontend framework that is
-						heavily inspired by React, Svelte and Vue. I am building
-						the framework to better understand how these engineering
-						marvels work under the hood.
-					</span>
-					<Link href="/blog"> Github </Link>
-				</article>
-				<article class="flex flex-col gap-4">
-					<h5
-						class="animate font-bold text-xs text-black dark:text-white"
-					>
-						7 May, 2024
-					</h5>
-
-					<img
-						src="/cyber.jpeg"
-						alt="code"
-						class="w-full h-full rounded object-cover"
-					/>
-					<h5
-						class="animate font-semibold text-2xl text-black dark:text-white"
-					>
-						Glyph
-					</h5>
-					<span class="">
-						Glyph is a modern JavaScript frontend framework that is
-						heavily inspired by React, Svelte and Vue. I am building
-						the framework to better understand how these engineering
-						marvels work under the hood.
-					</span>
-					<Link href="/blog"> Github </Link>
-				</article>
+			<section
+				class="divide-y-2 animate divide-neutral-400 flex flex-col divide-dashed border-neutral-400 border-l"
+			>
+				{
+					Crafts.map((craft) => (
+						<CraftCard
+							title={craft.title}
+							href={craft.href}
+							description={craft.description}
+							date={craft.date}
+							stack={craft.stack}
+							links={craft.links}
+							video={craft.video}
+							image={craft.image}
+						/>
+					))
+				}
 			</section>
 		</div>
 	</Container>

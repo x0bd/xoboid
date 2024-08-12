@@ -1,5 +1,5 @@
 ---
-title: "glyph"
+title: "Glyph"
 description: "a modern frontend framework"
 date: "Jul 07 2024"
 demoURL: "https://github.com/x0bd/glyph-ui"
@@ -20,10 +20,6 @@ Glyph is a modern JavaScript frontend framework that is heavily inspired by Reac
 #### Todo App
 
 ![a todo app built with glyph](./todo.gif)
-
-#### Tic Tac Toe
-
-![a tic-tac-toe game built with glyph](./tic-tac-toe.gif)
 
 #### Counter
 

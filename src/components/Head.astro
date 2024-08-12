@@ -6,9 +6,13 @@ import "@fontsource/lora/400.css";
 import "@fontsource/lora/600.css";
 import "@fontsource/geist-mono/latin-400.css";
 import "@fontsource/geist-mono/latin-600.css";
+import "@fontsource/geist-sans/latin-400.css";
+import "@fontsource/geist-sans/latin-600.css";
 
 import geist400 from "@fontsource/geist-mono/files/geist-mono-latin-400-normal.woff2";
 import geist600 from "@fontsource/geist-mono/files/geist-mono-latin-600-normal.woff2";
+import geistSans400 from "@fontsource/geist-sans/files/geist-sans-latin-400-normal.woff2";
+import geistSans600 from "@fontsource/geist-sans/files/geist-sans-latin-600-normal.woff2";
 
 import inter400 from "@fontsource/inter/files/inter-latin-400-normal.woff2";
 import inter600 from "@fontsource/inter/files/inter-latin-600-normal.woff2";
@@ -52,6 +56,20 @@ const { title, description, image = "/void-logo.png" } = Astro.props;
 <link rel="preload" href={lora600} as="font" type="font/woff2" crossorigin />
 <link rel="preload" href={geist400} as="font" type="font/woff2" crossorigin />
 <link rel="preload" href={geist600} as="font" type="font/woff2" crossorigin />
+<link
+	rel="preload"
+	href={geistSans400}
+	as="font"
+	type="font/woff2"
+	crossorigin
+/>
+<link
+	rel="preload"
+	href={geistSans600}
+	as="font"
+	type="font/woff2"
+	crossorigin
+/>
 
 <!-- Canonical URL -->
 <link rel="canonical" href={canonicalURL} />

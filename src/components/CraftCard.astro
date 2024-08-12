@@ -1,0 +1,66 @@
+---
+import type { Craft } from "@data/crafts";
+import Link from "./Link.astro";
+
+type Props = Craft;
+
+const { title, href, description, date, stack, links, image, video } =
+	Astro.props;
+---
+
+<div class="flex-col no-underline animate hover:brightness-90 flex pl-8 py-8">
+	<div class="flex items-center justify-between">
+		<h5 class="font-semibold text-base text-black dark:text-white">
+			{title}
+		</h5>
+		<h5 class="text-xs font-bold text-muted-foregroud">
+			{date}
+		</h5>
+	</div>
+	<a href={href} target="_blank">
+		{
+			video && (
+				<video
+					src={video}
+					autoplay
+					loop
+					muted
+					class="pointer-events-none mx-auto mb-4 mt-2 w-full h-full rounded-lg object-cover object-top"
+				/>
+			)
+		}
+		{
+			image && (
+				<img
+					src={image}
+					alt={title}
+					class="w-full object-cover mb-4 mt-2 rounded-lg h-full"
+				/>
+			)
+		}
+	</a>
+	<p class="text-sm w-full mb-4">
+		{description}
+	</p>
+	<div class="flex flex-wrap gap-1 items-center mb-4">
+		{
+			stack.map((tech) => (
+				<span class="border border-zinc-500 dark:border-white rounded-xl uppercase text-xs px-2 py-1 font-bold">
+					{tech}
+				</span>
+			))
+		}
+	</div>
+
+	{
+		links && links.length > 0 && (
+			<div class="gap-4 flex items-center">
+				{links?.map((link) => (
+					<Link class:list={"text-xs"} external href={link.href}>
+						{link.name}
+					</Link>
+				))}
+			</div>
+		)
+	}
+</div>

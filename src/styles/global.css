@@ -14,12 +14,13 @@ html.dark {
 html,
 body {
 	@apply size-full;
+
 }
 
 body {
 	@apply font-sans antialiased;
 	@apply flex flex-col;
-	@apply bg-zinc-100 dark:bg-zinc-950;
+	@apply bg-zinc-100 dark:bg-neutral-950;
 	@apply text-black/50 dark:text-white/75;
 }
 
@@ -30,11 +31,7 @@ header {
 }
 
 main {
-	@apply flex-1 py-32;
-}
-
-body {
-	font-family: "Geist Mono";
+	@apply flex-1 py-10;
 }
 
 footer {

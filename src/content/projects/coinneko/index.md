@@ -1,9 +1,10 @@
 ---
-title: "coinneko"
+title: "Coinneko"
 description: "personal finance tracker"
 date: "Jul 12 2024"
 demoURL: "https://coinneko.vercel.app/"
 repoURL: "https://github.com/x0bd/coinneko"
+draft: true
 ---
 
 A Tiny Finance Tracker App I built whilst learning TanStack Query.

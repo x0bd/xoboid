@@ -1,5 +1,5 @@
 ---
-title: "yume(夢)"
+title: "Yume(夢)"
 description: "a minimal oss focused job board"
 date: "Jun 28 2024"
 demoURL: "https://astro-sphere-demo.vercel.app"

@@ -21,7 +21,7 @@ This post will cover the tech stack I'll be using, the planned features, and the
 
 The JavaScript ecosystem thrives on passionate debates about tools. This project will avoid those distractions and focus on core functionalities. Here's the chosen tech stack:
 
--   **Build Tool:** npm - While pnpm offers workspace functionality, I'm still getting comfortable with it. For this project, I'll stick with the familiar npm.
+-   **Monorepo Tool:** npm - While pnpm offers workspace functionality, I'm still getting comfortable with it. For this project, I'll stick with the familiar npm.
 -   **Bundler:** Rollup - My daily driver is Vite, but this project provides the perfect opportunity to explore Rollup and its benefits based on recommendations.
 -   **Linting and Formatting:** ESLint and Prettier - This well-established combination ensures clean and consistent code.
 -   **Testing:** Vitest - This is my current favorite testing framework.

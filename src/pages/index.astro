@@ -1,121 +1,58 @@
 ---
-import { getCollection } from "astro:content";
 import Container from "@components/Container.astro";
 import PageLayout from "@layouts/PageLayout.astro";
-import ArrowCard from "@components/ArrowCard.astro";
 import Link from "@components/Link.astro";
 import { SITE, HOME, SOCIALS } from "@data/consts";
-
-const blog = (await getCollection("blog"))
-	.filter((post) => !post.data.draft)
-	.sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf())
-	.slice(0, SITE.NUM_POSTS_ON_HOMEPAGE);
-
-const projects = (await getCollection("projects"))
-	.filter((project) => !project.data.draft)
-	.sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf())
-	.slice(0, SITE.NUM_PROJECTS_ON_HOMEPAGE);
+import DirectoryCard from "@components/DirectoryCard.astro";
+import { HomeDirectories } from "@data/directories";
+import DefaultHome from "@components/DefaultHome.astro";
 ---
 
 <PageLayout title={HOME.TITLE} description={HOME.DESCRIPTION}>
 	<Container>
-		<div class="flex justify-start items-center gap-5">
-			<img
-				src="/xoboid.jpg"
-				alt="xoboid"
-				class="h-20 w-20 rounded-full animate"
-			/>
-			<div class="flex flex-col">
-				<h2
-					class="animate font-semibold text-lg text-black dark:text-white"
-				>
-					x0bd_
-				</h2>
-				<h2 class="animate">design engineer</h2>
-			</div>
-		</div>
-
-		<div class="space-y-16 mt-10">
+		<div class="space-y-10">
+			<DefaultHome />
 			<section>
 				<article class="space-y-4 animate">
 					<h5
-						class="animate font-semibold text-black dark:text-white"
+						class="font-semibold animate text-black dark:text-white"
 					>
 						Profile
 					</h5>
 					<p class="animate">
-						Hello! there, I'm Tino. I'm a <strong>programmer</strong
-						> and <strong>designer</strong> who enjoys experimenting
-						with <strong>code</strong> and <strong>pixels</strong> to
-						weave <strong>magic</strong>. With a <strong
-							>pixel-perfect</strong
-						> obsession and deep love for <strong
-							>good design</strong
-						>, I utilize my proficiency in TypeScript and Rust to <strong
-							>craft</strong
-						> whatever I want: web, computer graphics and <strong
-							>misc</strong
-						>.
-					</p>
-					<p class="animate">
-						When I step away from my <strong>computer</strong>, I
-						find solace in learning <strong>日本語</strong> and immersing
-						myself in science fiction, with <strong
-							>Neuromancer</strong
-						> and Dune holding a special place in my heart.
+						<strong>Devotee of intellectual exploration</strong> —currenlty
+						decoding signals from the void through code and pixel experiments.
+						Interests include web development, computer graphics and
+						learning 日本語.
 					</p>
 				</article>
 			</section>
 
-			<section class="animate space-y-6">
-				<div
-					class="flex flex-wrap gap-y-2 items-center justify-between"
-				>
-					<h5 class="font-semibold text-black dark:text-white">
-						Recent Projects
-					</h5>
-					<Link href="/projects"> See all projects </Link>
-				</div>
-				<ul class="flex flex-col gap-4">
+			<section class="animate space-y-4">
+				<h5 class="font-semibold animate text-black dark:text-white">
+					Directory
+				</h5>
+
+				<ul class="animate flex flex-col gap-4">
 					{
-						projects.map((project) => (
+						HomeDirectories.map((dir) => (
 							<li>
-								<ArrowCard entry={project} />
+								<DirectoryCard
+									link={dir.link}
+									description={dir.description}
+									title={dir.title}
+								/>
 							</li>
 						))
 					}
 				</ul>
 			</section>
-			<section class="animate space-y-6">
-				<div
-					class="flex flex-wrap gap-y-2 items-center justify-between"
-				>
-					<h5 class="font-semibold text-black dark:text-white">
-						Latest posts
-					</h5>
-					<Link href="/blog"> See all posts </Link>
-				</div>
-				<ul class="flex flex-col gap-4">
-					{
-						blog.map((post) => (
-							<li>
-								<ArrowCard entry={post} />
-							</li>
-						))
-					}
-				</ul>
-			</section>
+
 			<section class="animate space-y-4">
 				<h5 class="font-semibold animate text-black dark:text-white">
 					Let's Connect
 				</h5>
-				<article>
-					<p>
-						If you want to get in touch with me about something or
-						just to say hi, reach out on social media or send me an
-						email.
-					</p>
-				</article>
+
 				<ul class="flex flex-wrap gap-2">
 					{
 						SOCIALS.map((SOCIAL) => (
@@ -127,7 +64,7 @@ const projects = (await getCollection("projects"))
 								>
 									{SOCIAL.NAME}
 								</Link>
-								{"/"}
+								{"•"}
 							</li>
 						))
 					}

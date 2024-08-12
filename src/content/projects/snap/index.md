@@ -1,6 +1,6 @@
 ---
-title: "snap.xo"
-description: "create and share beautiful snaps of your code."
+title: "Snap.xo"
+description: "create and share beautiful code snippets"
 date: "Apr 30 2024"
 demoURL: "https://snap-xo.vercel.app/"
 repoURL: "https://github.com/x0bd/snap.xo"
@@ -13,8 +13,6 @@ Snap.xo is a beautifully crafted app to create and share snaps of your code. It 
 ![snap.xo](./snap.jpeg)
 
 _\*you can specify your own color schemes and backgrounds_
-
-![snap.xo](./snap2.jpeg)
 
 ##### Tech Stack
 
