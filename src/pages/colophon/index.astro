@@ -2,7 +2,7 @@
 import PageLayout from "@layouts/PageLayout.astro";
 import Container from "@components/Container.astro";
 import HomeButton from "@components/HomeButton.astro";
-// import Link from "@components/Link.astro";
+import Link from "@components/Link.astro";
 ---
 
 <PageLayout title="Colophon" description="A Description of the site You're On">
@@ -12,6 +12,32 @@ import HomeButton from "@components/HomeButton.astro";
 			<h1 class="font-semibold text-xl text-black dark:text-white">
 				Colophon
 			</h1>
+			<div class="space-y-3">
+				<h5 class="font-semibold">Typography</h5>
+				<p>
+					Loving the Geist typeface for this site. It's a versatile
+					replacement for Inter and Jetbrains, designed by the awesome
+					folks at Vercel
+				</p>
+			</div>
+			<div class="space-y-3">
+				<h5 class="font-semibold">Technology</h5>
+				<p>
+					Built with Astro, Tailwind and TypeScript. Hosted on Vercel.
+				</p>
+				<p>
+					Spotify data is kept current through daily updates from the
+					Spotify API. For optimal performance, large files are
+					managed using Supabase Buckets
+				</p>
+			</div>
+			<div class="space-y-3">
+				<h5 class="font-semibold">Open Source</h5>
+				<p>
+					This site is powered by Astro's nano starter template,
+					available on GitHub as open-source
+				</p>
+			</div>
 		</div>
 	</Container>
 </PageLayout>

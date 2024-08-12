@@ -14,7 +14,7 @@ export const Crafts: Craft[] = [
 		title: "Glyph Tic-Tac-Toe",
 		href: "https://github.com/x0bd/glyph-ui",
 		description:
-			"A Tic-Tac-Toe game built with Glyph. Glyph is a modern JavaScript frontend framework that I am building from scratch. The Tic-Tac-Toe game showcases the reconciliation algorithm I had implemented at the time of the post.",
+			"I recently started working on the reconciliation algorithm. To showcase its capabilities I decided to built a Tic-Tac-Toe game.",
 		date: "07 Jul 2024",
 		stack: ["JavaScript", "Glyph"],
 		image: "/projects/tic-tac-toe.gif",
