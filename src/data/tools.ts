@@ -14,7 +14,7 @@ const tools: tool[] = [
 	},
 	{
 		name: "Arc",
-		description: "a modern web browser with innovative ideas",
+		description: "a modern web browser with new innovative ideas",
 		link: "https://arc.net",
 		category: "Productivity",
 	},

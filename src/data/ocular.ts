@@ -5,132 +5,128 @@ type Ocular = {
 
 export const oculars: Ocular[] = [
 	{
-		url: "/src/data/images/ocular/0.jpg",
+		url: "/ocular/0.jpg",
 		link: "/",
 	},
 	{
-		url: "/src/data/images/ocular/alex0.jpg",
+		url: "/ocular/alex0.jpg",
 		link: "/",
 	},
 	{
-		url: "/src/data/images/ocular/andres.jpg",
+		url: "/ocular/andres.jpg",
 		link: "/",
 	},
 	{
-		url: "/src/data/images/ocular/bear.jpg",
+		url: "/ocular/bear.jpg",
 		link: "/",
 	},
 	{
-		url: "/src/data/images/ocular/bestjoy.jpg",
+		url: "/ocular/bestjoy.jpg",
 		link: "/",
 	},
 	{
-		url: "/src/data/images/ocular/cake.jpg",
+		url: "/ocular/boy.jpg",
 		link: "/",
 	},
 	{
-		url: "/src/data/images/ocular/cent.jpg",
+		url: "/ocular/cake.jpg",
 		link: "/",
 	},
 	{
-		url: "/src/data/images/ocular/denji.jpg",
+		url: "/ocular/cent.jpg",
 		link: "/",
 	},
 	{
-		url: "/src/data/images/ocular/dirac.jpg",
+		url: "/ocular/dirac.jpg",
 		link: "/",
 	},
 	{
-		url: "/src/data/images/ocular/ldr.jpg",
+		url: "/ocular/eleven.jpg",
 		link: "/",
 	},
 	{
-		url: "/src/data/images/ocular/boy.jpg",
+		url: "/ocular/freak.jpg",
 		link: "/",
 	},
 	{
-		url: "/src/data/images/ocular/eleven.jpg",
+		url: "/ocular/fuji.jpg",
 		link: "/",
 	},
 	{
-		url: "/src/data/images/ocular/freak.jpg",
+		url: "/ocular/grnbenz.jpg",
 		link: "/",
 	},
 	{
-		url: "/src/data/images/ocular/fuji.jpg",
+		url: "/ocular/ilya.jpg",
 		link: "/",
 	},
 	{
-		url: "/src/data/images/ocular/grnbenz.jpg",
+		url: "/ocular/joytat.jpeg",
 		link: "/",
 	},
 	{
-		url: "/src/data/images/ocular/ilya.jpg",
+		url: "/ocular/loffree.jpg",
 		link: "/",
 	},
 	{
-		url: "/src/data/images/ocular/joytat.jpeg",
+		url: "/ocular/lil.jpg",
 		link: "/",
 	},
 	{
-		url: "/src/data/images/ocular/lil.jpg",
+		url: "/ocular/ldr.jpg",
 		link: "/",
 	},
 	{
-		url: "/src/data/images/ocular/loffree.jpg",
+		url: "/ocular/mark.jpg",
 		link: "/",
 	},
 	{
-		url: "/src/data/images/ocular/mark.jpg",
+		url: "/ocular/mazda.jpg",
 		link: "/",
 	},
 	{
-		url: "/src/data/images/ocular/mazda.jpg",
+		url: "/ocular/neuromancer.jpg",
 		link: "/",
 	},
 	{
-		url: "/src/data/images/ocular/neuromancer.jpg",
-		link: "/",
-	},
-	{
-		url: "/src/data/images/ocular/nothing.jpg",
+		url: "/ocular/nothing.jpg",
 		link: "/",
 	},
 
 	{
-		url: "/src/data/images/ocular/orange.jpg",
+		url: "/ocular/orange.jpg",
 		link: "/",
 	},
 	{
-		url: "/src/data/images/ocular/pocket.jpg",
+		url: "/ocular/pocket.jpg",
 		link: "/",
 	},
 	{
-		url: "/src/data/images/ocular/red.jpg",
+		url: "/ocular/red.jpg",
 		link: "/",
 	},
 	{
-		url: "/src/data/images/ocular/rose-pine.png",
+		url: "/ocular/rose-pine.png",
 		link: "/",
 	},
 	{
-		url: "/src/data/images/ocular/sun.jpg",
+		url: "/ocular/sun.jpg",
 		link: "/",
 	},
 	{
-		url: "/src/data/images/ocular/synth.jpg",
+		url: "/ocular/synth.jpg",
 		link: "/",
 	},
 	{
-		url: "/src/data/images/ocular/tool.jpg",
+		url: "/ocular/tool.jpg",
 		link: "/",
 	},
 	{
-		url: "/src/data/images/ocular/walk.jpg",
+		url: "/ocular/walk.jpg",
 		link: "/",
 	},
 	{
-		url: "/src/data/images/ocular/x.jpg",
+		url: "/ocular/x.jpg",
 		link: "/",
 	},
 ];
