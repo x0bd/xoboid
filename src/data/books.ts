@@ -50,7 +50,7 @@ export const books: Book[] = [
 	},
 	{
 		title: "The Magician's Nephew",
-		author: "CS Lewis",
+		author: "C.S Lewis",
 		cover: "/books/magic.jpg",
 	},
 	{

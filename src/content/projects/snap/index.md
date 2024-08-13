@@ -14,6 +14,8 @@ Snap.xo is a beautifully crafted app to create and share snaps of your code. It 
 
 _\*you can specify your own color schemes and backgrounds_
 
+![code](./code.png)
+
 ##### Tech Stack
 
 -   Next.js 14 (App Router)

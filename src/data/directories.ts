@@ -36,7 +36,7 @@ export const StashDirectories: Directory[] = [
 	},
 	{
 		title: "Music",
-		description: "Tracks and Artists I currently love",
+		description: "Tracks and Artists I currently like",
 		link: "/res/music",
 	},
 	{
