@@ -14,7 +14,7 @@ export const Crafts: Craft[] = [
 		title: "Glyph Tic-Tac-Toe",
 		href: "https://github.com/x0bd/glyph-ui",
 		description:
-			"I recently started working on the reconciliation algorithm. To showcase its capabilities I decided to built a Tic-Tac-Toe game.",
+			"I recently started implementing the reconciliation algorithm into the Glyph Frontend Framework. To showcase its capabilities I decided to built a Tic-Tac-Toe game.",
 		date: "07 Jul 2024",
 		stack: ["JavaScript", "Glyph"],
 		image: "/projects/tic-tac-toe.gif",
@@ -25,13 +25,13 @@ export const Crafts: Craft[] = [
 			},
 			{
 				name: "Devlog",
-				href: "/blog",
+				href: "/blog/glyph-001",
 			},
 		],
 	},
 	{
 		title: "Rascii",
-		href: "/",
+		href: "https://github.com/x0bd/rascii",
 		description: "A Resource Efficient Terminal Ascii Art Generator",
 		date: "10 Feb 2024",
 		stack: ["Rust"],
@@ -43,21 +43,21 @@ export const Crafts: Craft[] = [
 			},
 			{
 				name: "Source",
-				href: "/",
+				href: "https://github.com/x0bd/rascii",
 			},
 		],
 	},
 	{
 		title: "Unknown Pleasures",
-		href: "/",
+		href: "https://github.com/x0bd/generative-sketches",
 		description:
 			"A generative sketch of the iconic Joy Division album cover",
 		date: "21 Jan 2024",
-		stack: ["P5.js", "JavaScript"],
+		stack: ["P5.js", "JavaScript", "Vite"],
 		links: [
 			{
 				name: "Github",
-				href: "/",
+				href: "https://github.com/x0bd/generative-sketches",
 			},
 		],
 		image: "./joy.png",

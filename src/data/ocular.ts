@@ -21,10 +21,6 @@ export const oculars: Ocular[] = [
 		link: "/",
 	},
 	{
-		url: "/ocular/bestjoy.jpg",
-		link: "/",
-	},
-	{
 		url: "/ocular/boy.jpg",
 		link: "/",
 	},
@@ -34,6 +30,10 @@ export const oculars: Ocular[] = [
 	},
 	{
 		url: "/ocular/cent.jpg",
+		link: "/",
+	},
+	{
+		url: "/ocular/chain.jpg",
 		link: "/",
 	},
 	{
@@ -61,15 +61,11 @@ export const oculars: Ocular[] = [
 		link: "/",
 	},
 	{
+		url: "/ocular/joy.jpg",
+		link: "/",
+	},
+	{
 		url: "/ocular/joytat.jpeg",
-		link: "/",
-	},
-	{
-		url: "/ocular/loffree.jpg",
-		link: "/",
-	},
-	{
-		url: "/ocular/lil.jpg",
 		link: "/",
 	},
 	{
@@ -77,11 +73,15 @@ export const oculars: Ocular[] = [
 		link: "/",
 	},
 	{
-		url: "/ocular/mark.jpg",
+		url: "/ocular/loffree.jpg",
 		link: "/",
 	},
 	{
-		url: "/ocular/mazda.jpg",
+		url: "/ocular/manu.jpg",
+		link: "/",
+	},
+	{
+		url: "/ocular/mark.jpg",
 		link: "/",
 	},
 	{

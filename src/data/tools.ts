@@ -14,7 +14,7 @@ const tools: tool[] = [
 	},
 	{
 		name: "Arc",
-		description: "a modern web browser with new innovative ideas",
+		description: "a modern web browser with interesting new ideas",
 		link: "https://arc.net",
 		category: "Productivity",
 	},
@@ -25,8 +25,14 @@ const tools: tool[] = [
 		category: "Programming",
 	},
 	{
+		name: "Numi",
+		description: "a beautiful swiss army calculator",
+		link: "https://numi.app",
+		category: "Utility",
+	},
+	{
 		name: "Terminal",
-		description: "on windows, this terminal is the best!",
+		description: "the best terminal on windows",
 		link: "https://github.com/microsoft",
 		category: "Programming",
 	},
@@ -37,10 +43,22 @@ const tools: tool[] = [
 		category: "Productivity",
 	},
 	{
+		name: "Blender",
+		description: "the best 3d design suite",
+		link: "https://blender.org",
+		category: "Design",
+	},
+	{
 		name: "Eagle",
 		description: "collect and manage visual inspiration",
 		link: "https://eagle.cool",
 		category: "Productivity",
+	},
+	{
+		name: "Ableton",
+		description: "sound exploration & music creation",
+		link: "https://www.ableton.com/en/",
+		category: "Fun",
 	},
 	{
 		name: "Starship.rs",
@@ -49,28 +67,10 @@ const tools: tool[] = [
 		category: "Programming",
 	},
 	{
-		name: "Numi",
-		description: "a beautiful swiss army calculator",
-		link: "https://numi.app",
-		category: "Utility",
-	},
-	{
 		name: "Hoppscotch",
 		description: "a less bloated api testing platform",
 		link: "https://hoppscotch.io",
 		category: "Programming",
-	},
-	{
-		name: "Blender",
-		description: "the best 3d design suite",
-		link: "https://blender.org",
-		category: "Design",
-	},
-	{
-		name: "Ableton",
-		description: "sound exploration & music creation",
-		link: "https://www.ableton.com/en/",
-		category: "Fun",
 	},
 	{
 		name: "Figma",
