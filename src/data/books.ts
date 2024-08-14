@@ -2,7 +2,7 @@ export type Book = {
 	title: string;
 	author: string;
 	cover: string;
-	reading?: string;
+	reading?: "currently reading";
 };
 
 export const books: Book[] = [
@@ -10,6 +10,7 @@ export const books: Book[] = [
 		title: "Klara and the Sun",
 		author: "Kazuo Ishiguro",
 		cover: "/books/klara.png",
+		reading: "currently reading",
 	},
 	{
 		title: "Neuromancer",
@@ -36,6 +37,7 @@ export const books: Book[] = [
 		title: "Chainsaw Man",
 		author: "Tatsuki Fujimoto",
 		cover: "/books/pochita.jpg",
+		reading: "currently reading",
 	},
 	{
 		title: "Generative Design",
@@ -59,7 +61,7 @@ export const books: Book[] = [
 		cover: "/books/interstellar.jpg",
 	},
 	{
-		title: "Zero to One",
+		title: "Zero To One",
 		author: "Peter Thiel",
 		cover: "/books/0to1.jpg",
 	},
@@ -103,4 +105,9 @@ export const books: Book[] = [
 		author: "Tynan Sylvester",
 		cover: "/books/games.jpg",
 	},
+	// {
+	// 	title: "Children of Time",
+	// 	author: "Adrian Tachoski",
+	// 	cover: "/books/time.jpg",
+	// },
 ];

@@ -5,7 +5,7 @@ import Container from "@components/Container.astro";
 import HomeButton from "@components/HomeButton.astro";
 import Link from "@components/Link.astro";
 
-const bookshelfData = StashDirectories[0];
+const bookshelfData = StashDirectories[1];
 import { books } from "@data/books";
 ---
 
@@ -38,7 +38,9 @@ import { books } from "@data/books";
 									{book.author}
 								</h4>
 								{book.reading && (
-									<div class=" text-xs">{book.reading}</div>
+									<div class="text-zinc-400 text-xs">
+										{book.reading}
+									</div>
 								)}
 							</div>
 						))

@@ -25,14 +25,14 @@ export const HomeDirectories: Directory[] = [
 
 export const StashDirectories: Directory[] = [
 	{
-		title: "Bookshelf",
-		description: "A curated selection of literature",
-		link: "/res/books",
-	},
-	{
 		title: "Apps & Tools",
 		description: "Digital instruments for life and work",
 		link: "/res/tools",
+	},
+	{
+		title: "Bookshelf",
+		description: "A curated selection of literature",
+		link: "/res/books",
 	},
 	{
 		title: "Music",
@@ -41,7 +41,7 @@ export const StashDirectories: Directory[] = [
 	},
 	{
 		title: "Stuff",
-		description: "My personal ocular engine",
+		description: "My personal ocular archive",
 		link: "/res/stuff",
 	},
 ];
