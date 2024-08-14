@@ -8,7 +8,7 @@ export type tool = {
 const tools: tool[] = [
 	{
 		name: "Obsidian",
-		description: "My Second Brain",
+		description: "my second brain",
 		link: "https://obsidian.md/",
 		category: "Productivity",
 	},
@@ -44,7 +44,7 @@ const tools: tool[] = [
 	},
 	{
 		name: "Blender",
-		description: "the best 3d design suite",
+		description: "favorite 3d design suite",
 		link: "https://blender.org",
 		category: "Design",
 	},
