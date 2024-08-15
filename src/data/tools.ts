@@ -32,7 +32,7 @@ const tools: tool[] = [
 	},
 	{
 		name: "Terminal",
-		description: "the best terminal on windows",
+		description: "a performant terminal emulator for the windows platform",
 		link: "https://github.com/microsoft",
 		category: "Programming",
 	},
@@ -44,7 +44,8 @@ const tools: tool[] = [
 	},
 	{
 		name: "Blender",
-		description: "favorite 3d design suite",
+		description:
+			"a complete tool that handles the entire 3d design workflow",
 		link: "https://blender.org",
 		category: "Design",
 	},

@@ -9,6 +9,25 @@ export type Craft = {
 	video?: string;
 };
 
+export type Work = {
+	title: string;
+	description: string;
+	src: string;
+};
+
+export const Works: Work[] = [
+	{
+		title: "Glyph",
+		description: "A Modern Frontend Framework",
+		src: "/blog/fe-magic",
+	},
+	{
+		title: "Snap.sh",
+		description: "Create and Share Beautiful Code Snippets",
+		src: "https://snap-xo.vercel.app/",
+	},
+];
+
 export const Crafts: Craft[] = [
 	{
 		title: "Glyph Tic-Tac-Toe",
