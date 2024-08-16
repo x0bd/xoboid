@@ -39,16 +39,11 @@ export const books: Book[] = [
 		cover: "/books/pochita.jpg",
 		reading: "currently reading",
 	},
-	{
-		title: "Generative Design",
-		author: " Benedikt Gross, Hartmut Bohnacker, and Julia Laub",
-		cover: "/books/gen.jpg",
-	},
 	{ title: "Dune", author: "Frank Herbert", cover: "/books/dune.jpg" },
 	{
-		title: "Classic Computer Science Problems in Python",
-		author: "David Kopec",
-		cover: "/books/python.jpg",
+		title: "Geometry For Programmers",
+		author: "Oleksandr Kaleniuk",
+		cover: "/books/geometry.png",
 	},
 	{
 		title: "The Magician's Nephew",
@@ -69,16 +64,6 @@ export const books: Book[] = [
 		title: "Elon Musk",
 		author: "Walter Isaacson",
 		cover: "/books/elon.jpg",
-	},
-	{
-		title: "Wandi's Little Voice",
-		author: "Ellen Mulenga Banda-Aaku",
-		cover: "/books/wandi.jpg",
-	},
-	{
-		title: "Rendezvous with Rama",
-		author: "Arthur C. Clarke",
-		cover: "/books/rama.jpg",
 	},
 	{
 		title: "86-Eighty Six",

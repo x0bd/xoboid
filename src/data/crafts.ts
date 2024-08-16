@@ -13,6 +13,7 @@ export type Work = {
 	title: string;
 	description: string;
 	src: string;
+	stack: string[];
 };
 
 export const Works: Work[] = [
@@ -20,11 +21,13 @@ export const Works: Work[] = [
 		title: "Glyph",
 		description: "A Modern Frontend Framework",
 		src: "/blog/fe-magic",
+		stack: ["Rollup", "Vitest", "JavaScript"],
 	},
 	{
 		title: "Snap.sh",
 		description: "Create and Share Beautiful Code Snippets",
 		src: "https://snap-xo.vercel.app/",
+		stack: ["Next.js", "TailwindCSS", "TypeScript"],
 	},
 ];
 

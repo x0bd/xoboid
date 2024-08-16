@@ -26,7 +26,7 @@ const tools: tool[] = [
 	},
 	{
 		name: "Numi",
-		description: "a beautiful swiss army calculator",
+		description: "a beautiful swiss army notepad calculator",
 		link: "https://numi.app",
 		category: "Utility",
 	},
@@ -45,7 +45,7 @@ const tools: tool[] = [
 	{
 		name: "Blender",
 		description:
-			"a complete tool that handles the entire 3d design workflow",
+			"a complete tool that handles my entire 3d design workflow",
 		link: "https://blender.org",
 		category: "Design",
 	},
@@ -53,7 +53,7 @@ const tools: tool[] = [
 		name: "Eagle",
 		description: "collect and manage visual inspiration",
 		link: "https://eagle.cool",
-		category: "Productivity",
+		category: "Utility",
 	},
 	{
 		name: "Ableton",
@@ -65,7 +65,7 @@ const tools: tool[] = [
 		name: "Starship.rs",
 		description: "terminal prompt engine",
 		link: "https://starship.rs",
-		category: "Programming",
+		category: "Productivity",
 	},
 	{
 		name: "Hoppscotch",

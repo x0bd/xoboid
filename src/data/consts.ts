@@ -20,7 +20,7 @@ export const BLOG: Metadata = {
 };
 
 export const PROJECTS: Metadata = {
-	TITLE: "crafts",
+	TITLE: "works",
 	DESCRIPTION: "A collection of stuff i have built with a computer",
 };
 
