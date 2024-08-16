@@ -33,24 +33,6 @@ export const Works: Work[] = [
 
 export const Crafts: Craft[] = [
 	{
-		title: "Colorful Blob",
-		href: "/",
-		description: "Blob experiments for a meditation app I'm building",
-		date: "15 Aug 2024",
-		image: "/projects/blob.png",
-		stack: ["JavaScript", "P5.js"],
-		links: [
-			{
-				name: "OpenProcessing",
-				href: "/",
-			},
-			{
-				name: "Github",
-				href: "/",
-			},
-		],
-	},
-	{
 		title: "Glyph Tic-Tac-Toe",
 		href: "https://github.com/x0bd/glyph-ui",
 		description:

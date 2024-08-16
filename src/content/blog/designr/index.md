@@ -2,6 +2,7 @@
 title: "Design Engineering"
 description: "I want to be a design engineer when I grow up"
 date: "August 14 2024"
+draft: true
 ---
 
 I think most of my love for design engineering comes from the memories I had during my attempt at being an indie gamedev, haha. The internet moniker xoboid itself was the name of my supposed game studio, but hey that's a story for another day.
