@@ -10,7 +10,6 @@ export const books: Book[] = [
 		title: "Klara and the Sun",
 		author: "Kazuo Ishiguro",
 		cover: "/books/klara.png",
-		reading: "currently reading",
 	},
 	{
 		title: "Neuromancer",
@@ -23,15 +22,15 @@ export const books: Book[] = [
 		cover: "/books/3body.jpg",
 	},
 	{
-		title: "The Metamorphosis",
-		author: "Franz Kafka",
-		cover: "/books/kafka.jpg",
+		title: "The Nature Of Code",
+		author: "Daniel Shiffman",
+		cover: "/books/code.jpg",
+		reading: "currently reading",
 	},
 	{
-		title: "12 Rules for Life",
-		author: "Jordan B. Peterson",
-		cover: "/books/12-rules.jpg",
-		reading: "currently reading",
+		title: "Dune",
+		author: "Frank Herbert",
+		cover: "/books/dune.jpg",
 	},
 	{
 		title: "Chainsaw Man",
@@ -39,11 +38,20 @@ export const books: Book[] = [
 		cover: "/books/pochita.jpg",
 		reading: "currently reading",
 	},
-	{ title: "Dune", author: "Frank Herbert", cover: "/books/dune.jpg" },
+	{
+		title: "The Metamorphosis",
+		author: "Franz Kafka",
+		cover: "/books/kafka.jpg",
+	},
 	{
 		title: "Geometry For Programmers",
 		author: "Oleksandr Kaleniuk",
 		cover: "/books/geometry.png",
+	},
+	{
+		title: "The Creative Gene",
+		author: "Hideo Kojima",
+		cover: "/books/gene.jpg",
 	},
 	{
 		title: "The Magician's Nephew",
@@ -51,9 +59,9 @@ export const books: Book[] = [
 		cover: "/books/magic.jpg",
 	},
 	{
-		title: "The Science of Interstellar",
-		author: "Kip Thorne",
-		cover: "/books/interstellar.jpg",
+		title: "Children of Time",
+		author: "Adrian Tchaikovsky",
+		cover: "/books/time.jpg",
 	},
 	{
 		title: "Zero To One",
@@ -81,18 +89,20 @@ export const books: Book[] = [
 		cover: "/books/astro.jpg",
 	},
 	{
-		title: "The Creative Gene",
-		author: "Hideo Kojima",
-		cover: "/books/gene.jpg",
+		title: "12 Rules for Life",
+		author: "Jordan B. Peterson",
+		cover: "/books/12-rules.jpg",
+		reading: "currently reading",
 	},
 	{
 		title: "Designing Games",
 		author: "Tynan Sylvester",
 		cover: "/books/games.jpg",
 	},
-	// {
-	// 	title: "Children of Time",
-	// 	author: "Adrian Tachoski",
-	// 	cover: "/books/time.jpg",
-	// },
+
+	{
+		title: "The Science of Interstellar",
+		author: "Kip Thorne",
+		cover: "/books/interstellar.jpg",
+	},
 ];
