@@ -5,20 +5,23 @@ import Link from "@components/Link.astro";
 import { SITE, HOME, SOCIALS } from "@data/consts";
 import DirectoryCard from "@components/DirectoryCard.astro";
 import { HomeDirectories } from "@data/directories";
-import DefaultHome from "@components/DefaultHome.astro";
+import HomeButton from "@components/HomeButton.astro";
 ---
 
 <PageLayout title={HOME.TITLE} description={HOME.DESCRIPTION}>
 	<Container>
 		<div class="space-y-10">
-			<DefaultHome />
+			<HomeButton />
 			<section>
 				<article class="space-y-4 animate">
-					<h5
-						class="font-semibold animate text-black dark:text-white"
-					>
-						Profile
-					</h5>
+					<div class="flex animate items-center gap-1">
+						<h5
+							class="font-semibold text-sm uppercase text-black dark:text-white"
+						>
+							Tino
+						</h5>
+						<span>—Design Engineer</span>
+					</div>
 					<p class="animate">
 						<strong>Devotee of intellectual exploration</strong> —currenlty
 						decoding signals from the void through code and pixel experiments.
@@ -29,10 +32,6 @@ import DefaultHome from "@components/DefaultHome.astro";
 			</section>
 
 			<section class="animate space-y-4">
-				<h5 class="font-semibold animate text-black dark:text-white">
-					Directory
-				</h5>
-
 				<ul class="animate flex flex-col gap-4">
 					{
 						HomeDirectories.map((dir) => (
@@ -52,7 +51,6 @@ import DefaultHome from "@components/DefaultHome.astro";
 				<h5 class="font-semibold animate text-black dark:text-white">
 					Let's Connect
 				</h5>
-
 				<ul class="flex flex-wrap gap-2">
 					{
 						SOCIALS.map((SOCIAL) => (

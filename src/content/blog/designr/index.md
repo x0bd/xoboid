@@ -1,12 +1,19 @@
 ---
 title: "Design Engineering"
 description: "I want to be a design engineer when I grow up"
-date: "August 14 2024"
-draft: true
+date: "August 18 2024"
 ---
 
-I think most of my love for design engineering comes from the memories I had during my attempt at being an indie gamedev, haha. The internet moniker xoboid itself was the name of my supposed game studio, but hey that's a story for another day.
+I was all in on the indie game grind, dreaming of pixelated empires under the banner of "xoboid". The allure of gamedev was intoxicating, promising a life immersed in creativity and code. Like many, that dream eventually faded into the background as the demands of the real world took precedence. I traded controllers for keyboards, diving deep into JavaScript or React (same thing).
 
-From my experience the indie game developer title has the most hats from visual design, game design to complex engineering, and the thing is I enjoyed all of it, modelling in blender, writing shaders in unity and implementing pathfinding.
+While building web apps brought its own rewards, there was an undeniable void. I missed the heady mix of art and engineering that game development offered - the rapid-fire iterations, the _problem solving_, the sheer unbridled creativity. It was a world where one moment you're sculpting a cute cat, and the next you're solving complex physics simulations.
 
-But because of employment reasons I had to leave gamedev and look for a job that was hireable in my location. And yes JavaScript. Started building web apps with React but I missed the freedom of design experimentation that I had with game engines, But turns out
+Then I discovered the web could be more than just a static display of information. Technologies like Three.js and Framer Motion ignited a spark, transforming the web into a canvas as vast and dynamic as any game engine.
+
+As I fell deeper into this rabbit hole, I stumbled upon the term "Design Engineer." It resonated deeply. It was as if someone had given a name to the skills I was striving for.
+
+Its a journey, for sure, one filled with both challenges and exhilaration. But with every line of code, every pixel pushed into place, I'm getting closer to that sweet spot where art and engineering converge.
+
+##### Further Reading
+
+[Design Engineering at Vercel](https:?/vercel.com/blog)

@@ -42,7 +42,7 @@ export const Crafts: Craft[] = [
 		image: "/projects/tic-tac-toe.gif",
 		links: [
 			{
-				name: "Source",
+				name: "Github",
 				href: "https://github.com/x0bd/glyph-ui",
 			},
 			{
@@ -60,11 +60,7 @@ export const Crafts: Craft[] = [
 		image: "./projects/rascii.png",
 		links: [
 			{
-				name: "Blog",
-				href: "/blog/terminal-art",
-			},
-			{
-				name: "Source",
+				name: "Github",
 				href: "https://github.com/x0bd/rascii",
 			},
 		],
