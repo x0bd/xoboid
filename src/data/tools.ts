@@ -85,13 +85,6 @@ const tools: tool[] = [
 		link: "https://playnite.link/",
 		category: "Fun",
 	},
-	{
-		name: "Rosé Pine",
-		description:
-			"color palette with a bit of soho vibes for the classy minimalist",
-		link: "https://rosepinetheme.com/",
-		category: "Productivity",
-	},
 ];
 
 export default tools;
