@@ -33,10 +33,6 @@ export const oculars: Ocular[] = [
 		link: "/",
 	},
 	{
-		url: "/ocular/chain.jpg",
-		link: "/",
-	},
-	{
 		url: "/ocular/dirac.jpg",
 		link: "/",
 	},
@@ -61,11 +57,15 @@ export const oculars: Ocular[] = [
 		link: "/",
 	},
 	{
-		url: "/ocular/joy.jpg",
+		url: "/ocular/void.jpg",
 		link: "/",
 	},
 	{
 		url: "/ocular/manu.jpg",
+		link: "/",
+	},
+	{
+		url: "/ocular/joy.jpg",
 		link: "/",
 	},
 	{
@@ -90,23 +90,15 @@ export const oculars: Ocular[] = [
 		link: "/",
 	},
 	{
+		url: "/ocular/chain.jpg",
+		link: "/",
+	},
+	{
 		url: "/ocular/ldr.jpg",
 		link: "/",
 	},
 	{
-		url: "/ocular/pocket.jpg",
-		link: "/",
-	},
-	{
-		url: "/ocular/red.jpg",
-		link: "/",
-	},
-	{
 		url: "/ocular/rose-pine.png",
-		link: "/",
-	},
-	{
-		url: "/ocular/sun.jpg",
 		link: "/",
 	},
 	{
@@ -119,10 +111,6 @@ export const oculars: Ocular[] = [
 	},
 	{
 		url: "/ocular/walk.jpg",
-		link: "/",
-	},
-	{
-		url: "/ocular/x.jpg",
 		link: "/",
 	},
 ];

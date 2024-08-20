@@ -54,7 +54,7 @@ article {
 		@apply decoration-black/25 dark:decoration-white/50;
 	}
 	article img {
-		@apply rounded-md;
+		@apply rounded-lg;
 	}
 }
 
