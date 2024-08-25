@@ -20,7 +20,7 @@ const tools: tool[] = [
 	},
 	{
 		name: "Visual Studio Code",
-		description: "primary text editor, enhanced with vim motions",
+		description: "primary text editor, a bit underrated imo",
 		link: "https://code.visualstudio.com/",
 		category: "Programming",
 	},
@@ -33,7 +33,7 @@ const tools: tool[] = [
 	{
 		name: "Terminal",
 		description: "a performant terminal emulator for the windows platform",
-		link: "https://github.com/microsoft",
+		link: "https://github.com/microsoft/terminal",
 		category: "Programming",
 	},
 	{
