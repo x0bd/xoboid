@@ -39,7 +39,7 @@ export const Crafts: Craft[] = [
 			"I recently started implementing the reconciliation algorithm into the Glyph Frontend Framework. To showcase its capabilities I decided to built a Tic-Tac-Toe game.",
 		date: "07 Jul 2024",
 		stack: ["JavaScript", "Glyph"],
-		image: "/projects/tic-tac-toe.gif",
+		video: "/projects/tic-tac-toe.mp4",
 		links: [
 			{
 				name: "Github",
