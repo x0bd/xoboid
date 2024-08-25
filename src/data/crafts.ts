@@ -33,6 +33,25 @@ export const Works: Work[] = [
 
 export const Crafts: Craft[] = [
 	{
+		title: "3D Game of Life",
+		href: "/",
+		description:
+			"Been fascinated by Cellular Automata for a long time, decided to implement Conway's Game of Life in 3D.",
+		date: "28 Aug 2024",
+		image: "/projects/cube.png",
+		stack: ["WebGL", "P5.js", "JavaScript", "Vite"],
+		links: [
+			{
+				name: "Open-Processing",
+				href: "/",
+			},
+			{
+				name: "Live Demo",
+				href: "/",
+			},
+		],
+	},
+	{
 		title: "Glyph Tic-Tac-Toe",
 		href: "https://github.com/x0bd/glyph-ui",
 		description:
