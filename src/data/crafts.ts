@@ -9,7 +9,48 @@ export type Craft = {
 	video?: string;
 };
 
+export type Work = {
+	title: string;
+	description: string;
+	src: string;
+	stack: string[];
+};
+
+export const Works: Work[] = [
+	{
+		title: "Glyph",
+		description: "A Modern Frontend Framework",
+		src: "/blog/fe-magic",
+		stack: ["Rollup", "Vitest", "JavaScript"],
+	},
+	{
+		title: "Snap.sh",
+		description: "Create and Share Beautiful Code Snippets",
+		src: "https://snap-xo.vercel.app/",
+		stack: ["Next.js", "TailwindCSS", "TypeScript"],
+	},
+];
+
 export const Crafts: Craft[] = [
+	{
+		title: "3D Game of Life",
+		href: "/",
+		description:
+			"Been fascinated by Cellular Automata for a long time, decided to implement Conway's Game of Life in 3D.",
+		date: "28 Aug 2024",
+		image: "/projects/cube.png",
+		stack: ["WebGL", "P5.js", "JavaScript", "Vite"],
+		links: [
+			{
+				name: "Open-Processing",
+				href: "/",
+			},
+			{
+				name: "Live Demo",
+				href: "/",
+			},
+		],
+	},
 	{
 		title: "Glyph Tic-Tac-Toe",
 		href: "https://github.com/x0bd/glyph-ui",
@@ -17,10 +58,10 @@ export const Crafts: Craft[] = [
 			"I recently started implementing the reconciliation algorithm into the Glyph Frontend Framework. To showcase its capabilities I decided to built a Tic-Tac-Toe game.",
 		date: "07 Jul 2024",
 		stack: ["JavaScript", "Glyph"],
-		image: "/projects/tic-tac-toe.gif",
+		video: "/projects/tic-tac-toe.mp4",
 		links: [
 			{
-				name: "Source",
+				name: "Github",
 				href: "https://github.com/x0bd/glyph-ui",
 			},
 			{
@@ -38,11 +79,7 @@ export const Crafts: Craft[] = [
 		image: "./projects/rascii.png",
 		links: [
 			{
-				name: "Blog",
-				href: "/blog/terminal-art",
-			},
-			{
-				name: "Source",
+				name: "Github",
 				href: "https://github.com/x0bd/rascii",
 			},
 		],

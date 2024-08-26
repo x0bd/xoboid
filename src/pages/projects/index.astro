@@ -1,28 +1,31 @@
 ---
-import { getCollection } from "astro:content";
 import PageLayout from "@layouts/PageLayout.astro";
 import Container from "@components/Container.astro";
-import ArrowCard from "@components/ArrowCard.astro";
 import { PROJECTS } from "@data/consts";
 import HomeButton from "@components/HomeButton.astro";
-
-const projects = (await getCollection("projects"))
-	.filter((project) => !project.data.draft)
-	.sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf());
+import ExternalCard from "@components/ExternalCard.astro";
+import { Works } from "@data/crafts";
 ---
 
 <PageLayout title={PROJECTS.TITLE} description={PROJECTS.DESCRIPTION}>
 	<Container>
 		<div class="space-y-10">
 			<HomeButton />
-			<div class="animate font-semibold text-xl text-black dark:text-white">
+			<div
+				class="animate font-semibold text-xl text-black dark:text-white"
+			>
 				Works
 			</div>
 			<ul class="animate flex flex-col gap-4">
 				{
-					projects.map((project) => (
+					Works.map((work) => (
 						<li>
-							<ArrowCard entry={project} />
+							<ExternalCard
+								title={work.title}
+								description={work.description}
+								src={work.src}
+								stack={work.stack}
+							/>
 						</li>
 					))
 				}

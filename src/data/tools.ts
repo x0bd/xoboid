@@ -14,26 +14,26 @@ const tools: tool[] = [
 	},
 	{
 		name: "Arc",
-		description: "a modern web browser with interesting new ideas",
+		description: "a new web browser with interesting ideas",
 		link: "https://arc.net",
 		category: "Productivity",
 	},
 	{
 		name: "Visual Studio Code",
-		description: "primary text editor, enhanced with vim motions",
+		description: "primary text editor, a bit underrated imo",
 		link: "https://code.visualstudio.com/",
 		category: "Programming",
 	},
 	{
 		name: "Numi",
-		description: "a beautiful swiss army calculator",
+		description: "a beautiful swiss army notepad calculator",
 		link: "https://numi.app",
 		category: "Utility",
 	},
 	{
 		name: "Terminal",
-		description: "the best terminal on windows",
-		link: "https://github.com/microsoft",
+		description: "a performant terminal emulator for the windows platform",
+		link: "https://github.com/microsoft/terminal",
 		category: "Programming",
 	},
 	{
@@ -44,7 +44,8 @@ const tools: tool[] = [
 	},
 	{
 		name: "Blender",
-		description: "favorite 3d design suite",
+		description:
+			"a complete tool that handles my entire 3d design workflow",
 		link: "https://blender.org",
 		category: "Design",
 	},
@@ -52,7 +53,7 @@ const tools: tool[] = [
 		name: "Eagle",
 		description: "collect and manage visual inspiration",
 		link: "https://eagle.cool",
-		category: "Productivity",
+		category: "Utility",
 	},
 	{
 		name: "Ableton",
@@ -64,7 +65,7 @@ const tools: tool[] = [
 		name: "Starship.rs",
 		description: "terminal prompt engine",
 		link: "https://starship.rs",
-		category: "Programming",
+		category: "Productivity",
 	},
 	{
 		name: "Hoppscotch",
@@ -83,13 +84,6 @@ const tools: tool[] = [
 		description: "unified game library manager & launcher",
 		link: "https://playnite.link/",
 		category: "Fun",
-	},
-	{
-		name: "Rosé Pine",
-		description:
-			"color palette with a bit of soho vibes for the classy minimalist",
-		link: "https://rosepinetheme.com/",
-		category: "Productivity",
 	},
 ];
 
