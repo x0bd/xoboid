@@ -42,12 +42,8 @@ export const Crafts: Craft[] = [
 		stack: ["WebGL", "P5.js", "Vite", "JavaScript"],
 		links: [
 			{
-				name: "Open-Processing",
-				href: "/",
-			},
-			{
-				name: "Live Demo",
-				href: "/",
+				name: "Github",
+				href: "https://github.com/x0bd/creative-dojo/generative-sketches/3d-game-of-life/",
 			},
 		],
 	},
