@@ -39,7 +39,7 @@ export const Crafts: Craft[] = [
 			"Been fascinated by Cellular Automata for a long time, decided to implement Conway's Game of Life in 3D.",
 		date: "28 Aug 2024",
 		image: "/projects/cube.png",
-		stack: ["WebGL", "P5.js", "JavaScript", "Vite"],
+		stack: ["WebGL", "P5.js", "Vite", "JavaScript"],
 		links: [
 			{
 				name: "Open-Processing",
@@ -90,7 +90,7 @@ export const Crafts: Craft[] = [
 		description:
 			"A generative sketch of the iconic Joy Division album cover",
 		date: "21 Jan 2024",
-		stack: ["P5.js", "JavaScript", "Vite"],
+		stack: ["P5.js", "JavaScript"],
 		links: [
 			{
 				name: "Github",
