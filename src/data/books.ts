@@ -7,19 +7,20 @@ export type Book = {
 
 export const books: Book[] = [
 	{
-		title: "Klara and the Sun",
-		author: "Kazuo Ishiguro",
-		cover: "/books/klara.png",
-	},
-	{
-		title: "Neuromancer",
-		author: "William Gibson",
-		cover: "/books/neuromancer.jpg",
+		title: "Chainsaw Man",
+		author: "Tatsuki Fujimoto",
+		cover: "/books/pochita.jpg",
+		reading: "currently reading",
 	},
 	{
 		title: "The Three-Body Problem",
 		author: "Cixin Liu",
 		cover: "/books/3body.jpg",
+	},
+	{
+		title: "Klara and the Sun",
+		author: "Kazuo Ishiguro",
+		cover: "/books/klara.png",
 	},
 	{
 		title: "The Nature Of Code",
@@ -28,15 +29,14 @@ export const books: Book[] = [
 		reading: "currently reading",
 	},
 	{
+		title: "Neuromancer",
+		author: "William Gibson",
+		cover: "/books/neuromancer.jpg",
+	},
+	{
 		title: "Dune",
 		author: "Frank Herbert",
 		cover: "/books/dune.jpg",
-	},
-	{
-		title: "Chainsaw Man",
-		author: "Tatsuki Fujimoto",
-		cover: "/books/pochita.jpg",
-		reading: "currently reading",
 	},
 	{
 		title: "The Metamorphosis",

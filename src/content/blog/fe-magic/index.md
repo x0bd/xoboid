@@ -52,10 +52,14 @@ This framework will explore various functionalities that make frontend framework
 
 <!-- Implement Here -->
 
-Now that we have the virtual DOM, mounting, and state management working together, Glyph is a functional bare-bones framework! This allows us to build basic web applications. As a demonstration, check out the classic todo app built with Glyph in the video,
+Now that we have the virtual DOM, mounting, and state management working together, Glyph is a functional bare-bones framework! This allows us to build basic web applications. As a demonstration, check out the classic counter app built with Glyph in the video,
 
-![todo app](./todo.gif)
+![counter app](./counter.gif)
 
 Here's the [source code](https://github.com/x0bd/glyph-ui).
 
 Thanks for reading and happy coding!
+
+##### Further Reading
+
+_[Build a frontend web framework from scratch](https://manning.com/)_
