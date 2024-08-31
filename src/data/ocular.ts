@@ -1,40 +1,32 @@
 type Ocular = {
 	url: string;
-	link: "/";
+	link: string;
 };
 
 export const oculars: Ocular[] = [
 	{
-		url: "/ocular/0.jpg",
-		link: "/",
-	},
-	{
 		url: "/ocular/alex0.jpg",
-		link: "/",
+		link: "https://x.com/otosalex/status/1819385289124565453",
 	},
 	{
 		url: "/ocular/andres.jpg",
-		link: "/",
+		link: "https://x.com/andres_vidoza/status/1822403391685050764",
 	},
 	{
 		url: "/ocular/bear.jpg",
-		link: "/",
+		link: "https://www.disneyplus.com/en-gb/series/the-bear/52m6nx7HoP5F",
 	},
 	{
 		url: "/ocular/boy.jpg",
-		link: "/",
-	},
-	{
-		url: "/ocular/cake.jpg",
-		link: "/",
+		link: "https://open.spotify.com/artist/4iom7VVRU6AHRIu1JUXpLG?autoplay=true",
 	},
 	{
 		url: "/ocular/cent.jpg",
-		link: "/",
+		link: "https://www.amazon.com/Naoki-Urasawas-20th-Century-Boys/dp/1591169224",
 	},
 	{
 		url: "/ocular/dirac.jpg",
-		link: "/",
+		link: "https:",
 	},
 	{
 		url: "/ocular/eleven.jpg",
@@ -49,19 +41,7 @@ export const oculars: Ocular[] = [
 		link: "/",
 	},
 	{
-		url: "/ocular/grnbenz.jpg",
-		link: "/",
-	},
-	{
 		url: "/ocular/ilya.jpg",
-		link: "/",
-	},
-	{
-		url: "/ocular/void.jpg",
-		link: "/",
-	},
-	{
-		url: "/ocular/manu.jpg",
 		link: "/",
 	},
 	{
@@ -90,27 +70,11 @@ export const oculars: Ocular[] = [
 		link: "/",
 	},
 	{
-		url: "/ocular/chain.jpg",
-		link: "/",
-	},
-	{
 		url: "/ocular/ldr.jpg",
 		link: "/",
 	},
 	{
-		url: "/ocular/rose-pine.png",
-		link: "/",
-	},
-	{
-		url: "/ocular/synth.jpg",
-		link: "/",
-	},
-	{
 		url: "/ocular/tool.jpg",
-		link: "/",
-	},
-	{
-		url: "/ocular/walk.jpg",
 		link: "/",
 	},
 ];

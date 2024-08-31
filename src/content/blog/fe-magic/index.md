@@ -13,7 +13,7 @@ However, when I transitioned to web development using frameworks like React, the
 
 Fast forward to enrolling in Jonas Schmedtmann's [Ultimate React Course](https://www.udemy.com/course/the-ultimate-react-course/). He had a whole section explaining the magic behind the scenes, but let's be honest, 10+ hours of deep engineering theory can be overwhelming.
 
-But the urge to understand this "magic" lingered. So, here I am, building my own framework to unveil the secrets!
+But the urge to understand this "magic" lingered. Luckily I stumbled upon this great [book](https://www.manning.com/books/build-a-frontend-web-framework-from-scratch) that satisfied that itch, so here I am, building my own framework to unveil the secrets!
 
 This post will cover the tech stack I'll be using, the planned features, and the knowledge I hope to gain along the way.
 
@@ -59,7 +59,3 @@ Now that we have the virtual DOM, mounting, and state management working togethe
 Here's the [source code](https://github.com/x0bd/glyph-ui).
 
 Thanks for reading and happy coding!
-
-##### Further Reading
-
-_[Build a frontend web framework from scratch](https://manning.com/)_

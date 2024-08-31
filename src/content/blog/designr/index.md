@@ -16,4 +16,4 @@ Its a journey, for sure, one filled with both challenges and exhilaration. But w
 
 ##### Further Reading
 
-_[Design Engineering at Vercel](https://vercel.com/blog)_
+_[Design Engineering at Vercel](vercel.com/blog/design-engineering-at-vercel)_
