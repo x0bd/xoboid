@@ -1,0 +1,23 @@
+---
+import PageLayout from "@layouts/PageLayout.astro";
+import Container from "@components/Container.astro";
+import HomeButton from "@components/HomeButton.astro";
+
+import { HomeDirectories } from "@data/directories";
+
+const timelineData = HomeDirectories[0];
+---
+
+<PageLayout title={timelineData.title} description={timelineData.description}>
+	<Container>
+		<div class="space-y-10">
+			<HomeButton />
+			<h1
+				class="animate font-semibold text-xl text-black dark:text-white"
+			>
+				Timeline
+			</h1>
+			<p class="font-mono text-lg uppercase animate font-bold">WIP</p>
+		</div>
+	</Container>
+</PageLayout>

@@ -45,15 +45,7 @@ export const oculars: Ocular[] = [
 		link: "/",
 	},
 	{
-		url: "/ocular/joy.jpg",
-		link: "/",
-	},
-	{
 		url: "/ocular/joytat.jpeg",
-		link: "/",
-	},
-	{
-		url: "/ocular/mark.jpg",
 		link: "/",
 	},
 	{

@@ -2,19 +2,19 @@ import type { Directory } from "@types";
 
 export const HomeDirectories: Directory[] = [
 	{
-		title: "Works",
-		description: "Where ideas become reality",
-		link: "/projects",
-	},
-	{
-		title: "Notes",
-		description: "Notes on stuff you can do with a computer",
-		link: "/blog",
+		title: "Timeline",
+		description: "Links, bookmarks, and bursts of conscious.",
+		link: "/timeline",
 	},
 	{
 		title: "Crafts",
 		description: "Code + Pixel Experiments",
 		link: "/crafts",
+	},
+	{
+		title: "Notes",
+		description: "Notes on stuff you can do with a computer",
+		link: "/blog",
 	},
 	{
 		title: "Resources",
